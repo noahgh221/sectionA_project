@@ -147,7 +147,7 @@
 
 <!-- EADID with no diacritics but without Aleph num appended.  Will need to manually edit these files to make this value unique in individual EADs -->
 <xsl:variable name="EADID_for_header_and_url">
-  <xsl:value-of select="translate(replace(normalize-unicode($EADID,'NFKD'),'[\p{M}]',''), 'đʹ','d')"></xsl:value-of>
+  <xsl:value-of select="translate(replace(normalize-unicode($EADID,'NFKD'),'[\p{M}]',''), 'đʹ&amp;','d')"></xsl:value-of>
 </xsl:variable>
 
 <!-- END EADID Variables -->
