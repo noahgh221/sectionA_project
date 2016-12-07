@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Alderman papers, 1853-1864 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/a-aldermanwilliampapers/">a-aldermanwilliampapers</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Alderman papers, 1853-1864</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001585363</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl <date>December 2016</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>a-aldermanwilliampapers-001585363</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100">Alderman, William.,</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Alderman papers</unittitle>
+         <unitdate normal="1853/1864"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1853-1864</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in: English</langmaterial>
+         <physdesc>
+            <extent>5 items</extent>
+         </physdesc>
+         <abstract label="Abstract">Three legal documents relating to the purchase of slaves; receipt for taxes paid the Confederate States Tax Office; letter from William Vink of Ellicott City, Md., describing his plans for the manufacture of paper from palmetto wood.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>William Alderman papers, 1853-1864, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <head>Processing Information</head>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>Finding aid derived from MARC record using MARC2EAD-SecA.xsl, December 2016</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>North Carolina resident.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Three legal documents relating to the purchase of slaves; receipt for taxes paid the Confederate States Tax Office; letter from William Vink of Ellicott City, Md., describing his plans for the manufacture of paper from palmetto wood.</p>
+      </scopecontent>
+      <note label="General note">
+         <p>Cataloged from Guide.</p>
+      </note>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Slave trade -- North Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Paper industry -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Taxation -- Confederate States of America</subject>
+         <genreform source="aat" encodinganalog="655">History</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-a3ec0610-532e-44b5-9c7d-c04f7d52be67" level="file">
+            <did>
+               <unittitle>William Alderman papers</unittitle>
+               <unitdate>1853-1864</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

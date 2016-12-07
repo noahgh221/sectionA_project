@@ -221,7 +221,12 @@
 
 <!-- BEGIN EAD DOCUMENT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-<xsl:result-document method="xml" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$EADID_for_filename}.xml">
+<!-- save EADs in subfolders based on box number from input marcxml filename (e.g. seca_001.xml) -->
+<xsl:variable name="box_number">
+  <xsl:value-of select="replace(tokenize(base-uri(), '/')[last()],'.xml','')"/>
+</xsl:variable>
+
+<xsl:result-document method="xml" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/{$EADID_for_filename}.xml">
     
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
 
@@ -273,15 +278,15 @@
 <!-- ARCHDESC -->
 <archdesc level="collection">
 <did>
-     <head>Descriptive Summary</head>
-     <repository label="Repository"><corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname></repository>
+  <repository label="Repository"><corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname></repository>
      
   <!-- local variable for storing Alephnum string in source xml document -->
   <xsl:variable name="alephnum_string" select="marc:controlfield[@tag='001']"/>
 
-
+<!--NEED TO SUPPLY A COLLECTION NUMBER!! -->
   <unitid><xsl:value-of select="$EADID_for_filename"/></unitid>
-<!--
+
+ <!--
   <xsl:for-each select="$alephnum2rlid_trent/data/record"> 
   <xsl:if test="alephnum=$alephnum_string">
     <unitid><xsl:value-of select="rlid"/></unitid>
@@ -363,24 +368,16 @@
        </unitdate>
        </xsl:otherwise>
      </xsl:choose> 
-  
-     
-  
-  
+ 
           
 <!-- LANGUAGE -->  
 
-  <langmaterial>
+<langmaterial>
   <language langcode="{$LangCode}"/>
 </langmaterial>        
 
-<langmaterial label="Language of Materials">Language: <xsl:value-of select="$Language"/></langmaterial>
+<langmaterial label="Language of Materials">Materials in: <xsl:value-of select="$Language"/></langmaterial>
  
-<!-- Language as General note to force AT import - need to move to Language of Materials note using SQL after import -->
-<note label="Language of Materials">
-  <p>Language: <xsl:value-of select="$Language"/></p>
-</note>
-
 <!-- EXTENT -->
 
 <!-- Need to munge extent value to produce one statement with number and type and one with anything in parens 
@@ -1004,15 +1001,28 @@
      
   <!-- Create a single placeholder "file" level component, from which the digital item can be linked when it exists in the repository -->
   <dsc>
-       <!-- Generate a UUID for the component.  The UUID will serve as the ASpace component ref_ID, which can be carried over into the digitization guide -->
+       <!-- Generate a UUID for the component. The UUID will serve as the ASpace component ref_ID, which can be carried over into the digitization guide -->
        <xsl:variable name="uuid" select="uuid:randomUUID()"/>
                      
        <c01>
          <xsl:attribute name="id">seca-<xsl:value-of select="$uuid"/></xsl:attribute>
          <xsl:attribute name="level">file</xsl:attribute>
          <did>
-           <unittitle></unittitle>
-           <unitdate></unitdate>
+           <unittitle>
+             <!-- unittitle code reused from archdesc/unittitle code -->
+             <xsl:value-of select="replace($CollectionTitle,',$','')"/>
+             <!-- to account for 245$a that ends with : do not add comma -->
+             <xsl:if test="marc:datafield[@tag='245']/marc:subfield [@code='b'] and not(ends-with($CollectionTitle, ':'))">
+               <xsl:text>, </xsl:text>
+               <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='245']/marc:subfield [@code='b'],'\.$',''))"/>
+             </xsl:if>
+             
+             <xsl:if test="marc:datafield[@tag='245']/marc:subfield [@code='b'] and ends-with($CollectionTitle, ':')">
+               <xsl:text> </xsl:text>
+               <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='245']/marc:subfield [@code='b'],'\.$',''))"/>
+             </xsl:if>
+           </unittitle>
+           <unitdate><xsl:value-of select="$CollectionDate"/></unitdate>
          </did>
        </c01>
      </dsc>
