@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Henry Unwin Addington letters to Lady Sarah Archer Amherst, 1812 June 20-1816 Aug. 31 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/addingtonhenryunwinletters/">addingtonhenryunwinletters</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Henry Unwin Addington Letters to Lady Sarah Archer Amherst, 1812 June 20-1816 Aug. 31</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001024974</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">24560898</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl <date>December 2016</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>addingtonhenryunwinletters</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100">Addington, Henry Unwin, -1870</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Henry Unwin Addington letters to Lady Sarah Archer Amherst</unittitle>
+         <unitdate normal="1812/1816"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1812 June 20-1816 Aug. 31</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>27 items</extent>
+         </physdesc>
+         <abstract>Fourteen letters, most accompanied by a typed transcript, from Addington to Lady Sarah Amherst of Montreal, Kent, England. Addington wrote from Cadiz, Zerbst, Liege, Paris, Zurich, London and Berne. In most of the letters Addington related news and developments in the German campaigns of the Napoleonic Wars. He mentioned prominent political and military figures, including Louis XVIII, Napoleon, Soult, Blucher, Ney, and the Duke of Wellington. The author described the return of King Louis XVIII from exile, the desertion of Allied troops to L'Armee du Nord, and the brave performance of the Swiss soldiers. Addington vehemently expressed his contempt for the people of France and the state of their country, and his admiration for the Swiss. In two passages he described the social behavior of Swiss women.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Henry Unwin Addington Letters to Lady Sarah Archer Amherst, 1812 June 20-1816 Aug. 31, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>Finding aid derived from MARC record using MARC2EAD-SecA.xsl, December 2016</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>British diplomat. Appointed Secretary of Legation to Switzerland in 1814.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Fourteen letters, most accompanied by a typed transcript, from Addington to Lady Sarah Amherst of Montreal, Kent, England. Addington wrote from Cadiz, Zerbst, Liege, Paris, Zurich, London and Berne. In most of the letters Addington related news and developments in the German campaigns of the Napoleonic Wars. He mentioned prominent political and military figures, including Louis XVIII, Napoleon, Soult, Blucher, Ney, and the Duke of Wellington. The author described the return of King Louis XVIII from exile, the desertion of Allied troops to L'Armee du Nord, and the brave performance of the Swiss soldiers. Addington vehemently expressed his contempt for the people of France and the state of their country, and his admiration for the Swiss. In two passages he described the social behavior of Swiss women.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Napoleonic Wars, 1800-1815 -- Campaigns -- Germany (East)</subject>
+         <subject source="lcsh" encodinganalog="650">Napoleonic Wars, 1800-1815 -- Desertions</subject>
+         <subject source="lcsh" encodinganalog="650">Napoleonic Wars, 1800-1815 -- Personal narratives, British</subject>
+         <subject source="lcsh" encodinganalog="650">Napoleonic Wars, 1800-1815 -- Participation, Swiss</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- Switzerland -- Social life and customs</subject>
+         <persname source="lcsh" encodinganalog="600">
+                        
+                        
+                        Old Match Method 
+                        Amherst, Sarah Archer,Lady.  
+                        --&gt;
+
+                        
+                    </persname>
+         <persname source="lcsh" encodinganalog="600">
+                        
+                        
+                        Old Match Method 
+                        Blücher, Gebhard Leberecht von, 1742-1819 
+                        --&gt;
+
+                        
+                    </persname>
+         <persname source="lcsh" encodinganalog="600">
+                        
+                        
+                        Old Match Method 
+                        Ney, Michel, duc d'Elchingen, prince de la Moskowa, 1769-1815 
+                        --&gt;
+
+                        
+                    </persname>
+         <persname source="lcsh" encodinganalog="600">
+                        
+                        
+                        Old Match Method 
+                        Soult, Nichol-Jean de Dieu, 1769-1851 
+                        --&gt;
+
+                        
+                    </persname>
+         <persname source="lcsh" encodinganalog="600">
+                        
+                        
+                        Old Match Method 
+                        Wellington, Arthur Wellesley, Duke of, 1769-1852 
+                        --&gt;
+
+                        
+                    </persname>
+         <geogname source="lcsh" encodinganalog="651">France -- Social conditions -- 19th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">France -- Foreign public opinion, British -- 19th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">Switzerland -- Foreign relations -- Great Britain -- 1789-1815</geogname>
+         <geogname source="lcsh" encodinganalog="651">Switzerland -- Foreign public opinion, British -- 1789-1815</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-89f6d732-cdf4-4e83-bcce-37cd31028bb7" level="file">
+            <did>
+               <unittitle>Henry Unwin Addington letters to Lady Sarah Archer Amherst</unittitle>
+               <unitdate>1812 June 20-1816 Aug. 31</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

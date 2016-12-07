@@ -82,8 +82,8 @@
   <xsl:variable name="EADID">
   <xsl:choose>
     <xsl:when test="marc:datafield[@tag='100']/marc:subfield [@code='a' and not(@code='k')] | marc:datafield[@tag='110']/marc:subfield [@code='a'] and not(@code='k')">
-      <!-- insert trent prefix -->
-      <xsl:text>a-</xsl:text>
+     
+      
       <xsl:value-of select='lower-case(translate(marc:datafield[@tag="100"]/marc:subfield [@code="a"] | marc:datafield[@tag="110"]/marc:subfield [@code="a"],":[]&apos;-()1234567890.?!, ",""))'/>
       <xsl:value-of select='lower-case(translate(marc:datafield[@tag="110"]/marc:subfield [@code="b"][1],":[]&apos;-()1234567890.?!,; ",""))'/>
       <!-- conditions to prevent duplicate EADIDs and filename -->
@@ -99,8 +99,8 @@
     </xsl:when>
     
     <xsl:when test="marc:datafield[@tag='100']/marc:subfield [@code='k'] | marc:datafield[@tag='110']/marc:subfield [@code='k']">
-      <!-- insert trent prefix -->
-      <xsl:text>a-</xsl:text>
+     
+      
       <xsl:value-of select='lower-case(translate(marc:datafield[@tag="100"]/marc:subfield [@code="k"][1] | marc:datafield[@tag="110"]/marc:subfield [@code="k"][1],":[]&apos;-()1234567890.?!, ",""))'/>
       <xsl:value-of select='lower-case(translate(marc:datafield[@tag="110"]/marc:subfield [@code="b"][1],":[]&apos;-()1234567890.?!,; ",""))'/>
       <!-- conditions to prevent duplicate EADIDs and filename -->
@@ -119,11 +119,11 @@
     
     <!-- If no 1xx field, but 245 present, then use title string -->
     <xsl:when test="not(marc:datafield[@tag='100'] | marc:datafield[@tag='110']) and marc:datafield[@tag='245'][marc:subfield [@code='a']]">
-      <xsl:text>a-</xsl:text><xsl:value-of select='lower-case(translate(marc:datafield[@tag="245"]/marc:subfield [@code="a"],":[]&apos;-()1234567890.,?!; ",""))'/>
+     <xsl:value-of select='lower-case(translate(marc:datafield[@tag="245"]/marc:subfield [@code="a"],":[]&apos;-()1234567890.,?!; ",""))'/>
     </xsl:when>
     
     <xsl:when test="not(marc:datafield[@tag='100'] | marc:datafield[@tag='110']) and marc:datafield[@tag='245'][marc:subfield [@code='k']]">
-      <xsl:text>a-</xsl:text><xsl:value-of select='lower-case(translate(marc:datafield[@tag="245"]/marc:subfield [@code="k"][1],"[]:&apos;-()1234567890.,?!; ",""))'/>
+      <xsl:value-of select='lower-case(translate(marc:datafield[@tag="245"]/marc:subfield [@code="k"][1],"[]:&apos;-()1234567890.,?!; ",""))'/>
     </xsl:when>
     
     <!--If no 001 field, then apend zzz and 005 field to sort these at bottom for cleanup -->
@@ -140,8 +140,9 @@
  <!-- EADID for filename: removes diacritics from EADID and appends Aleph number to avoid possible 1xx duplicates. Not sure how removing diacritics works. See: http://www.stylusstudio.com/xquerytalk/201106/003547.html -->  
 <xsl:variable name="EADID_for_filename">
   <xsl:value-of select="translate(replace(normalize-unicode($EADID,'NFKD'),'[\p{M}]',''), 'đʹ&amp;','d')"/>
-  <!-- Exclude Aleph num from filename -->
-  <xsl:text>-</xsl:text><xsl:value-of select="marc:controlfield[@tag='001']"/>
+  
+  <!-- Exclude Aleph num from filename
+  <xsl:text>-</xsl:text><xsl:value-of select="marc:controlfield[@tag='001']"/> -->
     
 </xsl:variable>
 
@@ -261,6 +262,7 @@
 <notestmt>
   <note>
     <p>Aleph Number: <num type="aleph"><xsl:value-of select="marc:controlfield[@tag='001']"/></num></p>
+    <p>OCLC Number: <num type="oclc"><xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/></num></p>
   </note>
 </notestmt>
 </filedesc>
@@ -376,7 +378,7 @@
   <language langcode="{$LangCode}"/>
 </langmaterial>        
 
-<langmaterial label="Language of Materials">Materials in: <xsl:value-of select="$Language"/></langmaterial>
+<langmaterial label="Language of Materials">Materials in <xsl:value-of select="$Language"/></langmaterial>
  
 <!-- EXTENT -->
 
@@ -497,7 +499,7 @@
   <!-- Use only 520 as abstract -->
   
  <xsl:if test="marc:datafield[@tag='520']">
-  <abstract label="Abstract">
+  <abstract>
     <xsl:for-each select="marc:datafield[@tag='520']">
       <xsl:value-of select="normalize-space(.)"/>
       <xsl:if test="marc:datafield[@tag='520'][2]"><xsl:text> </xsl:text></xsl:if>
@@ -547,7 +549,6 @@
   </userestrict>
 
           <prefercite encodinganalog="524">
-            <head>Preferred Citation</head>
             <p><xsl:value-of select="replace($CollectionTitle,'letter','Letter')"/><xsl:text> </xsl:text><xsl:value-of select="$CollectionDate"/>
               <xsl:if test="marc:datafield[@tag='245']/marc:subfield[@code='b']">
                 <xsl:text>, </xsl:text>
@@ -566,7 +567,6 @@
           </xsl:if>
           
           <processinfo>
-            <head>Processing Information</head>
             <p>Processed by: <xsl:value-of select="$ProcessorName"/></p>
             <p>Finding aid derived from MARC record using MARC2EAD-SecA.xsl, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/></p>
           </processinfo>
@@ -999,7 +999,8 @@
           </relatedmaterial>
         </xsl:if>
      
-  <!-- Create a single placeholder "file" level component, from which the digital item can be linked when it exists in the repository -->
+  <!-- Create a single placeholder file level component, from which the digital item can be linked when it exists in the repository.
+  Will need to use python script to find components based on refID, create and link digital objects to those components -->
   <dsc>
        <!-- Generate a UUID for the component. The UUID will serve as the ASpace component ref_ID, which can be carried over into the digitization guide -->
        <xsl:variable name="uuid" select="uuid:randomUUID()"/>
