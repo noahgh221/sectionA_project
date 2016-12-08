@@ -301,7 +301,7 @@
         
         <xsl:when test="marc:datafield[@tag='110']">
               <origination label="Creator">
-                <corpname encodinganalog="110">                
+                <corpname encodinganalog="110" source="lcnaf">                
                   <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='110']/marc:subfield[@code='a'],',$',''))"/>
                   <xsl:for-each select="marc:datafield[@tag='110']/marc:subfield[@code='b']">
                     <xsl:text> </xsl:text>
@@ -315,7 +315,7 @@
               <origination label="Creator">
                 <persname encodinganalog="100" source="lcnaf">
                   
-                  <xsl:choose>
+         <xsl:choose>
                     <xsl:when test="marc:datafield[@tag='100']/marc:subfield[@code='e'] and not(marc:datafield[@tag='100']/marc:subfield[@code='d'] or marc:datafield[@tag='100']/marc:subfield[@code='c'])">
                     <xsl:value-of select="replace(normalize-space(marc:datafield[@tag='100']/marc:subfield[@code='a']),',$','')"/>
                     </xsl:when>
@@ -324,21 +324,24 @@
                       <!-- OMG. This removes period from end of $a if there are three word charaters followed by a period. Such a hack. -->
                       <xsl:value-of select="replace(normalize-space(marc:datafield[@tag='100']/marc:subfield[@code='a']),'(\w{3})\.$','$1')"/>
                     </xsl:otherwise>
-                  </xsl:choose>
+          </xsl:choose>
                   
                   
-                  <xsl:for-each select="marc:datafield[@tag='100']/marc:subfield[@code='q']">
+          <xsl:for-each select="marc:datafield[@tag='100']/marc:subfield[@code='q']">
 					<xsl:text> </xsl:text>
 					<xsl:value-of select="normalize-space(.)"/>
 				  </xsl:for-each>
+          
           <xsl:if test="marc:datafield[@tag='100']/marc:subfield[@code='b']">
-            <xsl:text> </xsl:text><xsl:value-of select="marc:datafield[@tag='100']/marc:subfield[@code='b']"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="marc:datafield[@tag='100']/marc:subfield[@code='b']"/>
           </xsl:if>
+          
           <xsl:if test="marc:datafield[@tag='100']/marc:subfield[@code='c']">
-                <xsl:text> </xsl:text><xsl:value-of select="marc:datafield[@tag='100']/marc:subfield[@code='c']"/>
+          <xsl:text> </xsl:text><xsl:value-of select="normalize-space(replace(marc:datafield[@tag='100']/marc:subfield[@code='c'],'(\w{3})\.$','$1'))"/>
           </xsl:if>        
           
-                  <xsl:for-each select="marc:datafield[@tag='100']/marc:subfield[@code='d']">
+          <xsl:for-each select="marc:datafield[@tag='100']/marc:subfield[@code='d']">
 					<xsl:text> </xsl:text>
 					<xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
 				  </xsl:for-each>
