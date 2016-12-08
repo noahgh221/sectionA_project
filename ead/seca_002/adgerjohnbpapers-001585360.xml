@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::John B. Adger papers, 1839, 1852 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/adgerjohnbpapers/">adgerjohnbpapers</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the John B. Adger papers, 1839, 1852</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001585360</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">31187646</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl <date>December 2016</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>adgerjohnbpapers-001585360</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Adger, John B. (John Bailey), 1810-1899,</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">John B. Adger papers</unittitle>
+         <unitdate normal="1839/1852"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1839, 1852</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 items</extent>
+         </physdesc>
+         <abstract>Letters concerning renewals of subscriptions to THE PRESBYTERIAN of Philadelphia, Pa.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>John B. Adger Papers, 1839, 1852, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>Finding aid derived from MARC record using MARC2EAD-SecA.xsl, December 2016</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>South Carolina resident; professor at Theological Seminary, Columbia, S.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters concerning renewals of subscriptions to THE PRESBYTERIAN of Philadelphia, Pa.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Clergy -- South Carolina -- Correspondence -- History -- 19th century</subject>
+         <corpname source="lcnaf" encodinganalog="610">Theological Seminary (Columbia, S.C.)</corpname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-70f6e48b-320a-4a27-8312-2cace077325f" level="file">
+            <did>
+               <unittitle>John B. Adger papers</unittitle>
+               <unitdate>1839, 1852</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -356,7 +356,7 @@
             <marc:subfield code="a">NDDP</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="100" ind1="1" ind2=" ">
-            <marc:subfield code="a">Adams, Thomas.</marc:subfield>
+            <marc:subfield code="a">Adams, Thomas,</marc:subfield>
             <marc:subfield code="e">creator.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="1" ind2="0">
@@ -1878,7 +1878,8 @@
             <marc:subfield code="a">Adams, Wade Hill.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="1" ind2="0">
-            <marc:subfield code="a">Wade Hill Adams papers, 1901-1922.</marc:subfield>
+            <marc:subfield code="a">Wade Hill Adams papers,</marc:subfield>
+            <marc:subfield code="f">1901-1922</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">6</marc:subfield>

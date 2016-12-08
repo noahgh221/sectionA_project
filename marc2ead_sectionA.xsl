@@ -14,9 +14,9 @@
 <xsl:template match="marc:record">
 
 <!-- Created by Noah Huffman, Duke University -->
-<!-- LAST UPDATED by Noah Huffman, 12/05/2014, for use with converting TrentHOM Mss. MARC records to Stub EADs for import to AT -->
+<!-- LAST UPDATED by Noah Huffman, December 2016, for use with converting Section A MARC records to Stub EADs for import to ArchivesSpace -->
 <!-- For use with accompanying stylesheet MARC21slimUtils.xsl, provided with MARCEdit -->
-<!-- Converts MARC records for Trent HOM mss collections to basic EAD finding aids for import into Archivists Toolkit (no <dsc>) -->
+<!-- Converts MARC records for Section A collections to basic EAD finding aids for import into ArchivesSpace. -->
  
   <!-- Call document alephnum2rlid_trent_dataset.xml  This document includes aleph number to rlid mappings, used to insert <unitid> (e.g. RL.10200) in EAD
    <xsl:variable name="alephnum2rlid_trent"
@@ -141,8 +141,8 @@
 <xsl:variable name="EADID_for_filename">
   <xsl:value-of select="translate(replace(normalize-unicode($EADID,'NFKD'),'[\p{M}]',''), 'đʹ&amp;','d')"/>
   
-  <!-- Exclude Aleph num from filename
-  <xsl:text>-</xsl:text><xsl:value-of select="marc:controlfield[@tag='001']"/> -->
+ <!-- Exclude Aleph num from filename -->
+  <xsl:text>-</xsl:text><xsl:value-of select="marc:controlfield[@tag='001']"/>
     
 </xsl:variable>
 
@@ -298,10 +298,11 @@
      
 <!-- CREATOR INFO -->
       <xsl:choose>
-            <xsl:when test="marc:datafield[@tag='110']">
+        
+        <xsl:when test="marc:datafield[@tag='110']">
               <origination label="Creator">
-                <corpname encodinganalog="110">
-                  <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='110']/marc:subfield[@code='a'],'\.$',''))"/>
+                <corpname encodinganalog="110">                
+                  <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='110']/marc:subfield[@code='a'],',$',''))"/>
                   <xsl:for-each select="marc:datafield[@tag='110']/marc:subfield[@code='b']">
                     <xsl:text> </xsl:text>
                     <xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
@@ -309,10 +310,22 @@
                 </corpname>
               </origination>
             </xsl:when>
-            <xsl:when test="marc:datafield[@tag='100']">
+            
+        <xsl:when test="marc:datafield[@tag='100']">
               <origination label="Creator">
-                <persname encodinganalog="100">
-                  <xsl:value-of select="normalize-space(marc:datafield[@tag='100']/marc:subfield[@code='a'])"/>
+                <persname encodinganalog="100" source="lcnaf">
+                  
+                  <xsl:choose>
+                    <xsl:when test="marc:datafield[@tag='100']/marc:subfield[@code='e'] and not(marc:datafield[@tag='100']/marc:subfield[@code='d'] or marc:datafield[@tag='100']/marc:subfield[@code='c'])">
+                    <xsl:value-of select="replace(normalize-space(marc:datafield[@tag='100']/marc:subfield[@code='a']),',$','')"/>
+                    </xsl:when>
+                                        
+                    <xsl:otherwise>
+                      <!-- OMG. This removes period from end of $a if there are three word charaters followed by a period. Such a hack. -->
+                      <xsl:value-of select="replace(normalize-space(marc:datafield[@tag='100']/marc:subfield[@code='a']),'(\w{3})\.$','$1')"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                  
                   
                   <xsl:for-each select="marc:datafield[@tag='100']/marc:subfield[@code='q']">
 					<xsl:text> </xsl:text>
@@ -513,25 +526,23 @@
 
 
           
-          <accessrestrict encodinganalog="506">
-            <head>Access Restrictions</head>
-            <xsl:choose>
-              <xsl:when test="marc:datafield[@tag='506']">
-                <xsl:for-each select="marc:datafield[@tag='506']">
+         <!-- Put any special Access Restrictions in their own field -->
+          <xsl:if test="marc:datafield[@tag='506']">
+              <xsl:for-each select="marc:datafield[@tag='506']">
+                  <accessrestrict encodinganalog="506">
+                  <head>Access Restrictions</head>
                   <p><xsl:value-of select="normalize-space(.)"/></p>
-                </xsl:for-each>
-                <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>                
-                <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>                
-                <p>Please contact Research Services staff before visiting the Rubenstein Library to use this collection.</p>
-              </xsl:when>
+                  </accessrestrict>
+              </xsl:for-each>
+          </xsl:if>
               
-              <xsl:otherwise>
+              <!-- Boilerplate Restriction -->
+          <accessrestrict encodinganalog="506">
+              <head>Access Restrictions</head>
                 <p>Collection is open for research.</p>
                 <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>                
                 <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>                
                 <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
-              </xsl:otherwise>
-            </xsl:choose>
           </accessrestrict>
           
           <xsl:if test="marc:datafield[@tag='530']">
@@ -542,20 +553,21 @@
               </xsl:for-each>
             </altformavail>
           </xsl:if>
-          
+   
+   <!-- Boilerplate Use Resriction -->
   <userestrict encodinganalog="540">
     <head>Use Restrictions</head>
     <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
   </userestrict>
 
-          <prefercite encodinganalog="524">
-            <p><xsl:value-of select="replace($CollectionTitle,'letter','Letter')"/><xsl:text> </xsl:text><xsl:value-of select="$CollectionDate"/>
+  <prefercite encodinganalog="524">
+            <p><xsl:value-of select="replace($CollectionTitle,'papers','Papers')"/><xsl:text> </xsl:text><xsl:value-of select="$CollectionDate"/>
               <xsl:if test="marc:datafield[@tag='245']/marc:subfield[@code='b']">
                 <xsl:text>, </xsl:text>
                 <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='245']/marc:subfield[@code='b'],'\.$',''))"></xsl:value-of>
               </xsl:if>
               <xsl:text>, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</xsl:text></p>
-          </prefercite>
+  </prefercite>
           
           <xsl:if test="marc:datafield[@tag='541']">
             <acqinfo encodinganalog="541">
@@ -594,9 +606,9 @@
   <!-- Generic 500 note -->
   <xsl:if test="marc:datafield[@tag='500']">
      <xsl:for-each select="marc:datafield[@tag='500']">
-        <note label="General note">
+        <odd>
           <p><xsl:value-of select="normalize-space(.)"/></p>
-        </note>
+        </odd>
       </xsl:for-each>
    </xsl:if>
   
@@ -653,31 +665,27 @@
         <xsl:choose>
                   <xsl:when test="@tag='600'">
                   
-                      <persname source="lcsh" encodinganalog="600">
-                        
-                        
-                        Old Match Method 
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
-                        <xsl:if test ="marc:subfield[@code='a'] and marc:subfield[@code='d']">
-                          <xsl:text> </xsl:text>
-                        </xsl:if>
-                        
+                      <persname source="lcnaf" encodinganalog="600">
+     
+                        <xsl:value-of select="replace(normalize-space(marc:subfield[@code='a']),'(\w{2})\.$','$1')"/>
+                                                
                         <xsl:if test="marc:subfield[@code='b']">
                           <xsl:value-of select="normalize-space(marc:subfield[@code='b'])"/>
                         </xsl:if>
                                        
                         <xsl:if test="marc:subfield[@code='q']">
+                          <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(marc:subfield[@code='q'])"/>
-                        <xsl:text> </xsl:text>
                         </xsl:if>
                         
                         <xsl:if test="marc:subfield[@code='c']">
+                          <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(marc:subfield[@code='c'])"/>
-                        <xsl:text> </xsl:text>
                         </xsl:if>
                         
                         <xsl:if test="marc:subfield[@code='d']">
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
+                        <xsl:text> </xsl:text>
+                          <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
                         </xsl:if>
                         
                         <xsl:if test="marc:subfield[@code='e']">
@@ -688,25 +696,42 @@
                           <xsl:text> -- </xsl:text>
                           <xsl:value-of select="normalize-space(replace(.,',$',''))"/>
                         </xsl:for-each> 
-                        -->
-
                         
                     </persname>
             
                   </xsl:when>
                   
                   <xsl:when test="@tag='700'">
-                      <persname source="lcsh" encodinganalog="700">
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='q'])"/>
-                        <xsl:text> </xsl:text>
-                        <xsl:if test="marc:subfield[@code='c']">
-                        <xsl:text> </xsl:text><xsl:value-of select="marc:subfield[@code='c']"/>
+                      <persname source="lcnaf" encodinganalog="700">
+                        <xsl:value-of select="replace(normalize-space(marc:subfield[@code='a']),'(\w{2})\.$','$1')"/>
+                                                
+                        <xsl:if test="marc:subfield[@code='b']">
+                          <xsl:value-of select="normalize-space(marc:subfield[@code='b'])"/>
                         </xsl:if>
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='e'])"/>
+                        
+                        <xsl:if test="marc:subfield[@code='q']">
+                          <xsl:text> </xsl:text>
+                          <xsl:value-of select="normalize-space(marc:subfield[@code='q'])"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="marc:subfield[@code='c']">
+                          <xsl:text> </xsl:text>
+                          <xsl:value-of select="normalize-space(marc:subfield[@code='c'])"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="marc:subfield[@code='d']">
+                          <xsl:text> </xsl:text>
+                          <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="marc:subfield[@code='e']">
+                          <xsl:value-of select="normalize-space(marc:subfield[@code='e'])"/>
+                        </xsl:if>
+                        
+                        <xsl:for-each select="marc:subfield[@code='x'] | marc:subfield[@code='v'] | marc:subfield[@code='y'] | marc:subfield[@code='z']">
+                          <xsl:text> -- </xsl:text>
+                          <xsl:value-of select="normalize-space(replace(.,',$',''))"/>
+                        </xsl:for-each> 
                       </persname>
                   </xsl:when>
                 </xsl:choose>
@@ -726,25 +751,24 @@
                       <persname source="mesh" encodinganalog="600">
                         
                         
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
-                        <xsl:if test ="marc:subfield[@code='a'] and marc:subfield[@code='d']">
-                          <xsl:text> </xsl:text>
-                        </xsl:if>
+                        <xsl:value-of select="replace(normalize-space(marc:subfield[@code='a']),'(\w{2})\.$','$1')"/>
+                       
                         
                        
                         
                         <xsl:if test="marc:subfield[@code='q']">
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='q'])"/>
                         <xsl:text> </xsl:text>
+                          <xsl:value-of select="normalize-space(marc:subfield[@code='q'])"/>
                         </xsl:if>
                         
-                         <xsl:if test="marc:subfield[@code='c']">
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='c'])"/>
+                        <xsl:if test="marc:subfield[@code='c']">
                         <xsl:text> </xsl:text>
+                        <xsl:value-of select="normalize-space(marc:subfield[@code='c'])"/>
                         </xsl:if>
                         
                         <xsl:if test="marc:subfield[@code='d']">
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
+                        <xsl:text> </xsl:text>
+                          <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
                         </xsl:if>
                         
                          
@@ -772,14 +796,24 @@
                 <xsl:choose>
                   <xsl:when test="@tag='600'">
                     
-                      <famname source="lcsh" encodinganalog="600">
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
+                      <famname source="lcnaf" encodinganalog="600">
+                        <xsl:value-of select="replace(normalize-space(marc:subfield[@code='a']),'\.$','')"/>
+                        
+                        <xsl:if test="marc:subfield[@code='q']">
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(marc:subfield[@code='q'])"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="marc:subfield[@code='d']">
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="marc:subfield[@code='e']">
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(marc:subfield[@code='e'])"/>
+                        </xsl:if>
+                        
                         <xsl:for-each select="marc:subfield[@code='x'] | marc:subfield[@code='v'] | marc:subfield[@code='y'] | marc:subfield[@code='z']">
                           <xsl:text> -- </xsl:text>
                           <xsl:value-of select="normalize-space(.)"/>
@@ -789,14 +823,23 @@
                   </xsl:when>
                   <xsl:otherwise>
                     
-                      <famname source="lcsh" encodinganalog="700">
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
+                      <famname source="lcnaf" encodinganalog="700">
+                        <xsl:value-of select="replace(normalize-space(marc:subfield[@code='a']),'\.$','')"/>
+                        
+                        <xsl:if test="marc:subfield[@code='q']">
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(marc:subfield[@code='q'])"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="marc:subfield[@code='d']">
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="marc:subfield[@code='e']">
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="normalize-space(marc:subfield[@code='e'])"/>
+                        </xsl:if>
                       </famname>
                     
                   </xsl:otherwise>
@@ -829,7 +872,7 @@
     
     
     
-<!-- LCSH Corp Names -->
+<!-- LC Corp Names -->
     
            <xsl:if test="marc:datafield[@tag='610'][@ind2='0'] | marc:datafield[@tag='710']">
              <xsl:for-each select="marc:datafield[@tag='610'][@ind2='0'] | marc:datafield[@tag='710']">
@@ -837,12 +880,14 @@
                 <xsl:choose>
                   <xsl:when test="@tag='610'">
                     
-                      <corpname source="lcsh" encodinganalog="610">
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
+                      <corpname source="lcnaf" encodinganalog="610">
+                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='a'],'\.$',''))"/>
+                        
                         <xsl:for-each select="marc:subfield[@code='b']">
                           <xsl:text> </xsl:text>
                           <xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
                         </xsl:for-each>
+                        
                         <xsl:for-each select="marc:subfield[@code='x'] | marc:subfield[@code='v'] | marc:subfield[@code='y'] | marc:subfield[@code='z']">
                           <xsl:text> -- </xsl:text>
                           <xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
@@ -852,8 +897,8 @@
                   </xsl:when>
                   <xsl:otherwise>
                     
-                      <corpname source="lcsh" encodinganalog="710">
-                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
+                      <corpname source="lcnaf" encodinganalog="710">
+                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='a'],'\.$',''))"/>
                         <xsl:for-each select="marc:subfield[@code='b']">
                           <xsl:text> </xsl:text>
                           <xsl:value-of select="normalize-space(.)"/>
