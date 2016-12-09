@@ -2,8 +2,10 @@
 <xsl:stylesheet 
   xmlns:marc="http://www.loc.gov/MARC21/slim"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  version="3.0" exclude-result-prefixes="marc uuid"
   xmlns:uuid="java.util.UUID"
-  version="2.0" exclude-result-prefixes="marc uuid">
+  xmlns:saxon="http://saxon.sf.net/"
+  extension-element-prefixes="saxon">
 
 <xsl:import href="MARC21slimUtils.xsl"/>
   
@@ -11,18 +13,25 @@
 
 <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8" omit-xml-declaration="no" standalone="no"/>
 
+
+
+<xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
+
+
 <xsl:template match="marc:record">
 
 <!-- Created by Noah Huffman, Duke University -->
 <!-- LAST UPDATED by Noah Huffman, December 2016, for use with converting Section A MARC records to Stub EADs for import to ArchivesSpace -->
-<!-- For use with accompanying stylesheet MARC21slimUtils.xsl, provided with MARCEdit -->
-<!-- Converts MARC records for Section A collections to basic EAD finding aids for import into ArchivesSpace. -->
- 
-  <!-- Call document alephnum2rlid_trent_dataset.xml  This document includes aleph number to rlid mappings, used to insert <unitid> (e.g. RL.10200) in EAD
-   <xsl:variable name="alephnum2rlid_trent"
-    select="document('alephnum2rlid_trent_dataset.xml')"/>
- -->
+<!-- This XSLT has evolved over many projects.  Should probalby be rewritten entirely...but let's just go with it. -->
   
+<!-- For use with accompanying stylesheet MARC21slimUtils.xsl, provided with MARCEdit -->
+
+  <!-- Converts MARC records for Section A collections (single-folder collections) to basic EAD finding aids suitable for import into ArchivesSpace. -->
+ 
+<!-- Call document alephnum2rlid_seca_dataset.xml  This document includes aleph number to rlid mappings, used to insert <unitid> (e.g. RL.10200) in EAD
+<xsl:variable name="alephnum2rlid_seca" select="document('alephnum2rlid_seca_dataset.xml')"/>
+ -->
+
 <!-- CHANGE NAME VARIABLE AS NEEDED -->
 <xsl:variable name="ProcessorName" select="'Rubenstein Staff'"/>
 <xsl:variable name="EncoderName" select="'Noah Huffman'"/>
@@ -73,10 +82,8 @@
       <xsl:otherwise>LANGUAGE?</xsl:otherwise>
 </xsl:choose>
 </xsl:variable>
-
-
-<!-- GLOBAL COLLECTION VARIABLES -->
   
+ 
 <!-- EADID variable for filename, EADID, and URL string -->
   
   <xsl:variable name="EADID">
@@ -285,16 +292,12 @@
   <!-- local variable for storing Alephnum string in source xml document -->
   <xsl:variable name="alephnum_string" select="marc:controlfield[@tag='001']"/>
 
-<!--NEED TO SUPPLY A COLLECTION NUMBER!! -->
-  <unitid><xsl:value-of select="$EADID_for_filename"/></unitid>
-
- <!--
-  <xsl:for-each select="$alephnum2rlid_trent/data/record"> 
-  <xsl:if test="alephnum=$alephnum_string">
-    <unitid><xsl:value-of select="rlid"/></unitid>
-  </xsl:if>
-</xsl:for-each>  
- -->    
+<!--NEED TO SUPPLY A COLLECTION NUMBER!!-->
+    <!-- <unitid><xsl:value-of select="$EADID_for_filename"/></unitid> -->
+ 
+<!-- Increment RLID values, will need to modify starting RLID for each input MARCXML file. -->
+  <saxon:assign name="RLID" select="$RLID+1"/>
+  <unitid>RL.<xsl:value-of select="$RLID"/></unitid>
      
 <!-- CREATOR INFO -->
       <xsl:choose>
@@ -1081,6 +1084,11 @@
 
 </xsl:result-document>
 
+<xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/RL-{$RLID}.txt">
+<xsl:for-each select=".">
+  <xsl:text>RL.</xsl:text><xsl:value-of select="$RLID"/>, <xsl:value-of select="marc:controlfield[@tag='001']"/>, <xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/>, <xsl:value-of select="$EADID_for_filename"/>, <xsl:value-of select="$CollectionTitle"/>
+</xsl:for-each>
+</xsl:result-document>
 
 </xsl:template>
 </xsl:stylesheet>
