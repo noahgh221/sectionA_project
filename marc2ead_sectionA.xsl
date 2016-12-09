@@ -14,7 +14,7 @@
 <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8" omit-xml-declaration="no" standalone="no"/>
 
 
-
+<!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH -->
 <xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
 
 
@@ -978,8 +978,9 @@
       </xsl:for-each>
     </xsl:if>   
     
-  <!-- AAT Genreform --> 
-    <xsl:if test="marc:datafield[@tag='655'][@ind2='7']">
+  <!-- AAT Genreform -->
+    <!-- Don't get the FAST headings!! -->
+    <xsl:if test="marc:datafield[@tag='655'][@ind2='7'] and not(marc:datafield[@tag='655'][@ind2='7']/marc:subfield[@code='2']='fast')">
               <xsl:for-each select="marc:datafield[@tag='655'][@ind2='7']/marc:subfield[@code='a']">
                 <xsl:sort select="marc:subfield[@code='a']"/>
                 
@@ -1084,6 +1085,7 @@
 
 </xsl:result-document>
 
+<!-- Write out some .txt files for each EADID showing RLID and some other metadata -->
 <xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/RL-{$RLID}.txt">
 <xsl:for-each select=".">
   <xsl:text>RL.</xsl:text><xsl:value-of select="$RLID"/>, <xsl:value-of select="marc:controlfield[@tag='001']"/>, <xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/>, <xsl:value-of select="$EADID_for_filename"/>, <xsl:value-of select="$CollectionTitle"/>
