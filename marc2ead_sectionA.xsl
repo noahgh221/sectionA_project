@@ -1082,7 +1082,7 @@
   
 <!--<xsl:value-of select="$newline"/>-->
 <!-- Write out some .txt files for each EADID showing RLID and some other metadata -->
-<xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/RL-{$RLID}.txt">
+<xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/digguides/{$box_number}/RL-{$RLID}.txt">
   <!-- Header Row -->
   <xsl:text>Collection_Num</xsl:text><xsl:value-of select="$tab"/>
   <xsl:text>Aleph_Num</xsl:text>
