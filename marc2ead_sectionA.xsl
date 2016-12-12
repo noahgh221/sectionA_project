@@ -8,30 +8,24 @@
   extension-element-prefixes="saxon">
 
 <xsl:import href="MARC21slimUtils.xsl"/>
-  
-<!--  <xsl:strip-space elements="marc:datafield marc:subfield"/> -->
 
-<xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8" omit-xml-declaration="no" standalone="no"/>
-
+<xsl:output indent="no" method="text" encoding="UTF-8"/>
 
 <!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH -->
 <xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
-
+ 
+<!-- Variables for outputing digitization guide as TSV file -->
+<xsl:variable name="tab"><xsl:text>&#009;</xsl:text></xsl:variable>
+<xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
 
 <xsl:template match="marc:record">
-
+  
 <!-- Created by Noah Huffman, Duke University -->
 <!-- LAST UPDATED by Noah Huffman, December 2016, for use with converting Section A MARC records to Stub EADs for import to ArchivesSpace -->
 <!-- This XSLT has evolved over many projects.  Should probalby be rewritten entirely...but let's just go with it. -->
-  
 <!-- For use with accompanying stylesheet MARC21slimUtils.xsl, provided with MARCEdit -->
-
-  <!-- Converts MARC records for Section A collections (single-folder collections) to basic EAD finding aids suitable for import into ArchivesSpace. -->
+<!-- Converts MARC records for Section A collections (single-folder collections) to basic EAD finding aids suitable for import into ArchivesSpace. -->
  
-<!-- Call document alephnum2rlid_seca_dataset.xml  This document includes aleph number to rlid mappings, used to insert <unitid> (e.g. RL.10200) in EAD
-<xsl:variable name="alephnum2rlid_seca" select="document('alephnum2rlid_seca_dataset.xml')"/>
- -->
-
 <!-- CHANGE NAME VARIABLE AS NEEDED -->
 <xsl:variable name="ProcessorName" select="'Rubenstein Staff'"/>
 <xsl:variable name="EncoderName" select="'Noah Huffman'"/>
@@ -234,7 +228,7 @@
   <xsl:value-of select="replace(tokenize(base-uri(), '/')[last()],'.xml','')"/>
 </xsl:variable>
 
-<xsl:result-document method="xml" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/{$EADID_for_filename}.xml">
+<xsl:result-document method="xml" indent="yes" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/{$EADID_for_filename}.xml">
     
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
 
@@ -344,16 +338,22 @@
           <xsl:text> </xsl:text><xsl:value-of select="normalize-space(replace(marc:datafield[@tag='100']/marc:subfield[@code='c'],'(\w{3})\.$','$1'))"/>
           </xsl:if>        
           
-          <xsl:for-each select="marc:datafield[@tag='100']/marc:subfield[@code='d']">
+         <!-- deal with those trailing commas and period situations... -->
+          <xsl:if test="marc:datafield[@tag='100']/marc:subfield[@code='d'] and not(marc:datafield[@tag='100']/marc:subfield[@code='e'])">
 					<xsl:text> </xsl:text>
-					<xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
-				  </xsl:for-each>
+            <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='100']/marc:subfield[@code='d'],'\.$',''))"/>
+				  </xsl:if>
+                  
+                  <xsl:if test="marc:datafield[@tag='100']/marc:subfield[@code='d'] and marc:datafield[@tag='100']/marc:subfield[@code='e']">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='100']/marc:subfield[@code='d'],',$',''))"/>
+                  </xsl:if>
                 </persname>
               </origination>
             </xsl:when>
           </xsl:choose>
 
-		  <!-- TITLE INFO without date -->
+	<!-- TITLE INFO without date -->
 
           <unittitle label="Title" encodinganalog="245">
             <xsl:value-of select="replace($CollectionTitle,',$','')"/>
@@ -368,13 +368,11 @@
               <xsl:text> </xsl:text>
               <xsl:value-of select="normalize-space(replace(marc:datafield[@tag='245']/marc:subfield [@code='b'],'\.$',''))"/>
             </xsl:if>
-            
-          
+
           </unittitle>
   
 <!-- Date info -->  
        
-  
      <xsl:choose>
        <!-- Exclude normal attribute on unitdate when uuuu dates present -->
        <xsl:when test="$CollectionNormalEndDate='uuuu' or contains($CollectionNormalStartDate,'?')"> 
@@ -418,7 +416,6 @@
 
 <xsl:choose>
 
- 
   <xsl:when test="contains($extent_string, 'lin') and contains($extent_string, ')')">
   <physdesc>
     <extent><xsl:value-of select="replace(normalize-space(substring-before(substring-after($extent_string, '('), 'lin')),'^\.','0.')"/><xsl:text> linear feet</xsl:text></extent>
@@ -474,8 +471,8 @@
     <extent><xsl:value-of select="normalize-space(replace(($extent_string),'^(\d+)(\w)','$1 $2'))"/></extent>
   </physdesc>
 </xsl:otherwise>  
- </xsl:choose> 
-  
+
+</xsl:choose> 
   
 <!-- Old extent code
               <xsl:for-each select="marc:datafield[@tag='300']">
@@ -515,7 +512,7 @@
         </xsl:choose>
  -->
   
-  <!-- Use only 520 as abstract -->
+ <!-- Use only MARC520 as abstract -->
   
  <xsl:if test="marc:datafield[@tag='520']">
   <abstract>
@@ -1079,17 +1076,32 @@
          </did>
        </c01>
      </dsc>
-     
-     </archdesc>
+    </archdesc>
     </ead>
-
 </xsl:result-document>
-
+  
+<!--<xsl:value-of select="$newline"/>-->
 <!-- Write out some .txt files for each EADID showing RLID and some other metadata -->
 <xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/RL-{$RLID}.txt">
-<xsl:for-each select=".">
-  <xsl:text>RL.</xsl:text><xsl:value-of select="$RLID"/>, <xsl:value-of select="marc:controlfield[@tag='001']"/>, <xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/>, <xsl:value-of select="$EADID_for_filename"/>, <xsl:value-of select="$CollectionTitle"/>
-</xsl:for-each>
+  <!-- Header Row -->
+  <xsl:text>Collection_Num</xsl:text><xsl:value-of select="$tab"/>
+  <xsl:text>Aleph_Num</xsl:text>
+  <xsl:value-of select="$tab"/>
+  <xsl:text>OCLC_Num</xsl:text>
+  <xsl:value-of select="$tab"/>
+  <xsl:text>EADID</xsl:text>
+  <xsl:value-of select="$tab"/>
+  <xsl:text>Collection_Title</xsl:text>
+  
+  <xsl:value-of select="$newline"/>
+  
+  <!-- Data Rows -->
+  <xsl:text>RL.</xsl:text><xsl:value-of select="$RLID"/><xsl:value-of select="$tab"/>
+  <xsl:value-of select="normalize-space(marc:controlfield[@tag='001'])"/><xsl:value-of select="$tab"/>
+  <xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/><xsl:value-of select="$tab"/>
+  <xsl:value-of select="normalize-space($EADID_for_filename)"/><xsl:value-of select="$tab"/>
+  <xsl:value-of select="$CollectionTitle"/><xsl:text> </xsl:text><xsl:value-of select="$CollectionDate"/>
+
 </xsl:result-document>
 
 </xsl:template>
