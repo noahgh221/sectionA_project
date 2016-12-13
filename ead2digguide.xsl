@@ -42,6 +42,9 @@
             <xsl:text>Date_normal</xsl:text>
             <xsl:value-of select="$tab"/>
 
+            <xsl:text>Language</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
             <xsl:text>Extent</xsl:text>
             <xsl:value-of select="$tab"/>
 
@@ -61,6 +64,12 @@
             <xsl:value-of select="$tab"/>
 
             <xsl:text>Subject-Geographic</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
+            <xsl:text>Format_aat</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
+            <xsl:text>EADID</xsl:text>
             <xsl:value-of select="$tab"/>
 
             <xsl:text>ASpace_componentID</xsl:text>
@@ -107,13 +116,17 @@
                     <xsl:value-of
                         select="normalize-space(ead:archdesc/ead:did/ead:unitdate/@normal)"/>
                     <xsl:value-of select="$tab"/>
-
-                    <!-- controlled extent statement, typically # of items or pages -->
+                    
+                    <!-- Language code -->
+                    <xsl:value-of select="ead:archdesc/ead:did/ead:langmaterial/ead:language/@langcode"/>
+                    <xsl:value-of select="$tab"/>
+                    
+                    <!-- Extent - controlled extent statement, typically # of items or pages -->
                     <xsl:value-of
                         select="normalize-space(ead:archdesc/ead:did/ead:physdesc/ead:extent)"/>
                     <xsl:value-of select="$tab"/>
 
-                    <!-- any other kind of physical description if present -->
+                    <!-- Physdesc - any other kind of physical description if present -->
                     <xsl:value-of
                         select="normalize-space(ead:archdesc/ead:did/ead:physdesc[not(ead:extent)])"/>
                     <xsl:value-of select="$tab"/>
@@ -148,6 +161,16 @@
                     <xsl:for-each select="ead:archdesc/ead:controlaccess">
                         <xsl:value-of select="ead:geogname" separator="; "/>
                     </xsl:for-each>
+                    <xsl:value-of select="$tab"/>
+                    
+                    <!-- Format Headings (aat) -->
+                    <xsl:for-each select="ead:archdesc/ead:controlaccess">
+                        <xsl:value-of select="ead:genreform" separator="; "/>
+                    </xsl:for-each>
+                    <xsl:value-of select="$tab"/>
+                    
+                    <!-- EADID -->
+                    <xsl:value-of select="ead:eadheader/ead:eadid"/>
                     <xsl:value-of select="$tab"/>
 
                     <!-- ASpace refID for Archival Object record -->
