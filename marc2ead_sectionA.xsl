@@ -18,7 +18,7 @@
 <xsl:output indent="no" method="text" encoding="UTF-8"/>
 
 <!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. Find the next available RL number in ASpace -->
-<xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
+<xsl:variable name="RLID" select="30000" saxon:assignable="yes"/>
  
 <!-- Variables for outputing digitization guide as TSV file.     Currently using a separate XSLT for creating the digguide-->
 
@@ -579,7 +579,7 @@
           
           <processinfo>
             <p>Processed by: <xsl:value-of select="$ProcessorName"/></p>
-            <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand collections in Section A, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/>.</p>
+            <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/>.</p>
           </processinfo>
         
 <!-- BIOGRAPHICAL NOTE -->
