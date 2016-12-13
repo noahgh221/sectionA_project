@@ -71,9 +71,14 @@
 
 
             <!-- BEGIN DATA ROWS -->
-            <!-- !!!Process all EADs in a subfolder (e.g. seca_001). WILL NEED TO MODIFY FOR EACH SUBFOLDER!!! -->
+            <!-- !!!Process all EADs in a subfolder (e.g. seca_001) -->
+            <!-- Store the parent directory of EAD files as a variable to pass into collection function -->
+            <xsl:variable name="ead_directory_name_path">
+                <xsl:value-of select="concat('file:/C:/users/nh48/documents/github/sectionA_project/ead/',$box_number,'/?select=*.xml')"/>
+            </xsl:variable>
+            
             <xsl:for-each
-                select="collection('file:/C:/Users/nh48/Documents/GitHub/sectionA_project/ead/seca_001/?select=*.xml')">
+                select="collection($ead_directory_name_path)">
 
                 <xsl:for-each select="ead:ead">
 
