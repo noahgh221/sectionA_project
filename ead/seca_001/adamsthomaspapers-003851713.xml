@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -88,8 +88,9 @@
          <geogname source="lcsh" encodinganalog="651">United States -- History -- War of 1812</geogname>
       </controlaccess>
       <dsc>
-         <c01 id="seca-0a201c17-4460-4130-9c57-dec15b479227" level="file">
+         <c01 id="seca-d8db306f-99d7-467c-bf5f-734ff15932c9" level="file">
             <did>
+               <container type="folder">1</container>
                <unittitle>Thomas Adams papers</unittitle>
                <unitdate>1814-1818</unitdate>
             </did>

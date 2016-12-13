@@ -1058,6 +1058,7 @@
          <xsl:attribute name="id">seca-<xsl:value-of select="$uuid"/></xsl:attribute>
          <xsl:attribute name="level">file</xsl:attribute>
          <did>
+           <container type="folder">1</container>
            <unittitle>
              <!-- unittitle code reused from archdesc/unittitle code -->
              <xsl:value-of select="replace($CollectionTitle,',$','')"/>
@@ -1080,10 +1081,10 @@
     </ead>
 </xsl:result-document>
   
-<!--<xsl:value-of select="$newline"/>-->
-<!-- Write out some .txt files for each EADID showing RLID and some other metadata -->
+<!-- Remove digguide creation script to separate XSLT that processes EADs.
+Code below writes out some .txt files for each EADID showing RLID and some other metadata.
+
 <xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/digguides/{$box_number}/RL-{$RLID}.txt">
-  <!-- Header Row -->
   <xsl:text>Collection_Num</xsl:text><xsl:value-of select="$tab"/>
   <xsl:text>Aleph_Num</xsl:text>
   <xsl:value-of select="$tab"/>
@@ -1092,17 +1093,26 @@
   <xsl:text>EADID</xsl:text>
   <xsl:value-of select="$tab"/>
   <xsl:text>Collection_Title</xsl:text>
+  <xsl:value-of select="$tab"/>
+
   
   <xsl:value-of select="$newline"/>
   
-  <!-- Data Rows -->
-  <xsl:text>RL.</xsl:text><xsl:value-of select="$RLID"/><xsl:value-of select="$tab"/>
-  <xsl:value-of select="normalize-space(marc:controlfield[@tag='001'])"/><xsl:value-of select="$tab"/>
-  <xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/><xsl:value-of select="$tab"/>
-  <xsl:value-of select="normalize-space($EADID_for_filename)"/><xsl:value-of select="$tab"/>
+  
+  <xsl:text>RL.</xsl:text><xsl:value-of select="$RLID"/>
+  <xsl:value-of select="$tab"/>
+  <xsl:value-of select="normalize-space(marc:controlfield[@tag='001'])"/>
+  <xsl:value-of select="$tab"/>
+  <xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/>
+  <xsl:value-of select="$tab"/>
+  <xsl:value-of select="normalize-space($EADID_for_filename)"/>
+  <xsl:value-of select="$tab"/>
   <xsl:value-of select="$CollectionTitle"/><xsl:text> </xsl:text><xsl:value-of select="$CollectionDate"/>
-
+  <xsl:value-of select="$tab"/>
+  
 </xsl:result-document>
-
+ -->
+  
+ 
 </xsl:template>
 </xsl:stylesheet>
