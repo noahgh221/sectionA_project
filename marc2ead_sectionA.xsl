@@ -11,7 +11,7 @@
 
 <xsl:output indent="no" method="text" encoding="UTF-8"/>
 
-<!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH -->
+<!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. Find the next available RL number in ASpace -->
 <xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
  
 <!-- Variables for outputing digitization guide as TSV file -->
