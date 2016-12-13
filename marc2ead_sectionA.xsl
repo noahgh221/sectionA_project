@@ -7,6 +7,12 @@
   xmlns:saxon="http://saxon.sf.net/"
   extension-element-prefixes="saxon">
 
+  <!-- Created by Noah Huffman, Duke University -->
+  <!-- LAST UPDATED by Noah Huffman, December 2016, for use with converting Section A MARC records to Stub EADs for import to ArchivesSpace -->
+  <!-- This XSLT has evolved over many projects and should probalby be rewritten entirely...but let's just go with it. -->
+  <!-- For use with accompanying stylesheet MARC21slimUtils.xsl, provided with MARCEdit -->
+  <!-- Converts MARC records for Section A collections (single-folder collections) to basic EAD finding aids suitable for import into ArchivesSpace. -->
+  
 <xsl:import href="MARC21slimUtils.xsl"/>
 
 <xsl:output indent="no" method="text" encoding="UTF-8"/>
@@ -14,17 +20,13 @@
 <!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. Find the next available RL number in ASpace -->
 <xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
  
-<!-- Variables for outputing digitization guide as TSV file -->
+<!-- Variables for outputing digitization guide as TSV file. 
+    Currently using a separate XSLT for creating the digguide
 <xsl:variable name="tab"><xsl:text>&#009;</xsl:text></xsl:variable>
 <xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
-
+ -->
+ 
 <xsl:template match="marc:record">
-  
-<!-- Created by Noah Huffman, Duke University -->
-<!-- LAST UPDATED by Noah Huffman, December 2016, for use with converting Section A MARC records to Stub EADs for import to ArchivesSpace -->
-<!-- This XSLT has evolved over many projects.  Should probalby be rewritten entirely...but let's just go with it. -->
-<!-- For use with accompanying stylesheet MARC21slimUtils.xsl, provided with MARCEdit -->
-<!-- Converts MARC records for Section A collections (single-folder collections) to basic EAD finding aids suitable for import into ArchivesSpace. -->
  
 <!-- CHANGE NAME VARIABLE AS NEEDED -->
 <xsl:variable name="ProcessorName" select="'Rubenstein Staff'"/>
