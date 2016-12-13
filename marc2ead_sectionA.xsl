@@ -20,11 +20,11 @@
 <!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. Find the next available RL number in ASpace -->
 <xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
  
-<!-- Variables for outputing digitization guide as TSV file. 
-    Currently using a separate XSLT for creating the digguide
+<!-- Variables for outputing digitization guide as TSV file.     Currently using a separate XSLT for creating the digguide-->
+
 <xsl:variable name="tab"><xsl:text>&#009;</xsl:text></xsl:variable>
 <xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
- -->
+
  
 <xsl:template match="marc:record">
  
@@ -141,18 +141,12 @@
 </xsl:variable>
   
  <!-- EADID for filename: removes diacritics from EADID and appends Aleph number to avoid possible 1xx duplicates. Not sure how removing diacritics works. See: http://www.stylusstudio.com/xquerytalk/201106/003547.html -->  
-<xsl:variable name="EADID_for_filename">
+<xsl:variable name="EADID_unique">
   <xsl:value-of select="translate(replace(normalize-unicode($EADID,'NFKD'),'[\p{M}]',''), 'đʹ&amp;','d')"/>
-  
- <!-- Exclude Aleph num from filename -->
+ <!-- Include Aleph system number in filename to guarantee uniqueness -->
   <xsl:text>-</xsl:text><xsl:value-of select="marc:controlfield[@tag='001']"/>
-    
 </xsl:variable>
 
-<!-- EADID with no diacritics but without Aleph num appended.  Will need to manually edit these files to make this value unique in individual EADs -->
-<xsl:variable name="EADID_for_header_and_url">
-  <xsl:value-of select="translate(replace(normalize-unicode($EADID,'NFKD'),'[\p{M}]',''), 'đʹ&amp;','d')"></xsl:value-of>
-</xsl:variable>
 
 <!-- END EADID Variables -->
 
@@ -230,12 +224,12 @@
   <xsl:value-of select="replace(tokenize(base-uri(), '/')[last()],'.xml','')"/>
 </xsl:variable>
 
-<xsl:result-document method="xml" indent="yes" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/{$EADID_for_filename}.xml">
+<xsl:result-document method="xml" indent="yes" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/{$EADID_unique}.xml">
     
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
 
 <eadheader findaidstatus="SecA_record" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511">
-  <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::{$CollectionTitle} {$CollectionDate} //EN" url="http://library.duke.edu/rubenstein/findingaids/{$EADID_for_header_and_url}/"><xsl:value-of select="$EADID_for_header_and_url"/></eadid>
+  <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::{$CollectionTitle} {$CollectionDate} //EN" url="http://library.duke.edu/rubenstein/findingaids/{$EADID_unique}/"><xsl:value-of select="$EADID_unique"/></eadid>
 
 <filedesc>
 <titlestmt>
@@ -1084,9 +1078,10 @@
 </xsl:result-document>
   
 <!-- Remove digguide creation script to separate XSLT that processes EADs.
-Code below writes out some .txt files for each EADID showing RLID and some other metadata.
+Code below writes out some .txt files for each EADID showing RLID and some other metadata. 
+TXT files are used purely as easy way to see next RLID in sequence -->
 
-<xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/digguides/{$box_number}/RL-{$RLID}.txt">
+<xsl:result-document method="text" href="file:/C:/users/nh48/documents/github/sectionA_project/ead/{$box_number}/RL-{$RLID}.txt">
   <xsl:text>Collection_Num</xsl:text><xsl:value-of select="$tab"/>
   <xsl:text>Aleph_Num</xsl:text>
   <xsl:value-of select="$tab"/>
@@ -1096,10 +1091,7 @@ Code below writes out some .txt files for each EADID showing RLID and some other
   <xsl:value-of select="$tab"/>
   <xsl:text>Collection_Title</xsl:text>
   <xsl:value-of select="$tab"/>
-
-  
   <xsl:value-of select="$newline"/>
-  
   
   <xsl:text>RL.</xsl:text><xsl:value-of select="$RLID"/>
   <xsl:value-of select="$tab"/>
@@ -1107,13 +1099,13 @@ Code below writes out some .txt files for each EADID showing RLID and some other
   <xsl:value-of select="$tab"/>
   <xsl:value-of select="normalize-space(marc:datafield[@tag='035'])"/>
   <xsl:value-of select="$tab"/>
-  <xsl:value-of select="normalize-space($EADID_for_filename)"/>
+  <xsl:value-of select="normalize-space($EADID_unique)"/>
   <xsl:value-of select="$tab"/>
   <xsl:value-of select="$CollectionTitle"/><xsl:text> </xsl:text><xsl:value-of select="$CollectionDate"/>
   <xsl:value-of select="$tab"/>
   
 </xsl:result-document>
- -->
+
   
  
 </xsl:template>
