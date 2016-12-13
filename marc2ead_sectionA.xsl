@@ -579,7 +579,7 @@
           
           <processinfo>
             <p>Processed by: <xsl:value-of select="$ProcessorName"/></p>
-            <p>Finding aid derived from MARC record using MARC2EAD-SecA.xsl, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/></p>
+            <p>This finding aid was derived from a MARC record using MARC2EAD-SecA.xsl, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/>.</p>
           </processinfo>
         
 <!-- BIOGRAPHICAL NOTE -->
