@@ -18,7 +18,7 @@
 <xsl:output indent="no" method="text" encoding="UTF-8"/>
 
 <!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. Find the next available RL number in ASpace -->
-<xsl:variable name="RLID" select="30000" saxon:assignable="yes"/>
+<xsl:variable name="RLID" select="30021" saxon:assignable="yes"/>
  
 <!-- Variables for outputing digitization guide as TSV file.     Currently using a separate XSLT for creating the digguide-->
 
@@ -879,7 +879,7 @@
                 <xsl:choose>
                   <xsl:when test="@tag='610'">
                     
-                      <corpname source="lcnaf" encodinganalog="610">
+                      <corpname source="lcnaf" encodinganalog="610">                     
                         <xsl:value-of select="normalize-space(replace(marc:subfield[@code='a'],'\.$',''))"/>
                         
                         <xsl:for-each select="marc:subfield[@code='b']">

@@ -27,56 +27,56 @@
 
             <!-- COLUMN HEADERS -->
 
-            <xsl:text>Container_1</xsl:text>
+            <xsl:text>container_1</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Creator</xsl:text>
+            <xsl:text>creator</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Title</xsl:text>
+            <xsl:text>title</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Date_expression</xsl:text>
+            <xsl:text>date_expression</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Date_normal</xsl:text>
+            <xsl:text>date</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Language</xsl:text>
+            <xsl:text>language</xsl:text>
             <xsl:value-of select="$tab"/>
             
-            <xsl:text>Extent</xsl:text>
+            <xsl:text>extent</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Physdesc</xsl:text>
+            <xsl:text>physical_description</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Scopecontent</xsl:text>
+            <xsl:text>description</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Provenance</xsl:text>
+            <xsl:text>provenance</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Subject-Topical</xsl:text>
+            <xsl:text>subject</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>Subject-Name</xsl:text>
-            <xsl:value-of select="$tab"/>
-
-            <xsl:text>Subject-Geographic</xsl:text>
+            <xsl:text>spatial</xsl:text>
             <xsl:value-of select="$tab"/>
             
-            <xsl:text>Format_aat</xsl:text>
+            <xsl:text>format</xsl:text>
             <xsl:value-of select="$tab"/>
             
-            <xsl:text>EADID</xsl:text>
+            <xsl:text>ead_id</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>ASpace_componentID</xsl:text>
+            <xsl:text>aspace_id</xsl:text>
             <xsl:value-of select="$tab"/>
+            
+            <xsl:text>finding_aid_url</xsl:text>
+            <xsl:value-of select="$tab"/>            
 
             <!-- Empty column, to be supplied after URI is established, ARKs? -->
-            <xsl:text>Digital_Object_URI</xsl:text>
+            <xsl:text>dpc_id</xsl:text>
 
 
             <!-- BEGIN DATA ROWS -->
@@ -145,19 +145,13 @@
 
                     <!-- Get all the subject, name, and place name headings and separate with semicolons -->
 
-                    <!-- Topical Subjects -->
+                    <!-- Topical Subjects and Name Headings -->
                    <xsl:for-each select="ead:archdesc/ead:controlaccess">
-                            <xsl:value-of select="ead:subject" separator="; "/>      
+                            <xsl:value-of select="ead:subject|ead:persname|ead:corpname|ead:famname" separator="; "/>      
                    </xsl:for-each>
                     <xsl:value-of select="$tab"/>
                    
-                   <!-- Names -->
-                   <xsl:for-each select="ead:archdesc/ead:controlaccess">
-                       <xsl:value-of select="ead:persname | ead:corpname | ead:famname" separator="; "/>
-                   </xsl:for-each>
-                   <xsl:value-of select="$tab"/>
-                    
-                   <!-- Geographic Headings -->
+                   <!-- Spatial Geographic Headings -->
                     <xsl:for-each select="ead:archdesc/ead:controlaccess">
                         <xsl:value-of select="ead:geogname" separator="; "/>
                     </xsl:for-each>
@@ -176,10 +170,13 @@
                     <!-- ASpace refID for Archival Object record -->
                     <xsl:value-of select="//ead:c01[1]/@id"/>
                     <xsl:value-of select="$tab"/>
-
+                    
                     <!-- Finding Aid URI -->
                     <xsl:value-of select="ead:eadheader/ead:eadid/@url"/>
                     <xsl:value-of select="$tab"/>
+                    
+                    <!-- DPC_ID: Empty column -->
+                    <xsl:text>dpc_id</xsl:text>
 
                 </xsl:for-each>
             </xsl:for-each>
