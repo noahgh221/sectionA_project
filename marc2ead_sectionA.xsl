@@ -871,40 +871,65 @@
     
     
     
-<!-- LC Corp Names -->
+<!-- LC Corp Names (610 | 710) -->
     
            <xsl:if test="marc:datafield[@tag='610'][@ind2='0'] | marc:datafield[@tag='710']">
              <xsl:for-each select="marc:datafield[@tag='610'][@ind2='0'] | marc:datafield[@tag='710']">
                 <xsl:sort select="marc:subfield[@code='a']"/>
                 <xsl:choose>
-                  <xsl:when test="@tag='610'">
+                  
+                  <!-- Keep periods if $b present -->
+                  <xsl:when test="marc:subfield[@code='b'] and (marc:subfield[@code='x'] or marc:subfield[@code='v'] or marc:subfield[@code='y'] or marc:subfield[@code='z'])">
                     
-                      <corpname source="lcnaf" encodinganalog="610">                     
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='a'],'\.$',''))"/>
+                      <corpname source="lcnaf">
+                        <xsl:attribute name="encodinganalog"><xsl:value-of select="./@tag"/></xsl:attribute>
+                        <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
                         
                         <xsl:for-each select="marc:subfield[@code='b']">
                           <xsl:text> </xsl:text>
-                          <xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
+                           <xsl:value-of select="normalize-space(.)"/> 
                         </xsl:for-each>
-                        
+                      
                         <xsl:for-each select="marc:subfield[@code='x'] | marc:subfield[@code='v'] | marc:subfield[@code='y'] | marc:subfield[@code='z']">
                           <xsl:text> -- </xsl:text>
                           <xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
                         </xsl:for-each>
                       </corpname>
-                    
                   </xsl:when>
-                  <xsl:otherwise>
+                  
+                  <xsl:when test="marc:subfield[@code='b'] and not(marc:subfield[@code='x'] or marc:subfield[@code='v'] or marc:subfield[@code='y'] or marc:subfield[@code='z'])">
                     
-                      <corpname source="lcnaf" encodinganalog="710">
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='a'],'\.$',''))"/>
-                        <xsl:for-each select="marc:subfield[@code='b']">
-                          <xsl:text> </xsl:text>
-                          <xsl:value-of select="normalize-space(.)"/>
-                        </xsl:for-each>
-                      </corpname>
+                    <corpname source="lcnaf">
+                      <xsl:attribute name="encodinganalog"><xsl:value-of select="./@tag"/></xsl:attribute>
+                      <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
+                      
+                      <xsl:for-each select="marc:subfield[@code='b']">
+                        <xsl:text> </xsl:text>
+                        <xsl:choose>
+                          <xsl:when test="position() = last()">
+                            <!-- Keep trailing period if fewer than 5 characters in last word. For abbreviations - SUCH A HACK!! -->
+                            <xsl:value-of select="normalize-space(replace(.,'(\w{5})\.$','$1'))"/>
+                          </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="normalize-space(.)"/> 
+                        </xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:for-each>               
+                    </corpname>
+                  </xsl:when>
+
+                  <xsl:when test="not(marc:subfield[@code='b'])">
                     
-                  </xsl:otherwise>
+                    <corpname source="lcnaf">
+                      <xsl:attribute name="encodinganalog"><xsl:value-of select="./@tag"/></xsl:attribute>
+                      <xsl:value-of select="normalize-space(replace(marc:subfield[@code='a'],'\.$',''))"/>
+                      
+                      <xsl:for-each select="marc:subfield[@code='x'] | marc:subfield[@code='v'] | marc:subfield[@code='y'] | marc:subfield[@code='z']">
+                        <xsl:text> -- </xsl:text>
+                        <xsl:value-of select="normalize-space(replace(.,'\.$',''))"/>
+                      </xsl:for-each>
+                    </corpname>
+                  </xsl:when>
                 </xsl:choose>
               </xsl:for-each>
             </xsl:if>
@@ -915,7 +940,8 @@
       <xsl:for-each select="marc:datafield[@tag='610'][@ind2='2'] | marc:datafield[@tag='710']">
         <xsl:sort select="marc:subfield[@code='a']"/>
                    
-            <corpname source="mesh" encodinganalog="610">
+            <corpname source="mesh">
+              <xsl:attribute name="encodinganalog"><xsl:value-of select="./@tag"/></xsl:attribute>
               <xsl:value-of select="normalize-space(marc:subfield[@code='a'])"/>
               <xsl:for-each select="marc:subfield[@code='b']">
                 <xsl:text> </xsl:text>
