@@ -145,22 +145,18 @@
 
                     <!-- Get all the subject, name, and place name headings and separate with semicolons -->
 
-                    <!-- Topical Subjects and Name Headings -->
+                    <!-- Topical Subjects and Name Headings. Also include full geographic headings (have lots of subdivisions) -->
                    <xsl:for-each select="ead:archdesc/ead:controlaccess">
-                            <xsl:value-of select="ead:subject|ead:persname|ead:corpname|ead:famname" separator="; "/>      
+                            <xsl:value-of select="ead:subject|ead:persname|ead:corpname|ead:famname|ead:geogname" separator="; "/>      
                    </xsl:for-each>
-                    <xsl:value-of select="$tab"/>
+                   <xsl:value-of select="$tab"/>
                    
-                   <!-- Spatial Geographic Headings -->
-                    <xsl:for-each select="ead:archdesc/ead:controlaccess">
-                        <xsl:value-of select="ead:geogname" separator="; "/>
-                    </xsl:for-each>
+                    <!-- Spatial Terms (by using first term in 651 heading). This works, but results in some dupe headings.  Not sure how to fix -->
+                    <xsl:value-of select="distinct-values(ead:archdesc/ead:controlaccess/ead:geogname/tokenize(., ' -- ')[1])" separator="; "/>
                     <xsl:value-of select="$tab"/>
                     
                     <!-- Format Headings (aat) -->
-                    <xsl:for-each select="ead:archdesc/ead:controlaccess">
-                        <xsl:value-of select="ead:genreform" separator="; "/>
-                    </xsl:for-each>
+                    <xsl:value-of select="ead:archdesc/ead:controlaccess/ead:genreform" separator="; "/>
                     <xsl:value-of select="$tab"/>
                     
                     <!-- EADID -->
