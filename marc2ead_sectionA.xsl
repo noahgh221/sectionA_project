@@ -55,8 +55,8 @@
 -->
   
 <!-- Hardcoded Date variable use in place of above, change as needed-->
-<xsl:variable name="Year" select="'2016'"/>
-<xsl:variable name="Month" select="'December'"/>
+<xsl:variable name="Year" select="'2017'"/>
+<xsl:variable name="Month" select="'January'"/>
 
 
 <!-- LANGUAGE VARIABLES Add more as needed-->
@@ -265,7 +265,7 @@
 </filedesc>
 
 <profiledesc>
-  <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl <date>December 2016</date></creation>
+  <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date></creation>
   <langusage>English</langusage>
   <descrules>Describing Archives: A Content Standard</descrules>
  </profiledesc>
