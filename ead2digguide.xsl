@@ -76,7 +76,10 @@
             <xsl:value-of select="$tab"/>  
             
             <xsl:text>oclc_num</xsl:text>
-            <xsl:value-of select="$tab"/> 
+            <xsl:value-of select="$tab"/>
+            
+            <xsl:text>rl_number</xsl:text>
+            <xsl:value-of select="$tab"/>
 
             <!-- Empty column, to be supplied after URI is established, ARKs? -->
             <xsl:text>dpc_id</xsl:text>
@@ -176,6 +179,10 @@
                     
                     <!-- OCLC Number -->
                     <xsl:value-of select="//ead:num[@type='oclc']"/>
+                    <xsl:value-of select="$tab"/>
+                    
+                    <!-- RL Number (collection number) -->
+                    <xsl:value-of select="ead:archdesc/ead:did/ead:unitid"/>
                     <xsl:value-of select="$tab"/>
                     
                     <!-- DPC_ID: Empty column -->
