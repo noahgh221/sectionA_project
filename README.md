@@ -22,4 +22,4 @@ Various files (MARC, EAD) and helper scripts (XSLT) related to the Rubenstein Li
 
 * **sectionA_oxygen_project.xpr** - an Oxygen XML editor project file that contains Oxygen settings for various views, translation scenarios, and validation scenarios.
 
-* **as_seca_publish_update_eads** - A Python script that reads a TSV file in /digguides and uses the value of the EADID column to batch lookup resource records using the ASpace API and then export them as EAD. The script also correctly parses the resource record identifier into two fields in ASpace (id_0 and id_1) and posts it back with the finding_aid_status value of "published".
+* **as_seca_publish_update_eads** - A Python script that reads a TSV file in /digguides and uses the value of the EADID column to batch lookup resource records in ArchivesSpace using the ArchivesSpace API and then export them as EAD. The script also correctly parses the resource record identifier into two fields in ASpace (id_0 and id_1) and posts it back with the finding_aid_status value of "published".
