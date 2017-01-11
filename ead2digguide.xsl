@@ -73,7 +73,10 @@
             <xsl:value-of select="$tab"/>
             
             <xsl:text>finding_aid_url</xsl:text>
-            <xsl:value-of select="$tab"/>            
+            <xsl:value-of select="$tab"/>  
+            
+            <xsl:text>oclc_num</xsl:text>
+            <xsl:value-of select="$tab"/> 
 
             <!-- Empty column, to be supplied after URI is established, ARKs? -->
             <xsl:text>dpc_id</xsl:text>
@@ -167,8 +170,12 @@
                     <xsl:value-of select="//ead:c01[1]/@id"/>
                     <xsl:value-of select="$tab"/>
                     
-                    <!-- Finding Aid URI -->
+                    <!-- Finding Aid URL -->
                     <xsl:value-of select="ead:eadheader/ead:eadid/@url"/>
+                    <xsl:value-of select="$tab"/>
+                    
+                    <!-- OCLC Number -->
+                    <xsl:value-of select="//ead:num[@type='oclc']"/>
                     <xsl:value-of select="$tab"/>
                     
                     <!-- DPC_ID: Empty column -->

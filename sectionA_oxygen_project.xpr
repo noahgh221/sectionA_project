@@ -4,17 +4,17 @@
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="17.0" xml:space="preserve">
-                <map>
+                <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ead/seca_002/adgerjohnbpapers-001585360.xml</String>
+                                    <String>marcxml/seca_001.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>ead2digguide</String>
+                                        <String>marc2ead_sectionA</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,11 +25,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>marcxml/seca_001.xml</String>
+                                    <String>ead/seca_002/adgerjohnbpapers-001585360.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>marc2ead_sectionA</String>
+                                        <String>ead2digguide</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -217,7 +217,7 @@
                             </scenario>
                         </scenario-array>
                     </entry>
-                </map>
+                </serializableOrderedMap>
             </serialized>
         </options>
     </meta>
@@ -226,5 +226,7 @@
         <folder path="ead/"/>
         <folder path="marc/"/>
         <folder path="marcxml/"/>
+        <file name="ead2digguide.xsl"/>
+        <file name="marc2ead_sectionA.xsl"/>
     </projectTree>
 </project>

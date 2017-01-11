@@ -17,7 +17,7 @@
 
 <xsl:output indent="no" method="text" encoding="UTF-8"/>
 
-<!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. Find the next available RL number in ASpace -->
+<!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. Find the last used RL number in ASpace and put below, will use next number -->
 <xsl:variable name="RLID" select="30017" saxon:assignable="yes"/>
  
 <!-- Variables for outputing digitization guide as TSV file.     Currently using a separate XSLT for creating the digguide-->
