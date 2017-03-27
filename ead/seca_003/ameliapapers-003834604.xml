@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Amelia Ball Coppuck Welby papers, 1838-1922 and undated. //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/ameliapapers-003834604/">ameliapapers-003834604</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Amelia Ball Coppuck Welby papers, 1838-1922 and undated.</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003834604</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">191734494</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30045</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Amelia, 1819-1852</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Amelia Ball Coppuck Welby papers</unittitle>
+         <unitdate normal="1838/1922"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1838-1922 and undated.</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>0.1 linear feet</extent>
+         </physdesc>
+         <abstract>Collection contains items related to Amelia's work and her close, extended family. Items related to her book, POEMS, include a subscription order form (undated, probably 1846) as well as two legal documents (1844, 1846) regarding copyright issues. There are also 13 newspaper articles (1901-1922 and undated) about Amelia and her work; a postcard showing her birthplace in St. Michael's, Md.; a black-and-white photograph of her burial plot in Louisville, Ky.; and an envelope with genealogical information, all undated.There are 6 letters (1838-1853) in the collection. The earliest is by Amelia (28 Jan. 1938) to her cousin, Thomas Martin. Amelia writes about what her relations think of her, the flattery she receives, the popularity of her poetry and her resulting fame, and her prospects for marriage. The next is by John Welby (26 March 1846) in Liverpool, England, to Amelia's husband, merchant George Welby, in Louisville, Ky. His topics include English politics, especially the elections of Gladstone and Pelham-Clinton; trade, including free trade and expected bad news regarding trade in the East Indies; and the effects of a recent snow on crops. The final letters are by George Welby to his brother, Thomas (5 Jan. 1853, 28 Feb. 1853, 9 July 1853), and to Thomas' wife and Amelia's sister, Mary (24 Nov. 1852), who are residents of St. Michael's, Md. George Welby's topics include the visits of relatives, travel plans for himself and other family members; the "Lamdin case," a legal suit regarding a dispute over land; other business matters; the placement of a monument (possibly the one on Amelia's grave); the prospects for sale of his farm so that he might relocate to St. Michael's; the potential sale of whiskey shipped to Thomas. He recommends that Thomas avoid purchasing machinery for use on his farm and shares his dismay regarding the difficulty of finding drinking company on Maryland's Eastern Shore. However, his main theme is the newborn son he is raising since Amelia's death, including the resulting difficulties of housekeeping, the portrait being painted of the boy, his love for the child, and his inability to be separated from this last link to Amelia or to entertain the suggestion that Mary and Thomas should raise the boy.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Amelia Ball Coppuck Welby Papers, 1838-1922 and undated., David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Gift 2007, 2007-0012 1 lin ft</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Poet; resident of St. Michaels, Md., and Louisville, Ky.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains items related to Amelia's work and her close, extended family. Items related to her book, POEMS, include a subscription order form (undated, probably 1846) as well as two legal documents (1844, 1846) regarding copyright issues. There are also 13 newspaper articles (1901-1922 and undated) about Amelia and her work; a postcard showing her birthplace in St. Michael's, Md.; a black-and-white photograph of her burial plot in Louisville, Ky.; and an envelope with genealogical information, all undated.</p>
+         <p>There are 6 letters (1838-1853) in the collection. The earliest is by Amelia (28 Jan. 1938) to her cousin, Thomas Martin. Amelia writes about what her relations think of her, the flattery she receives, the popularity of her poetry and her resulting fame, and her prospects for marriage. The next is by John Welby (26 March 1846) in Liverpool, England, to Amelia's husband, merchant George Welby, in Louisville, Ky. His topics include English politics, especially the elections of Gladstone and Pelham-Clinton; trade, including free trade and expected bad news regarding trade in the East Indies; and the effects of a recent snow on crops. The final letters are by George Welby to his brother, Thomas (5 Jan. 1853, 28 Feb. 1853, 9 July 1853), and to Thomas' wife and Amelia's sister, Mary (24 Nov. 1852), who are residents of St. Michael's, Md. George Welby's topics include the visits of relatives, travel plans for himself and other family members; the "Lamdin case," a legal suit regarding a dispute over land; other business matters; the placement of a monument (possibly the one on Amelia's grave); the prospects for sale of his farm so that he might relocate to St. Michael's; the potential sale of whiskey shipped to Thomas. He recommends that Thomas avoid purchasing machinery for use on his farm and shares his dismay regarding the difficulty of finding drinking company on Maryland's Eastern Shore. However, his main theme is the newborn son he is raising since Amelia's death, including the resulting difficulties of housekeeping, the portrait being painted of the boy, his love for the child, and his inability to be separated from this last link to Amelia or to entertain the suggestion that Mary and Thomas should raise the boy.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from items.</p>
+      </odd>
+      <odd>
+         <p>For material cataloged separately, search "From the Amelia Ball Coppuck Welby Papers" as keyword phrase.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Poets, American -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Poets, American -- 19th century -- Family relationships</subject>
+         <subject source="lcsh" encodinganalog="650">Families -- United States -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Fatherhood -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Fathers -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Property -- United States -- Cases</subject>
+         <subject source="lcsh" encodinganalog="650">Real property -- United States -- Cases</subject>
+         <persname source="lcnaf" encodinganalog="600">Gladstone, W. E. (William Ewart), 1809-1898</persname>
+         <persname source="lcnaf" encodinganalog="600">Martin, Thomas</persname>
+         <persname source="lcnaf" encodinganalog="600">Newcastle, Henry Pelham Fiennes Pelham Clinton, Duke of, 1785-1851</persname>
+         <persname source="lcnaf" encodinganalog="600">Welby, George (George Clarence), 1812-</persname>
+         <persname source="lcnaf" encodinganalog="700">Welby, George (George Clarence), 1812- ,correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="600">Welby, Mary Martin Coppuck, 1814-1906</persname>
+         <persname source="lcnaf" encodinganalog="600">Welby, Thomas J., 1814-</persname>
+         <famname source="lcnaf" encodinganalog="600">Welby family</famname>
+         <geogname source="lcsh" encodinganalog="651">England -- Commerce -- History -- 19th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">Great Britain -- Politics and government -- 1837-1901</geogname>
+         <geogname source="lcsh" encodinganalog="651">Louisville (Ky.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">St. Michael's Parish (Talbot County, Md.)</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Commerce -- History -- 19th century</geogname>
+         <genreform source="aat" encodinganalog="655">Photograph</genreform>
+         <genreform source="aat" encodinganalog="655">Postcard</genreform>
+         <genreform source="aat" encodinganalog="655">Black-and-white photograph</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-cf34da42-b753-4dd5-ad06-49b6e99860b1" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Amelia Ball Coppuck Welby papers</unittitle>
+               <unitdate>1838-1922 and undated.</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
