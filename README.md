@@ -1,6 +1,8 @@
 # sectionA_project
 Various files (MARC, EAD) and helper scripts (XSLT) related to the Rubenstein Library's project to digitize roughly 3,000 small, mostly single-folder, manuscript collections that are housed in "Section A."
 
+Metadata crosswalk documentation: https://docs.google.com/document/d/1h-CaFHsyN3rciROCE5WiADGm8f9ZP6dwnsuKsauBL0U/edit
+
 ## What's in here?
 
 ### Subfolders:
