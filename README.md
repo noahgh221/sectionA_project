@@ -16,7 +16,7 @@ Metadata crosswalk documentation: https://docs.google.com/document/d/1h-CaFHsyN3
 * **/digguides** - contains TSV files created by processing all XML files within a subfolder of /EAD (ead/secA_001) using ead2digguides.xsl
 
 ### Scripts and such
-* **marc2ead_sectionA.xsl** - converts a batch MARCXML file into individual EAD files suitable for importing into ArchivesSpace
+* **marc2ead_sectionA.xsl** - An old, repurposed, and convoluted XSLT that converts a batch MARCXML file into individual EAD files suitable for importing into ArchivesSpace.
 
 * **ead2digguide.xsl** - processes all EAD files within a subfolder (e.g. ead/secA_001) to create a single digitization guide (TSV). The digitization guide can be used to facilitate digitization, repository ingest, and as the basis for repository metadata.
 
