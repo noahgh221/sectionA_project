@@ -25,3 +25,5 @@ Metadata crosswalk documentation: https://docs.google.com/document/d/1h-CaFHsyN3
 * **sectionA_oxygen_project.xpr** - an Oxygen XML editor project file that contains Oxygen settings for various views, translation scenarios, and validation scenarios.
 
 * **as_seca_publish_update_eads.py** - A Python script that reads a TSV file in /digguides and uses the value of the EADID column to batch lookup resource records in ArchivesSpace using the ArchivesSpace API and then export them as EAD. The script also correctly parses the resource record identifier into two fields in ASpace (id_0 and id_1) and posts it back with the finding_aid_status value of "published".
+
+* **sectionA_oxygen_project.xpr** - An Oxygen project for organizing all this transformation nonsense.
