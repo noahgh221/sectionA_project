@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Thomas T. Armstrong papers, 1813-1833 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/armstrongthomastpapers-001616509/">armstrongthomastpapers-001616509</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Thomas T. Armstrong papers, 1813-1833</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001616509</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">31427860</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30086</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Armstrong, Thomas T.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Thomas T. Armstrong papers</unittitle>
+         <unitdate normal="1813/1833"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1813-1833</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>6 items</extent>
+         </physdesc>
+         <abstract>Letters concerning land claims, speculations, and litigation in Tennessee; and a benefit lottery for Oxford (N.C.) Academy.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Thomas T. Armstrong Papers, 1813-1833, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>North Carolina resident (Stokes County).</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters concerning land claims, speculations, and litigation in Tennessee; and a benefit lottery for Oxford (N.C.) Academy.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Lotteries -- North Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Speculation -- Tennessee</subject>
+         <corpname source="lcnaf" encodinganalog="610">Oxford Academy (N.C.)</corpname>
+         <geogname source="lcsh" encodinganalog="651">Oxford (N.C.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">Tennessee -- Trials, litigation, etc</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-d0427822-fc8d-4fb0-8077-8502a7e94b6a" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Thomas T. Armstrong papers</unittitle>
+               <unitdate>1813-1833</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

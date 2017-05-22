@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Ellen Aumack papers, 1864-1865 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/aumackellenpapers-000887875/">aumackellenpapers-000887875</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Ellen Aumack papers, 1864-1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000887875</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20574593</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30099</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Aumack, Ellen</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Ellen Aumack papers</unittitle>
+         <unitdate normal="1864/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1864-1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>9 items</extent>
+         </physdesc>
+         <abstract>Collection consists primarily of Civil War letters to Ellen Aumack from Sergeant Young J. Powell of Company K, 2nd Regiment, Iowa Infantry Veteran Volunteers. Powell's first three letters were written from Tennessee, where he had been separated from his regiment. He wintered there and reports news about Sherman's army. Two letters then written from Goldsboro and Raleigh, N.C., after Powell had rejoined his regiment. He wrote about the ending of the Civil War, with topics including General Sherman's army, the surrender of General Johnston, and Abraham Lincoln's assassination. Following the war, Powell wrote from Washington, D.C., discussing troop movements and reviews. The collection includes one letter from Aumack to Powell, as well as his discharge certificate.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Ellen Aumack Papers, 1864-1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Port Richmond (Wapello Co.), Iowa.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection consists primarily of Civil War letters to Ellen Aumack from Sergeant Young J. Powell of Company K, 2nd Regiment, Iowa Infantry Veteran Volunteers. Powell's first three letters were written from Tennessee, where he had been separated from his regiment. He wintered there and reports news about Sherman's army. Two letters then written from Goldsboro and Raleigh, N.C., after Powell had rejoined his regiment. He wrote about the ending of the Civil War, with topics including General Sherman's army, the surrender of General Johnston, and Abraham Lincoln's assassination. Following the war, Powell wrote from Washington, D.C., discussing troop movements and reviews. The collection includes one letter from Aumack to Powell, as well as his discharge certificate.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Sherman's March through the Carolinas</subject>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- United States -- Correspondence</subject>
+         <persname source="lcnaf" encodinganalog="700">Powell, Young J.,correspondent.</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Iowa Infantry Regiment, 2nd (1861-1864)</corpname>
+         <geogname source="lcsh" encodinganalog="651">Goldsboro (N.C.) -- History -- 19th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">North Carolina -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">Raleigh (N.C.) -- History -- 19th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">Tennessee -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-d720b2ea-9adb-4e15-a33b-432bc9b663d1" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Ellen Aumack papers</unittitle>
+               <unitdate>1864-1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
