@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Trueman Avery papers, 1868 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/averytruemangpapers-000844091/">averytruemangpapers-000844091</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Trueman Avery papers, 1868</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000844091</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19210927</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30116</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Avery, Trueman G.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Trueman Avery papers</unittitle>
+         <unitdate normal="1868/1868"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1868</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>6 items</extent>
+         </physdesc>
+         <abstract>Diary of a trip made by Avery and his wife travelling by steamboat, railroad, and stagecoach from New Orleans to Washington, D.C. He describes the cities of Mobile, Montgomery, Macon, Savannah, Jacksonville (Fla.), Charleston, Wilmington, Richmond, and Washington, among others. Along the way he met Mayor Gustavus Horton of Mobile and Governor Robert M. Patton of Alabama, discussing with them the progress of Reconstruction; and author and diplomat John Bigelow. He also attended services at African American Methodist churches in Mobile and Charleston; and saw freedmen in the Catholic cathedral in Mobile.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Trueman Avery Papers, 1868, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Buffalo (Erie County), N.Y.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Diary of a trip made by Avery and his wife travelling by steamboat, railroad, and stagecoach from New Orleans to Washington, D.C. He describes the cities of Mobile, Montgomery, Macon, Savannah, Jacksonville (Fla.), Charleston, Wilmington, Richmond, and Washington, among others. Along the way he met Mayor Gustavus Horton of Mobile and Governor Robert M. Patton of Alabama, discussing with them the progress of Reconstruction; and author and diplomat John Bigelow. He also attended services at African American Methodist churches in Mobile and Charleston; and saw freedmen in the Catholic cathedral in Mobile.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Reconstruction (U.S. history, 1865-1877) -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">African American Methodists -- Alabama -- Mobile</subject>
+         <subject source="lcsh" encodinganalog="650">African American Methodists -- South Carolina -- Charleston</subject>
+         <subject source="lcsh" encodinganalog="650">African American Catholics -- Alabama -- Mobile</subject>
+         <persname source="lcnaf" encodinganalog="600">Bigelow, John, 1817-1911</persname>
+         <persname source="lcnaf" encodinganalog="600">Horton, Gustavus</persname>
+         <persname source="lcnaf" encodinganalog="600">Patton, Robert M.</persname>
+         <geogname source="lcsh" encodinganalog="651">Alabama -- Politics and government -- 1865-1950</geogname>
+         <geogname source="lcsh" encodinganalog="651">Charleston (S.C.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Jacksonville (Fla.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Macon (Ga.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Mobile (Ala.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Montgomery (Ala.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Richmond (Va.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Savannah (Ga.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Southern States -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Washington (D.C.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Wilmington (N.C.) -- Description and travel</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-7a254de5-2502-4df1-8f07-285f2880b1d6" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Trueman Avery papers</unittitle>
+               <unitdate>1868</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
