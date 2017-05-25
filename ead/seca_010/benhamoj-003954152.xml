@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::O.J. Benham typescript diary, 1865 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/benhamoj-003954152/">benhamoj-003954152</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the O.J. Benham typescript diary, 1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003954152</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">794233146</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30207</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Benham, O. J.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">O.J. Benham typescript diary</unittitle>
+         <unitdate normal="1865/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>0.1 linear feet</extent>
+         </physdesc>
+         <abstract>Typescript of diary (19 pages) kept by O.J. Benham, a soldier in the Fourth Corps of the Army of the Cumberland. Diary begins on February 24, 1865 when Benham left Tiffin, Ohio on his way south and ends on June 15, 1865 when Tiffin mustered out and arrived at Cincinnati, Ohio. Diary entries are brief and typically describe his movements, correspondence with his wife, weather, and other routine matters.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>O.J. Benham typescript diary, 1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Gift 1965</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>O.J. Benham, possibly of Tiffin, Ohio, was a soldier in the Fourth Corps of the Army of the Cumberland.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Typescript of diary (19 pages) kept by O.J. Benham, a soldier in the Fourth Corps of the Army of the Cumberland. Diary begins on February 24, 1865 when Benham left Tiffin, Ohio on his way south and ends on June 15, 1865 when Tiffin mustered out and arrived at Cincinnati, Ohio. Diary entries are brief and typically describe his movements, correspondence with his wife, weather, and other routine matters.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from item.</p>
+      </odd>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Benham, O. J.</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army of the Cumberland</corpname>
+         <geogname source="lcsh" encodinganalog="651">Tiffin (Ohio) -- History -- 19th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865</geogname>
+         <genreform source="aat" encodinganalog="655">Diaries</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-d17d88af-1cf2-4b46-bcbe-3b50f9542217" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>O.J. Benham typescript diary</unittitle>
+               <unitdate>1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

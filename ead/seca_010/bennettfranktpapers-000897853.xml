@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Frank Bennett papers, 1862-1864 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/bennettfranktpapers-000897853/">bennettfranktpapers-000897853</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Frank Bennett papers, 1862-1864</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000897853</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20839550</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30205</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Bennett, Frank T.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Frank Bennett papers</unittitle>
+         <unitdate normal="1862/1864"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1862-1864</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 items</extent>
+         </physdesc>
+         <abstract>Civil War diary (94 p.) records the experiences of Lt. Col. Frank T. Bennett as a prisoner of war in Confederate prisons in Charleston and Columbia, S.C., from March 18 to October 10, 1862. There is also an entry about his capture during the Battle of Drewry's Bluff, 1864, and imprisonment in Libby Prison, Richmond, during May 16-October 8 1864.Bennett speaks well of Southerners in general despite the hardships of prison life, and records his views of Northern military and political tactics. The volume begins with a series of poems and there are a few poems interspersed in the diary entries. A loose item consists of a brief chronoloy of the war and the military service of Frank and of Horace C. Bennett. Horace (d. 1862) may have been Frank's brother.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Frank Bennett Papers, 1862-1864, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Union Army officer with the 55th Regiment, Pennsylvania Volunteer Infantry; from Minersville (Schuylkill Co.), Pa.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Civil War diary (94 p.) records the experiences of Lt. Col. Frank T. Bennett as a prisoner of war in Confederate prisons in Charleston and Columbia, S.C., from March 18 to October 10, 1862. There is also an entry about his capture during the Battle of Drewry's Bluff, 1864, and imprisonment in Libby Prison, Richmond, during May 16-October 8 1864.</p>
+         <p>Bennett speaks well of Southerners in general despite the hardships of prison life, and records his views of Northern military and political tactics. The volume begins with a series of poems and there are a few poems interspersed in the diary entries. A loose item consists of a brief chronoloy of the war and the military service of Frank and of Horace C. Bennett. Horace (d. 1862) may have been Frank's brother.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Prisoners of war -- Political and social views</subject>
+         <subject source="lcsh" encodinganalog="650">Prisoners' writings, American</subject>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- United States -- Political and social views</subject>
+         <persname source="lcnaf" encodinganalog="600">Bennett, Horace C., d. 1862</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army -- Officers -- Diaries</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Pennsylvania Infantry Regiment, 55th (1861-1865)</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Personal narratives</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Prisoners and prisons</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-caeb8b07-b360-402e-81a5-225b45606fa8" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Frank Bennett papers</unittitle>
+               <unitdate>1862-1864</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
