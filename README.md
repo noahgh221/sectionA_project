@@ -3,6 +3,8 @@ Various files (MARC, EAD) and helper scripts (XSLT) related to the Rubenstein Li
 
 Metadata crosswalk documentation: https://docs.google.com/document/d/1h-CaFHsyN3rciROCE5WiADGm8f9ZP6dwnsuKsauBL0U/edit
 
+MARC Remediation documentation: https://docs.google.com/document/d/1HkPQVHVkSo1Fq1k7zmu9xyrS2Ic7smPt3FYEKBI_5-E/edit?usp=sharing
+
 ## What's in here?
 
 ### Subfolders:
