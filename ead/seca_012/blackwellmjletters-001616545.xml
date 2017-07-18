@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::M. J. Blackwell letters, 1845-1852 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/blackwellmjletters-001616545/">blackwellmjletters-001616545</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the M. J. Blackwell Letters, 1845-1852</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001616545</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">31421740</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30231</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Blackwell, M. J.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">M. J. Blackwell letters</unittitle>
+         <unitdate normal="1845/1852"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1845-1852</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>8 items</extent>
+         </physdesc>
+         <abstract>Letters from Blackwell, a Methodist minister, to his brother Edmund B. Blackwell. Letters contain advice about moving from South Carolina to Mississippi or Alabama. Among topics are produce prices; crop conditions; commercial advantages; and land speculation. Blackwell wrote about sickness in his community, mentioning hemorrage of the lungs, bronchitis, bloody flux, congestive chills, typhoid, and cholera. Blackwell owned slaves, and commented on their health as well. Occasional religious exhortations are included, as well as comments on revivals, conferences, and conversions. In letter dated 1852 Dec. 29, the author described a hurricane in the Mississippi delta and referred to Judge Longstreet and the University of Mississippi.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>M. J. Blackwell letters, 1845-1852, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1979</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Methodist minister in Mississippi.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters from Blackwell, a Methodist minister, to his brother Edmund B. Blackwell. Letters contain advice about moving from South Carolina to Mississippi or Alabama. Among topics are produce prices; crop conditions; commercial advantages; and land speculation. Blackwell wrote about sickness in his community, mentioning hemorrage of the lungs, bronchitis, bloody flux, congestive chills, typhoid, and cholera. Blackwell owned slaves, and commented on their health as well. Occasional religious exhortations are included, as well as comments on revivals, conferences, and conversions. In letter dated 1852 Dec. 29, the author described a hurricane in the Mississippi delta and referred to Judge Longstreet and the University of Mississippi.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Methodist Church -- Mississippi -- Clergy</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery and the church -- Mississippi -- Methodist Church</subject>
+         <subject source="lcsh" encodinganalog="650">Real estate investment -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">Real estate investment -- Mississippi</subject>
+         <subject source="lcsh" encodinganalog="650">Slaves -- Health and hygiene -- Southern States -- History</subject>
+         <subject source="lcsh" encodinganalog="650">Agriculture -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">Agriculture -- Mississippi</subject>
+         <subject source="lcsh" encodinganalog="650">Emigration and immigration</subject>
+         <subject source="lcsh" encodinganalog="650">Diseases -- Southern States -- History</subject>
+         <subject source="lcsh" encodinganalog="650">Hurricanes -- Mississippi</subject>
+         <persname source="lcnaf" encodinganalog="600">Blackwell, Edmund R.</persname>
+         <persname source="lcnaf" encodinganalog="600">Longstreet, Augustus Baldwin, 1790-1870</persname>
+         <corpname source="lcnaf" encodinganalog="610">University of Mississippi -- History</corpname>
+         <geogname source="lcsh" encodinganalog="651">Alabama -- Emigration and immigration</geogname>
+         <geogname source="lcsh" encodinganalog="651">Mississippi -- Emigration and immigration</geogname>
+         <geogname source="lcsh" encodinganalog="651">South Carolina -- Emigration and immigration</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-9a5e6e38-ef10-40d5-b631-f07e8dddbde6" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>M. J. Blackwell letters</unittitle>
+               <unitdate>1845-1852</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

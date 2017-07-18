@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::La situation : 1861 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/blanclouis-000844139/">blanclouis-000844139</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the La situation : 1861</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000844139</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19212139</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30249</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Blanc, Louis, 1811-1882</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">La situation :</unittitle>
+         <unitdate normal="1861/1861"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Manuscript of an article attacking the May Law, a restrictive French election law of 1850 that deprived 3 of the 10 million possible voters of their eligibility. The electoral reform comission was appointed on May 1; a week later the draft measure was introduced in the National Assembly and was revised and passed. The new law went into effect on May 31. Blanc's article, "La Situation," attacked the proposed law. This manuscript is dated May 15, 1850, and was apparently intended for publication in "Le Nouveau Monde," but a note on the article's last page indicates that the printer has refused to print it. The May 15 issue of "Le Nouveau Monde" mentions Blanc's missing article; this manuscript appears to be that deleted article.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>La situation : 1861, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>French socialist and politician (1811-1882); resident of Paris. Blanc fled to England following a failed workers' revolt in 1848. In 1849 he founded a journal, Le Nouveau Monde, Journal Historique et Politique, that was published in France from July 1849 until March 1851.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Manuscript of an article attacking the May Law, a restrictive French election law of 1850 that deprived 3 of the 10 million possible voters of their eligibility. The electoral reform comission was appointed on May 1; a week later the draft measure was introduced in the National Assembly and was revised and passed. The new law went into effect on May 31. Blanc's article, "La Situation," attacked the proposed law. This manuscript is dated May 15, 1850, and was apparently intended for publication in "Le Nouveau Monde," but a note on the article's last page indicates that the printer has refused to print it. The May 15 issue of "Le Nouveau Monde" mentions Blanc's missing article; this manuscript appears to be that deleted article.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Socialist parties -- France</subject>
+         <subject source="lcsh" encodinganalog="650">Censorship -- France</subject>
+         <subject source="lcsh" encodinganalog="650">Election law -- France</subject>
+         <subject source="lcsh" encodinganalog="650">Freedom of the press -- France</subject>
+         <geogname source="lcsh" encodinganalog="651">France -- Politics and government -- 19th century</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-289cb80d-d3f2-4e17-8271-79797c47b4b6" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>La situation :</unittitle>
+               <unitdate>1861</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

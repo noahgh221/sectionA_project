@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>01579cpcaa2200385Ii 4500</marc:leader>
+        <marc:controlfield tag="001">002045979</marc:controlfield>
+        <marc:controlfield tag="005">20170717150023.0</marc:controlfield>
+        <marc:controlfield tag="008">960118i18201832kyu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">34052634</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCG</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCLCA</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-ky</marc:subfield>
+            <marc:subfield code="a">n-us---</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boone, Hiram Cassel,</marc:subfield>
+            <marc:subfield code="e">correspondent.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Hiram Cassel Boone letters,</marc:subfield>
+            <marc:subfield code="f">1820-1832.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1820-1832.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">4 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Kentucky resident (Meade County).</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Letters from Congressmen Jonathan Jennings, Ratliff Boon, and John Tipton to H.C. Boone (b. 1789) concerning Boone's claim against the government, and one letter referring to Boone's wedding.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Jennings, Jonathan,</marc:subfield>
+            <marc:subfield code="d">1784-1834.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Boon, Ratliff,</marc:subfield>
+            <marc:subfield code="d">1781-1844.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Tipton, John,</marc:subfield>
+            <marc:subfield code="d">1786-1839.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Weddings</marc:subfield>
+            <marc:subfield code="z">Kentucky.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">Claims.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Government liability</marc:subfield>
+            <marc:subfield code="z">United States.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="7">
+            <marc:subfield code="a">Boon, Ratliff,</marc:subfield>
+            <marc:subfield code="d">1781-1844.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00313767</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="7">
+            <marc:subfield code="a">Jennings, Jonathan,</marc:subfield>
+            <marc:subfield code="d">1784-1834.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00143240</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="7">
+            <marc:subfield code="a">Tipton, John,</marc:subfield>
+            <marc:subfield code="d">1786-1839.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00289028</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Government liability.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00945404</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Weddings.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01173328</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">Kentucky.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01204494</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01204155</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Claims.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01774244</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01601cpcaa2200385Ii 4500</marc:leader>
+        <marc:controlfield tag="001">002045977</marc:controlfield>
+        <marc:controlfield tag="005">20170717150219.0</marc:controlfield>
+        <marc:controlfield tag="008">960118i18341891vau                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">34052638</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCL</marc:subfield>
+            <marc:subfield code="d">OCLCA</marc:subfield>
+            <marc:subfield code="d">OCL</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-va</marc:subfield>
+            <marc:subfield code="a">e-uk-en</marc:subfield>
+            <marc:subfield code="a">n-us---</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bondurant, Thomas M.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Thomas M. Bondurant letters,</marc:subfield>
+            <marc:subfield code="f">1834-1891.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1834-1891.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">18 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Virginia politician.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Business and political correspondence of Thomas M. Bondurant, Virginia politican, containing comments on the Liverpool tobacco market and the Jacksonian financial policy.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Legislators</marc:subfield>
+            <marc:subfield code="z">Virginia</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Tobacco industry</marc:subfield>
+            <marc:subfield code="z">England</marc:subfield>
+            <marc:subfield code="z">Liverpool.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Banks and banking</marc:subfield>
+            <marc:subfield code="z">United States</marc:subfield>
+            <marc:subfield code="x">History.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">Politics and government</marc:subfield>
+            <marc:subfield code="y">1829-1837.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Banks and banking.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00826867</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Legislators.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00995828</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Politics and government</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01919741</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Tobacco industry.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01151931</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">England</marc:subfield>
+            <marc:subfield code="z">Liverpool.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01208523</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01204155</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">Virginia.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01204597</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="648" ind1=" " ind2="7">
+            <marc:subfield code="a">1829-1837</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">History.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01411628</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Records and correspondence.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01423917</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    
+    <marc:record>
+        <marc:leader>00883cpcaa2200253Ii 4500</marc:leader>
+        <marc:controlfield tag="001">001634366</marc:controlfield>
+        <marc:controlfield tag="005">20170717145831.0</marc:controlfield>
+        <marc:controlfield tag="008">941129i18361836nyu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">31526774</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-ny</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bolton, John,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">John Bolton letter,</marc:subfield>
+            <marc:subfield code="f">1836.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1836.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1</marc:subfield>
+            <marc:subfield code="f">item.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">New York businessman.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Routine business letter, with copy of another enclosed, from Baring Brothers and Company, London, to John Bolton, agent for the Planters Bank in New York.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="2" ind2="0">
+            <marc:subfield code="a">Baring Brothers and Company (London, England)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="2" ind2="0">
+            <marc:subfield code="a">Planters Bank (N.Y.)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Business records</marc:subfield>
+            <marc:subfield code="z">New York (State)</marc:subfield>
+            <marc:subfield code="z">New York.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01167cpcaa2200289Ii 4500</marc:leader>
+        <marc:controlfield tag="001">002050932</marc:controlfield>
+        <marc:controlfield tag="005">20170717150839.0</marc:controlfield>
+        <marc:controlfield tag="008">960201s1838    nyu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">34122323</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCG</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bogart, John A.,</marc:subfield>
+            <marc:subfield code="e">correspondent.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">John A. Bogart letter,</marc:subfield>
+            <marc:subfield code="f">1838.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1838.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1 item.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Collector of the customs for New York.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Routine letter from Mahlon Dickerson (1770-1853), U.S. senator from New Jersey, to Bogart, collector of the customs in New York.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Dickerson, Mahlon,</marc:subfield>
+            <marc:subfield code="d">1770-1853.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Legislators</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Customs administration</marc:subfield>
+            <marc:subfield code="x">Officials and employees.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="7">
+            <marc:subfield code="a">Dickerson, Mahlon,</marc:subfield>
+            <marc:subfield code="d">1770-1853.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00164291</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Customs administration</marc:subfield>
+            <marc:subfield code="x">Officials and employees.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00885589</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Legislators.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00995828</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Records and correspondence.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01423917</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01131cpcaa2200289Ii 4500</marc:leader>
+        <marc:controlfield tag="001">000887883</marc:controlfield>
+        <marc:controlfield tag="005">20170717150953.0</marc:controlfield>
+        <marc:controlfield tag="008">891031i18431909vau                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">20574647</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-nc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bolling, Richard M.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Richard M. Bolling papers,</marc:subfield>
+            <marc:subfield code="f">1843-1909.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1843-1909.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">18 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Chiefly the business papers of Captain Richard M. Bolling, Engineer in Charge of Survey of the Seaboard Airline Railway Company. Included are three postcards and some genealogical information.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="z">North Carolina.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="x">Surveying.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="2" ind2="0">
+            <marc:subfield code="a">Seaboard Air Line Railway Company.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="2" ind2="7">
+            <marc:subfield code="a">Seaboard Air Line Railway Company.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00622796</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Railroads.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01088711</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="x">Surveying.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01089215</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">North Carolina.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01204304</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01040cpcaa2200289Ii 4500</marc:leader>
+        <marc:controlfield tag="001">000846337</marc:controlfield>
+        <marc:controlfield tag="005">20170717151110.0</marc:controlfield>
+        <marc:controlfield tag="008">890228i18491871scu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">19276282</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-sc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boinest, Thaddeus S.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Thaddeus S. Boinest papers,</marc:subfield>
+            <marc:subfield code="f">1849-1871.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1849-1871.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">26 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Lutheran minister and president of the Immigration Society of Newberry, S.C.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Correspondence chiefly on matters connected with the Immigration Society.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="2" ind2="0">
+            <marc:subfield code="a">Immigration Society of Newberry, S.C.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Lutheran Church</marc:subfield>
+            <marc:subfield code="x">Clergy.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Church work with immigrants</marc:subfield>
+            <marc:subfield code="z">South Carolina.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Immigrants</marc:subfield>
+            <marc:subfield code="z">South Carolina.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">South Carolina</marc:subfield>
+            <marc:subfield code="x">Social conditions.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="752" ind1=" " ind2=" ">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="b">South Carolina</marc:subfield>
+            <marc:subfield code="c">Newberry County</marc:subfield>
+            <marc:subfield code="d">Pomaria.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    
+    <marc:record>
+        <marc:leader>01340cpcaa2200361Ii 4500</marc:leader>
+        <marc:controlfield tag="001">002045980</marc:controlfield>
+        <marc:controlfield tag="005">20170717153444.0</marc:controlfield>
+        <marc:controlfield tag="008">960118i18521886miu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">34052640</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-mi</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Booth, Charles H.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Charles H. Booth letters,</marc:subfield>
+            <marc:subfield code="f">1852-1886.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1852-1886</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">12 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Michigan real estate and insurance agent.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Personal and business letters of a real estate and insurance agent, mentioning travel in Europe and discussing railroads.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Cataloged from Guide.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Europe</marc:subfield>
+            <marc:subfield code="x">Description and travel.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Insurance agents</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Real estate business</marc:subfield>
+            <marc:subfield code="z">Michigan.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Insurance agents.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00974633</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Railroads.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01088711</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Real estate business.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01090898</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Travel.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01155558</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">Europe.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01245064</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">Michigan.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01208387</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Records and correspondence.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01423917</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01156cpcaa2200289Ii 4500</marc:leader>
+        <marc:controlfield tag="001">001751735</marc:controlfield>
+        <marc:controlfield tag="005">20170717153641.0</marc:controlfield>
+        <marc:controlfield tag="008">950510i18531865ncu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">32452419</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us---</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bond, William Robert,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">William Robert Bond papers,</marc:subfield>
+            <marc:subfield code="f">1853-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1853-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">15 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Confederate soldier from Alamance County, N.C.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Largely family correspondence. An undated letter from Eli Torrance, Judge Advocate General of the Grand Army of the Republic, requests that Bond send him his pamphlet written &quot;in defense of the North Carolinians under Pettigrew at Gettysburg.&quot;</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="541" ind1=" " ind2=" ">
+            <marc:subfield code="c">Purchase,</marc:subfield>
+            <marc:subfield code="d">1972.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Unprocessed collection. Cataloged from accession record.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Torrance, Eli.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="2" ind2="0">
+            <marc:subfield code="a">Grand Army of the Republic</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">19th century.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="3" ind2="0">
+            <marc:subfield code="a">Bond family.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>00988cpcaa2200253Ii 4500</marc:leader>
+        <marc:controlfield tag="001">002050933</marc:controlfield>
+        <marc:controlfield tag="005">20170717153813.0</marc:controlfield>
+        <marc:controlfield tag="008">960201i18551857nyu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">34126653</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-usu--</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boggs, William Robertson,</marc:subfield>
+            <marc:subfield code="d">1829-1911,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">William Robertson Boggs letters,</marc:subfield>
+            <marc:subfield code="f">1855-1857.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1855-1857.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">7 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">United States and Confederate officer.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Papers of William R. Boggs, officer in the armies of the U.S.A. and the C.S.A., include family letters, two calling cards, an invitation, and a note on the death of William R. Boggs, Jr.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">Confederate States of America.</marc:subfield>
+            <marc:subfield code="b">Army</marc:subfield>
+            <marc:subfield code="x">Officers.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Boggs, William R.,</marc:subfield>
+            <marc:subfield code="c">Jr.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Soldiers</marc:subfield>
+            <marc:subfield code="z">Confederate States of America</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01360cpcaa2200301Ii 4500</marc:leader>
+        <marc:controlfield tag="001">001634361</marc:controlfield>
+        <marc:controlfield tag="005">20170717153951.0</marc:controlfield>
+        <marc:controlfield tag="008">941129i18591869pau                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">31526788</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCG</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCL</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boker, George H.</marc:subfield>
+            <marc:subfield code="q">(George Henry),</marc:subfield>
+            <marc:subfield code="d">1823-1890,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">George H. Boker letters,</marc:subfield>
+            <marc:subfield code="f">1859-1869.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1859-1869.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">7 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Writer and diplomat.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Letters from George H. Boker, writer and diplomat, to Charles Warren Stoddard, criticizing Stoddard's poetical works. [Published: Jay B. Hubbell, &quot;George Henry Boker, Paul Hamilton Hayne, and Charles Warren Stoddard: Some Unpublished Letters,&quot; AMERICAN LITERATURE, V (May, 1933), 146-165.]</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Stoddard, Charles Warren,</marc:subfield>
+            <marc:subfield code="d">1843-1909.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Authors, American</marc:subfield>
+            <marc:subfield code="y">19th century</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">American literature</marc:subfield>
+            <marc:subfield code="y">19th century.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="7">
+            <marc:subfield code="a">Stoddard, Charles Warren,</marc:subfield>
+            <marc:subfield code="d">1843-1909.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00057460</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">American literature.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00807113</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Authors, American.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00821764</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="648" ind1=" " ind2="7">
+            <marc:subfield code="a">1800-1899</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Records and correspondence.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01423917</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01995cpcaa2200361Ii 4500</marc:leader>
+        <marc:controlfield tag="001">000846392</marc:controlfield>
+        <marc:controlfield tag="005">20170717154418.0</marc:controlfield>
+        <marc:controlfield tag="008">890228i18611864scu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">19276836</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-usu--</marc:subfield>
+            <marc:subfield code="a">n-us-sc</marc:subfield>
+            <marc:subfield code="a">n-us-nc</marc:subfield>
+            <marc:subfield code="a">n-us---</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bonham, Milledge L.</marc:subfield>
+            <marc:subfield code="q">(Milledge Luke),</marc:subfield>
+            <marc:subfield code="d">1813-1890,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Milledge L. Bonham papers,</marc:subfield>
+            <marc:subfield code="f">1861-1864.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1861-1864.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">10 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Governor of South Carolina, 1863-1865; from Columbia, S.C.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Includes letters from William Johnston, president of the Charlotte and South Carolina Railroad, concerning the shipment of cotton to Wilmington, N.C., to be run through the Union blockade; receipts for expenditures from the contingent fund; a note on balloon experiments conducted for the Union Army; letters discussing army regulations, the first battle of Manassas, and the site of a projected military prison; and a petition from citizens of the Marlborough District objecting to an Executive Council order to obstruct the Pee Dee River and calling all white males into active military service.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Johnston, William.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="2" ind2="0">
+            <marc:subfield code="a">Charlotte and South Carolina Railroad Company.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="z">Southern States.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Cotton trade</marc:subfield>
+            <marc:subfield code="z">Confederate States of America.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">South Carolina</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Bull Run, 1st Battle of, Va., 1861.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Pee Dee River (N.C. and S.C.)</marc:subfield>
+            <marc:subfield code="x">History.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">Confederate States of America.</marc:subfield>
+            <marc:subfield code="b">Army</marc:subfield>
+            <marc:subfield code="x">Recruiting, enlistment, etc.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Governors</marc:subfield>
+            <marc:subfield code="z">South Carolina.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865</marc:subfield>
+            <marc:subfield code="x">Blockades.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865</marc:subfield>
+            <marc:subfield code="x">Balloons.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="752" ind1=" " ind2=" ">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="b">South Carolina</marc:subfield>
+            <marc:subfield code="c">Richland County</marc:subfield>
+            <marc:subfield code="d">Columbia.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01098cpcaa2200277Ii 4500</marc:leader>
+        <marc:controlfield tag="001">000846340</marc:controlfield>
+        <marc:controlfield tag="005">20170717154736.0</marc:controlfield>
+        <marc:controlfield tag="008">890228i18611885vau                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">19276290</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us---</marc:subfield>
+            <marc:subfield code="a">n-us-va</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bonnifield, Lettie,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Lettie Bonnifield papers,</marc:subfield>
+            <marc:subfield code="f">1861-1881.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1861-1881.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">17 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Letters of Sergeant Andrew Donaldson Stewart, 25th Ohio Volunteers, to Lettie Bonnifield, St. George, Va., describing the movements of his own and other Union regiments, predominately in northern Virginia.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Stewart, Andrew Donaldson.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Virginia</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="b">Army</marc:subfield>
+            <marc:subfield code="c">(Ohio Infantry Regiment, 25th (1861-1864))</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Soldiers</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="752" ind1=" " ind2=" ">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="b">Virginia</marc:subfield>
+            <marc:subfield code="d">St. George.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01475cpcaa2200325Ii 4500</marc:leader>
+        <marc:controlfield tag="001">000887879</marc:controlfield>
+        <marc:controlfield tag="005">20170717155006.0</marc:controlfield>
+        <marc:controlfield tag="008">891031i18621864alu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">20574621</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCL</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCL</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-usu--</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bolin, John A.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">John A. Bolin letters,</marc:subfield>
+            <marc:subfield code="f">1862-1864.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1862-1864.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">5 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Confederate soldier, from Auburn (Lee Co.), Ala.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Letters from Bolin, a member of the 17th Regiment, Alabama Volunteers, to his wife, Mary J. Bolin, describing camp life and military activities.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">Confederate States of America.</marc:subfield>
+            <marc:subfield code="b">Army.</marc:subfield>
+            <marc:subfield code="b">Alabama Infantry Regiment, 17th.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">Confederate States of America.</marc:subfield>
+            <marc:subfield code="b">Army</marc:subfield>
+            <marc:subfield code="x">Military life.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Soldiers</marc:subfield>
+            <marc:subfield code="z">Confederate States of America</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="7">
+            <marc:subfield code="a">Confederate States of America.</marc:subfield>
+            <marc:subfield code="b">Army.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00539981</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="7">
+            <marc:subfield code="a">Confederate States of America.</marc:subfield>
+            <marc:subfield code="b">Army.</marc:subfield>
+            <marc:subfield code="b">Alabama Infantry Regiment, 17th.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00770989</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Armed Forces</marc:subfield>
+            <marc:subfield code="x">Military life</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01351813</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Soldiers.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01125233</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="z">Confederate States of America.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01205435</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Records and correspondence.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01423917</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01518cpcaa2200337Ii 4500</marc:leader>
+        <marc:controlfield tag="001">000887886</marc:controlfield>
+        <marc:controlfield tag="005">20170717160904.0</marc:controlfield>
+        <marc:controlfield tag="008">891031i18641865inu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">20574664</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-ga</marc:subfield>
+            <marc:subfield code="a">n-us-nc</marc:subfield>
+            <marc:subfield code="a">n-us---</marc:subfield>
+            <marc:subfield code="a">n-us-sc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boltz, Ferdinand F.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Ferdinand F. Boltz diary,</marc:subfield>
+            <marc:subfield code="f">1864-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1864-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1 volume.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">volume</marc:subfield>
+            <marc:subfield code="b">nc</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Union soldier, from Indiana.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Combination daybook, memorandum book, and diary of Boltz, a member of the 88th Regiment, Indiana Volunteers, containing brief accounts of his regiment; Sherman's march through Georgia; the siege of Savannah; and the march through the Carolinas ending at Richmond, Va.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Georgia</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">North Carolina</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Savannah (Ga.)</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Siege, 1864.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Sherman's March through the Carolinas.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Sherman's March to the Sea.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Soldiers</marc:subfield>
+            <marc:subfield code="z">United States</marc:subfield>
+            <marc:subfield code="v">Diaries.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">South Carolina</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="b">Army.</marc:subfield>
+            <marc:subfield code="b">Indiana Infantry Regiment, 88th (1862-1865)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865</marc:subfield>
+            <marc:subfield code="x">Campaigns.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">United States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">Civil War, 1861-1865</marc:subfield>
+            <marc:subfield code="v">Personal narratives.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01086cpcaa2200301Ii 4500</marc:leader>
+        <marc:controlfield tag="001">001634358</marc:controlfield>
+        <marc:controlfield tag="005">20170717161047.0</marc:controlfield>
+        <marc:controlfield tag="008">941129i18661871vau                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">31526792</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCF</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCL</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us-va</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boisseau, William P.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">William P. Boisseau letters,</marc:subfield>
+            <marc:subfield code="f">1866-1871.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1866-1871.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">11 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Virginia resident (Dinwiddie County).</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Personal letters from William P. Boisseau to his father with occasional references to crops and the weather.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="0">
+            <marc:subfield code="a">Dinwiddie County (Va.)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Agriculture</marc:subfield>
+            <marc:subfield code="z">Virginia</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">19th century.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="7">
+            <marc:subfield code="a">Agriculture.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst00801355</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">Virginia.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01204597</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="651" ind1=" " ind2="7">
+            <marc:subfield code="a">Virginia</marc:subfield>
+            <marc:subfield code="z">Dinwiddie County.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01234160</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="648" ind1=" " ind2="7">
+            <marc:subfield code="a">1800-1899</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">History.</marc:subfield>
+            <marc:subfield code="2">fast</marc:subfield>
+            <marc:subfield code="0">(OCoLC)fst01411628</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    
+    <marc:record>
+        <marc:leader>01502cpcaa2200325Ii 4500</marc:leader>
+        <marc:controlfield tag="001">004053036</marc:controlfield>
+        <marc:controlfield tag="005">20170717161337.0</marc:controlfield>
+        <marc:controlfield tag="008">081023i18961899xxu                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">263148674</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boone, Albert E.,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Albert E. Boone Railway construction contracts,</marc:subfield>
+            <marc:subfield code="f">1896-1899.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1896-1899.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">8 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="351" ind1=" " ind2=" ">
+            <marc:subfield code="a">Organized by date of contract.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Resident of Knoxville, Tenn., then Zanesville, Ohio.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="590" ind1=" " ind2=" ">
+            <marc:subfield code="a">*alp</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Collection comprises eight contracts between Boone and various railway companies for construction of railways in Tennessee, Kentucky, Ohio, Indiana, and South Carolina. Six of the contracts are designated as signed copies of the original agreements, the final two, agreements for work in Indiana and South Carolina, are unsigned. The contracts stipulate construction costs and outline financing.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="541" ind1=" " ind2=" ">
+            <marc:subfield code="a">.</marc:subfield>
+            <marc:subfield code="c">Transfer</marc:subfield>
+            <marc:subfield code="d">1980;</marc:subfield>
+            <marc:subfield code="e">2008-0201</marc:subfield>
+            <marc:subfield code="n">.1</marc:subfield>
+            <marc:subfield code="o">lin. ft.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Boone, Albert E.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="z">United States</marc:subfield>
+            <marc:subfield code="x">Design and construction.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="z">Southern States</marc:subfield>
+            <marc:subfield code="x">Design and construction.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="x">Design and construction</marc:subfield>
+            <marc:subfield code="x">Costs.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="x">Finance.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="z">Southern States.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Railroads</marc:subfield>
+            <marc:subfield code="z">Southern States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">19th century.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01139cpcaa2200277Ii 4500</marc:leader>
+        <marc:controlfield tag="001">000750829</marc:controlfield>
+        <marc:controlfield tag="005">20170717161525.0</marc:controlfield>
+        <marc:controlfield tag="008">870604s1917    fr                  fre d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">15808898</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCL</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">e-fr---</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Boisson, Felix,</marc:subfield>
+            <marc:subfield code="e">creator.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Felix Boisson letters,</marc:subfield>
+            <marc:subfield code="f">1917.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1917</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">5 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">Soldier in the 1st Co., 15th Infantry Regiment of the French Army.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Letters from Boisson, a soldier in the 15th Infantry Regiment of the French Army during World War I, to William R. Locke in New Hampshire. Concerns a French soldier's life during war and his thankfulness for receipt of pillows donated by Americans. Includes a photograph of Boisson.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="541" ind1=" " ind2=" ">
+            <marc:subfield code="c">Gift</marc:subfield>
+            <marc:subfield code="d">1986.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="546" ind1=" " ind2=" ">
+            <marc:subfield code="a">French with handwritten English translation.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">France.</marc:subfield>
+            <marc:subfield code="b">Armée</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">World War, 1914-1918.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">France.</marc:subfield>
+            <marc:subfield code="b">Armée.</marc:subfield>
+            <marc:subfield code="b">15. Régiment d'infanterie.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="752" ind1=" " ind2=" ">
+            <marc:subfield code="b">France.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01683cpcaa2200361Ii 4500</marc:leader>
+        <marc:controlfield tag="001">003794205</marc:controlfield>
+        <marc:controlfield tag="005">20170717161739.0</marc:controlfield>
+        <marc:controlfield tag="008">061005i19171919oru                 eng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">71845087</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDD</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="e">dacs</marc:subfield>
+            <marc:subfield code="c">NDD</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">OCLCA</marc:subfield>
+            <marc:subfield code="d">OCLCO</marc:subfield>
+            <marc:subfield code="d">NDD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">n-us---</marc:subfield>
+            <marc:subfield code="a">n-us-or</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">NDDP</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Bonney, Rex,</marc:subfield>
+            <marc:subfield code="e">creator</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Rex Bonney letters,</marc:subfield>
+            <marc:subfield code="f">1917-1919.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="0">
+            <marc:subfield code="c">1917-1919.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">46 items.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">sheet</marc:subfield>
+            <marc:subfield code="b">nb</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="545" ind1=" " ind2=" ">
+            <marc:subfield code="a">American soldier enlisted in Company E, 1st Engineers.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="8" ind2=" ">
+            <marc:subfield code="a">Letters written by young soldier from Oregon during World War I. Most of the letters were written from training camp prior to his service overseas, but a few mention his experiences in the trenches. In many of the letters he expresses his love and longing for his family as well as his patriotism. A few letters were written after the end of the war when Bonney was a member of a traveling theatrical troupe.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="541" ind1=" " ind2=" ">
+            <marc:subfield code="c">Purchase</marc:subfield>
+            <marc:subfield code="d">2006.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Bonney, Rex.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="b">Army.</marc:subfield>
+            <marc:subfield code="b">Engineer Regiment, 1st.</marc:subfield>
+            <marc:subfield code="b">Company E.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="b">Army</marc:subfield>
+            <marc:subfield code="x">Soldiers</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="610" ind1="1" ind2="0">
+            <marc:subfield code="a">United States.</marc:subfield>
+            <marc:subfield code="b">Army</marc:subfield>
+            <marc:subfield code="x">Military life.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">World War, 1914-1918</marc:subfield>
+            <marc:subfield code="v">Personal narratives, American.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">World War, 1914-1918.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Soldiers</marc:subfield>
+            <marc:subfield code="z">United States</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Soldiers</marc:subfield>
+            <marc:subfield code="z">Oregon</marc:subfield>
+            <marc:subfield code="v">Correspondence.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Soldiers</marc:subfield>
+            <marc:subfield code="x">Training of</marc:subfield>
+            <marc:subfield code="z">United States.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Theatrical companies</marc:subfield>
+            <marc:subfield code="z">United States</marc:subfield>
+            <marc:subfield code="x">History.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Patriotism</marc:subfield>
+            <marc:subfield code="z">United States</marc:subfield>
+            <marc:subfield code="x">History</marc:subfield>
+            <marc:subfield code="y">20th century.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    
+    
+    
+</marc:collection>
