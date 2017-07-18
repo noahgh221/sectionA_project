@@ -17,6 +17,8 @@ MARC Remediation documentation: https://docs.google.com/document/d/1HkPQVHVkSo1F
 
 * **/digguides** - contains TSV files created by processing all XML files within a subfolder of /EAD (ead/secA_001) using ead2digguides.xsl
 
+* **/completed_digguides** - contains TSV files with descriptive metadata about each collection (same as above) in addition to technical and administrative metadata produced during scanning
+
 ### Scripts and such
 * **marc2ead_sectionA.xsl** - An old, repurposed, and convoluted XSLT that converts a batch MARCXML file into individual EAD files suitable for importing into ArchivesSpace.
 
