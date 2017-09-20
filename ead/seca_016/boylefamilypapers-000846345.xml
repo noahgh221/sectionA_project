@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Boyle family papers, 1861-1918 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/boylefamilypapers-000846345/">boylefamilypapers-000846345</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Boyle family papers, 1861-1918</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000846345</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19276314</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30299</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Boyle family</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Boyle family papers</unittitle>
+         <unitdate normal="1861/1918"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861-1918</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>90 items</extent>
+         </physdesc>
+         <abstract>Civil War family letters from the Boyles brothers of Stokes and Surry County, N.C., six of whom died during the war. Eight of the Boyles brothers are represented either by their own letters or by references in their brothers' letters. They are: Augustin (d. 1862 Nov. 14); John William (d. 1862 Aug. 11); James (d. 1864 Jun. 1); Calvin H. (d. 1865 Feb. 13); A. M. (d. 1863 Jan. 27); Irvin (d. 1863 Sept. 3); Riley R., and Wade. Of these, Wade was too young for military service, and Riley R. (or R.R.) was in Junior Reserves. All of the other brothers died during the Civil War from disease, except for Calvin and James, who died following wounds received in action. The brothers belonged to Co. I and Co. F, 21st N.C. Regiment, and Co. D., 53rd Infantry; most letters indicate they served in Raleigh or in Virginia. Letters discuss the progress of the war in Virginia and North Carolina, camp conditions, shortages of food and clothes (including a letter from 1863 Jan. 20 indicating they were barefoot), and the execution of deserters (a letter from 1863 May 11). Also included is a photograph of Mary Ann Boyles taken in 1918.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Boyle family Papers, 1861-1918, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Family from Stokes County, N.C. which included eight brothers, six of whom died during the Civil War.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Civil War family letters from the Boyles brothers of Stokes and Surry County, N.C., six of whom died during the war. Eight of the Boyles brothers are represented either by their own letters or by references in their brothers' letters. They are: Augustin (d. 1862 Nov. 14); John William (d. 1862 Aug. 11); James (d. 1864 Jun. 1); Calvin H. (d. 1865 Feb. 13); A. M. (d. 1863 Jan. 27); Irvin (d. 1863 Sept. 3); Riley R., and Wade. Of these, Wade was too young for military service, and Riley R. (or R.R.) was in Junior Reserves. All of the other brothers died during the Civil War from disease, except for Calvin and James, who died following wounds received in action. The brothers belonged to Co. I and Co. F, 21st N.C. Regiment, and Co. D., 53rd Infantry; most letters indicate they served in Raleigh or in Virginia. Letters discuss the progress of the war in Virginia and North Carolina, camp conditions, shortages of food and clothes (including a letter from 1863 Jan. 20 indicating they were barefoot), and the execution of deserters (a letter from 1863 May 11). Also included is a photograph of Mary Ann Boyles taken in 1918.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- Correspondence</subject>
+         <subject source="lcsh" encodinganalog="650">Military deserters -- Confederate States of America</subject>
+         <persname source="lcnaf" encodinganalog="700">Boyle, Mary Ann,correspondent.</persname>
+         <famname source="lcnaf" encodinganalog="600">Boyle family, creator.</famname>
+         <famname source="lcnaf" encodinganalog="600">Boyle family</famname>
+         <geogname source="lcsh" encodinganalog="651">North Carolina -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">Virginia -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-31f36a6a-3e16-40c6-ac22-b2060cbc7ec6" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Boyle family papers</unittitle>
+               <unitdate>1861-1918</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Robert Brooke papers, 1795-1796 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/brookerobertpapers-002420999/">brookerobertpapers-002420999</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Robert Brooke papers, 1795-1796</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002420999</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">38745061</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30306</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Brooke, Robert, 1761?-1800</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Robert Brooke papers</unittitle>
+         <unitdate normal="1795/1796"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1795-1796</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 items</extent>
+         </physdesc>
+         <abstract>Collection contains a land grant, 1795, and a letter, 1796, to Brooke from Governor John H. Stone of Md., proposing an interchange of copies of laws among all the states of the Union.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Robert Brooke Papers, 1795-1796, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2017.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Virginia governor (1794-1796)</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains a land grant, 1795, and a letter, 1796, to Brooke from Governor John H. Stone of Md., proposing an interchange of copies of laws among all the states of the Union.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Governors -- Virginia -- Correspondence</subject>
+         <subject source="lcsh" encodinganalog="650">Land grants</subject>
+         <subject source="lcsh" encodinganalog="650">Governors -- Maryland -- Correspondence</subject>
+         <persname source="lcnaf" encodinganalog="600">Brooke, Robert, 1761?-1800</persname>
+         <persname source="lcnaf" encodinganalog="600">Stone, John H.</persname>
+         <persname source="lcnaf" encodinganalog="700">Stone, John H.</persname>
+         <geogname source="lcsh" encodinganalog="651">Virginia -- History -- 1775-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-fd052a2f-8329-4497-a9c5-71132dd6ee6a" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Robert Brooke papers</unittitle>
+               <unitdate>1795-1796</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
