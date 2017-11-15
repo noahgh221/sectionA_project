@@ -39,8 +39,10 @@
             <xsl:text>date_expression</xsl:text>
             <xsl:value-of select="$tab"/>
 
+            <!-- not needed 
             <xsl:text>date</xsl:text>
-            <xsl:value-of select="$tab"/>
+            <xsl:value-of select="$tab"/> 
+            -->
 
             <xsl:text>language</xsl:text>
             <xsl:value-of select="$tab"/>
@@ -48,8 +50,10 @@
             <xsl:text>extent</xsl:text>
             <xsl:value-of select="$tab"/>
 
+            <!-- not needed
             <xsl:text>physical_description</xsl:text>
             <xsl:value-of select="$tab"/>
+            -->
 
             <xsl:text>description</xsl:text>
             <xsl:value-of select="$tab"/>
@@ -70,6 +74,9 @@
             <xsl:value-of select="$tab"/>
 
             <xsl:text>aspace_id</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
+            <xsl:text>aleph_id</xsl:text>
             <xsl:value-of select="$tab"/>
             
             <xsl:text>finding_aid_url</xsl:text>
@@ -118,10 +125,11 @@
                     <xsl:value-of select="normalize-space(ead:archdesc/ead:did/ead:unitdate)"/>
                     <xsl:value-of select="$tab"/>
 
-                    <!-- Date Normal -->
+                    <!-- Date Normal
                     <xsl:value-of
                         select="normalize-space(ead:archdesc/ead:did/ead:unitdate/@normal)"/>
                     <xsl:value-of select="$tab"/>
+                     -->
                     
                     <!-- Language code -->
                     <xsl:value-of select="ead:archdesc/ead:did/ead:langmaterial/ead:language/@langcode"/>
@@ -132,10 +140,11 @@
                         select="normalize-space(ead:archdesc/ead:did/ead:physdesc/ead:extent)"/>
                     <xsl:value-of select="$tab"/>
 
-                    <!-- Physdesc - any other kind of physical description if present -->
+                    <!-- Physdesc - any other kind of physical description if present
                     <xsl:value-of
                         select="normalize-space(ead:archdesc/ead:did/ead:physdesc[not(ead:extent)])"/>
-                    <xsl:value-of select="$tab"/>
+                    <xsl:value-of select="$tab"/> 
+                    -->
 
                     <!-- Scopecontent notes -->
                     <xsl:for-each select="ead:archdesc/ead:scopecontent">
@@ -153,16 +162,16 @@
 
                     <!-- Topical Subjects and Name Headings. Also include full geographic headings (have lots of subdivisions) -->
                    <xsl:for-each select="ead:archdesc/ead:controlaccess">
-                            <xsl:value-of select="ead:subject|ead:persname|ead:corpname|ead:famname|ead:geogname" separator="; "/>      
+                            <xsl:value-of select="ead:subject|ead:persname|ead:corpname|ead:famname|ead:geogname" separator="| "/>      
                    </xsl:for-each>
                    <xsl:value-of select="$tab"/>
                    
                     <!-- Spatial Terms (by using first term in 651 heading). This works, but results in some dupe headings.  Not sure how to fix -->
-                    <xsl:value-of select="distinct-values(ead:archdesc/ead:controlaccess/ead:geogname/tokenize(., ' -- ')[1])" separator="; "/>
+                    <xsl:value-of select="distinct-values(ead:archdesc/ead:controlaccess/ead:geogname/tokenize(., ' -- ')[1])" separator="| "/>
                     <xsl:value-of select="$tab"/>
                     
                     <!-- Format Headings (aat) -->
-                    <xsl:value-of select="ead:archdesc/ead:controlaccess/ead:genreform" separator="; "/>
+                    <xsl:value-of select="ead:archdesc/ead:controlaccess/ead:genreform" separator="| "/>
                     <xsl:value-of select="$tab"/>
                     
                     <!-- EADID -->
@@ -171,6 +180,10 @@
 
                     <!-- ASpace refID for Archival Object record -->
                     <xsl:value-of select="//ead:c01[1]/@id"/>
+                    <xsl:value-of select="$tab"/>
+                    
+                    <!-- Aleph ID -->
+                    <xsl:value-of select="//ead:num[@type='aleph']"/>
                     <xsl:value-of select="$tab"/>
                     
                     <!-- Finding Aid URL -->
