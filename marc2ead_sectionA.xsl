@@ -539,9 +539,6 @@
           <accessrestrict encodinganalog="506">
               <head>Access Restrictions</head>
                 <p>Collection is open for research.</p>
-                <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>                
-                <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>                
-                <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
           </accessrestrict>
           
           <xsl:if test="marc:datafield[@tag='530']">
@@ -579,7 +576,7 @@
           
           <processinfo>
             <p>Processed by: <xsl:value-of select="$ProcessorName"/></p>
-            <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/>.</p>
+            <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/>.</p>
           </processinfo>
         
 <!-- BIOGRAPHICAL NOTE -->

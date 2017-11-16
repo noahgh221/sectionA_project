@@ -18,7 +18,7 @@ import csv
 
 
 # local config file, contains variables
-configFilePath = 'test_settings.cfg'
+configFilePath = 'local_settings.cfg'
 config = ConfigParser.ConfigParser()
 config.read(configFilePath)
 
@@ -29,7 +29,7 @@ repositoryBaseURL = '{baseURL}/repositories/{repository}/'.format(**dictionary)
 
 secA_box_num = raw_input("Section A Box number?: ")
 
-#choose the correct input TSV based on the box number input
+#choose the correct input TSV based on the box number input - three digits(e.g. 001, 002)
 digguide_input = os.path.normpath("c:/users/nh48/documents/github/sectionA_project/digguides/seca_" + secA_box_num + ".txt")
 
 # Prompt for input, a comma separated list of EADID values (e.g. johndoepapers, janedoepapers, johnandjanedoepapers)
@@ -54,7 +54,7 @@ with open(digguide_input,'rb') as tsvin:
     next(tsvin) #skip header row
     for row in tsvin:
 
-#eadid currently in column 12 of digguide (13 in python land)
+#eadid currently in column 14 of digguide (13 in python land)
         eadid = row[13]
 
 #advanced search for EADID
