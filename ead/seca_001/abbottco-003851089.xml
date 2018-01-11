@@ -27,7 +27,7 @@
          </notestmt>
       </filedesc>
       <profiledesc>
-         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl <date>December 2016</date>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
          </creation>
          <langusage>English</langusage>
          <descrules>Describing Archives: A Content Standard</descrules>
@@ -38,7 +38,7 @@
          <repository label="Repository">
             <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
          </repository>
-         <unitid>RL.30010</unitid>
+         <unitid>RL.30358</unitid>
          <origination label="Creator">
             <corpname encodinganalog="110" source="lcnaf">Abbott &amp; Co.</corpname>
          </origination>
@@ -59,9 +59,6 @@
       <accessrestrict encodinganalog="506">
          <head>Access Restrictions</head>
          <p>Collection is open for research.</p>
-         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
-         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
-         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
          <head>Use Restrictions</head>
@@ -72,7 +69,7 @@
       </prefercite>
       <processinfo>
          <p>Processed by: Rubenstein Staff</p>
-         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, December 2016.</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
       </processinfo>
       <bioghist>
          <head>Historical Note</head>
@@ -87,7 +84,7 @@
          <geogname source="lcsh" encodinganalog="651">Philadelphia (Pa.) -- History -- 19th century</geogname>
       </controlaccess>
       <dsc>
-         <c01 id="seca-bdb2a65b-502e-4311-959a-4153d9e091df" level="file">
+         <c01 id="seca-0ec17337-3bde-447c-ae14-335c341db187" level="file">
             <did>
                <container type="folder">1</container>
                <unittitle>Abbott and Company records</unittitle>

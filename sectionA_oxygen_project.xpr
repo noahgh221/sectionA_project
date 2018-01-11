@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>marcxml/seca_001.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>marc2ead_sectionA</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>ead/seca_001/abbottco-003851089.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -521,21 +536,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>marcxml/seca_003.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>marc2ead_sectionA</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>marcxml/seca_001.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

@@ -27,7 +27,7 @@
          </notestmt>
       </filedesc>
       <profiledesc>
-         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl <date>December 2016</date>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
          </creation>
          <langusage>English</langusage>
          <descrules>Describing Archives: A Content Standard</descrules>
@@ -38,7 +38,7 @@
          <repository label="Repository">
             <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
          </repository>
-         <unitid>RL.30004</unitid>
+         <unitid>RL.30352</unitid>
          <origination label="Creator">
             <persname encodinganalog="100" source="lcnaf">Adams, Thomas</persname>
          </origination>
@@ -59,9 +59,6 @@
       <accessrestrict encodinganalog="506">
          <head>Access Restrictions</head>
          <p>Collection is open for research.</p>
-         <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
-         <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
-         <p>Please contact Research Services staff before visiting the Rubenstein to use this collection.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
          <head>Use Restrictions</head>
@@ -72,7 +69,7 @@
       </prefercite>
       <processinfo>
          <p>Processed by: Rubenstein Staff</p>
-         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_section.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, December 2016.</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
       </processinfo>
       <bioghist>
          <head>Historical Note</head>
@@ -88,7 +85,7 @@
          <geogname source="lcsh" encodinganalog="651">United States -- History -- War of 1812</geogname>
       </controlaccess>
       <dsc>
-         <c01 id="seca-743cde9a-e5e1-4935-b3e4-481b0ae0dbff" level="file">
+         <c01 id="seca-8c5efb86-316b-48c9-8244-e14f2fab5871" level="file">
             <did>
                <container type="folder">1</container>
                <unittitle>Thomas Adams papers</unittitle>

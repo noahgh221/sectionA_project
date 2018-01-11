@@ -54,9 +54,8 @@
 </xsl:variable>
 -->
   
-<!-- Hardcoded Date variable use in place of above, change as needed-->
-<xsl:variable name="Year" select="'2017'"/>
-<xsl:variable name="Month" select="'January'"/>
+<!-- Date variable use in place of above, change as needed-->
+  <xsl:variable name="current-date" select="format-date(current-date(),'[MNn] [Y0001]')"/>
 
 
 <!-- LANGUAGE VARIABLES Add more as needed-->
@@ -265,7 +264,7 @@
 </filedesc>
 
 <profiledesc>
-  <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>2017</date></creation>
+  <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date><xsl:value-of select="$current-date"/></date></creation>
   <langusage>English</langusage>
   <descrules>Describing Archives: A Content Standard</descrules>
  </profiledesc>
@@ -576,7 +575,7 @@
           
           <processinfo>
             <p>Processed by: <xsl:value-of select="$ProcessorName"/></p>
-            <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, <xsl:value-of select="$Month"/><xsl:text> </xsl:text><xsl:value-of select="$Year"/>.</p>
+            <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, <xsl:value-of select="$current-date"/>.</p>
           </processinfo>
         
 <!-- BIOGRAPHICAL NOTE -->
