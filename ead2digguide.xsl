@@ -225,10 +225,10 @@
                                         
                     <!-- Rights URI from rightsstatement.org - get this from Google Sheet? -->
                     <!-- <xsl:text>[rights_uri]</xsl:text> -->
-                    
-                    <!-- local variable for storing eadid string in source xml document -->
+                               <!-- local variable for storing eadid string in source xml document -->
                     <xsl:variable name="aleph_number_from_ead" select="//ead:num[@type='aleph']"/>    
-                    <xsl:for-each select="$seca-googlesheet//data/*"> <!-- iterate through each spreadsheet row element in XML-->
+                    <xsl:for-each select="$seca-googlesheet//data/*"> 
+                        <!-- iterate through each spreadsheet row element in XML-->
                         <xsl:if test="AlephNumber=$aleph_number_from_ead">
                             <xsl:value-of select="Rights_Statement"/>       
                         </xsl:if>
@@ -239,8 +239,6 @@
                     <xsl:text>[rights_note]</xsl:text>
                     <xsl:value-of select="$tab"/>
                     
-                    
-
                 </xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
