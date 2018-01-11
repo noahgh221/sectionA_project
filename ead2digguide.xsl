@@ -4,6 +4,13 @@
     xmlns="urn:isbn:1-931666-22-9" exclude-result-prefixes="ead">
 
     <xsl:output method="text" omit-xml-declaration="yes" encoding="UTF-8"/>
+    
+    <!-- Call document seca-from-googlesheet.xml.  
+        This is the XML export of the SecA "working" Google sheet
+        The XML is used to access rights statements based on Aleph numbers -->
+    
+    <xsl:variable name="seca-googlesheet"
+        select="document('seca-from-googlesheet.xml')"/>
 
     <xsl:strip-space elements="*"/>
 
@@ -26,24 +33,19 @@
             href="file:/C:/users/nh48/documents/github/sectionA_project/digguides/{$box_number}.txt">
 
             <!-- COLUMN HEADERS -->
-
-            <xsl:text>container_1</xsl:text>
-            <xsl:value-of select="$tab"/>
-
-            <xsl:text>creator</xsl:text>
-            <xsl:value-of select="$tab"/>
-
+         
             <xsl:text>title</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
+            <xsl:text>creator</xsl:text>
             <xsl:value-of select="$tab"/>
 
             <xsl:text>date_expression</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <!-- not needed 
             <xsl:text>date</xsl:text>
             <xsl:value-of select="$tab"/> 
-            -->
-
+            
             <xsl:text>language</xsl:text>
             <xsl:value-of select="$tab"/>
             
@@ -70,28 +72,46 @@
             <xsl:text>format</xsl:text>
             <xsl:value-of select="$tab"/>
             
+            <xsl:text>type</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
             <xsl:text>ead_id</xsl:text>
+            <xsl:value-of select="$tab"/>
+
+            <xsl:text>aleph_id</xsl:text>
             <xsl:value-of select="$tab"/>
 
             <xsl:text>aspace_id</xsl:text>
             <xsl:value-of select="$tab"/>
             
-            <xsl:text>aleph_id</xsl:text>
-            <xsl:value-of select="$tab"/>
-            
+            <!-- Not needed for DDR, but used for batch updating MARC with 856 links -->
             <xsl:text>finding_aid_url</xsl:text>
             <xsl:value-of select="$tab"/>  
             
+            <!-- Not needed for DDR, but used for batch updating MARC with 856 links -->
             <xsl:text>oclc_num</xsl:text>
             <xsl:value-of select="$tab"/>
             
-            <xsl:text>rl_number</xsl:text>
+            <!-- RL  Number mapped to identifier in DDR -->
+            <xsl:text>identifier</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <!-- Empty column, to be supplied after URI is established, ARKs? -->
-            <xsl:text>dpc_id</xsl:text>
-
-
+            <!-- Empty column, to be supplied by DPC -->
+            <xsl:text>local_id</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
+            <!-- Display format required by DDR -->
+            <xsl:text>display_format</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
+            <!-- Rights - to old rightsstatement.org URI -->
+            <xsl:text>rights</xsl:text>
+            <xsl:value-of select="$tab"/>
+            
+            <!-- Rights-note - a placeholder column for any explanatory note about rights URI -->
+            <xsl:text>rights_note</xsl:text>
+            
+            
             <!-- BEGIN DATA ROWS -->
             <!-- !!!Process all EADs in a subfolder (e.g. seca_001) -->
             <!-- Store the parent directory of EAD files as a variable to pass into collection function -->
@@ -106,30 +126,23 @@
 
                     <!-- Begin Data Rows -->
                     <xsl:value-of select="$newline"/>
-
-                    <!-- First container type and indicator, almost always Folder 1 -->
-                    <xsl:value-of select="//ead:container/@type"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="//ead:container[1]"/>
-                    <xsl:value-of select="$tab"/>
-
-                    <!-- Collection title -->
-                    <xsl:value-of select="normalize-space(ead:archdesc/ead:did/ead:origination)"/>
-                    <xsl:value-of select="$tab"/>
-
+                    
                     <!-- Collection title -->
                     <xsl:value-of select="normalize-space(ead:archdesc/ead:did/ead:unittitle)"/>
                     <xsl:value-of select="$tab"/>
 
-                    <!-- Date Expression -->
+                    <!-- Collection creator -->
+                    <xsl:value-of select="normalize-space(ead:archdesc/ead:did/ead:origination)"/>
+                    <xsl:value-of select="$tab"/>
+
+                   <!-- Date Expression -->
                     <xsl:value-of select="normalize-space(ead:archdesc/ead:did/ead:unitdate)"/>
                     <xsl:value-of select="$tab"/>
 
-                    <!-- Date Normal
+                    <!-- Date Normal -->
                     <xsl:value-of
                         select="normalize-space(ead:archdesc/ead:did/ead:unitdate/@normal)"/>
                     <xsl:value-of select="$tab"/>
-                     -->
                     
                     <!-- Language code -->
                     <xsl:value-of select="ead:archdesc/ead:did/ead:langmaterial/ead:language/@langcode"/>
@@ -174,18 +187,22 @@
                     <xsl:value-of select="ead:archdesc/ead:controlaccess/ead:genreform" separator="| "/>
                     <xsl:value-of select="$tab"/>
                     
+                    <!-- DCMI Type - hard-coded to Text-->
+                    <xsl:text>Text</xsl:text>
+                    <xsl:value-of select="$tab"/>
+                                        
                     <!-- EADID -->
                     <xsl:value-of select="ead:eadheader/ead:eadid"/>
                     <xsl:value-of select="$tab"/>
 
-                    <!-- ASpace refID for Archival Object record -->
-                    <xsl:value-of select="//ead:c01[1]/@id"/>
-                    <xsl:value-of select="$tab"/>
-                    
-                    <!-- Aleph ID -->
+                     <!-- Aleph ID -->
                     <xsl:value-of select="//ead:num[@type='aleph']"/>
                     <xsl:value-of select="$tab"/>
                     
+                    <!-- ASpace refID for Archival Object record -->
+                    <xsl:value-of select="//ead:c01[1]/@id"/>
+                    <xsl:value-of select="$tab"/>
+                                    
                     <!-- Finding Aid URL -->
                     <xsl:value-of select="ead:eadheader/ead:eadid/@url"/>
                     <xsl:value-of select="$tab"/>
@@ -199,7 +216,30 @@
                     <xsl:value-of select="$tab"/>
                     
                     <!-- DPC_ID: Empty column -->
-                    <xsl:text>dpc_id</xsl:text>
+                    <xsl:text>[local_id]</xsl:text>
+                    <xsl:value-of select="$tab"/>
+                    
+                    <!-- Display format - hard-coded to 'image' for DDR -->
+                    <xsl:text>image</xsl:text>
+                    <xsl:value-of select="$tab"/>
+                                        
+                    <!-- Rights URI from rightsstatement.org - get this from Google Sheet? -->
+                    <!-- <xsl:text>[rights_uri]</xsl:text> -->
+                    
+                    <!-- local variable for storing eadid string in source xml document -->
+                    <xsl:variable name="aleph_number_from_ead" select="//ead:num[@type='aleph']"/>    
+                    <xsl:for-each select="$seca-googlesheet//data/*"> <!-- iterate through each spreadsheet row element in XML-->
+                        <xsl:if test="AlephNumber=$aleph_number_from_ead">
+                            <xsl:value-of select="Rights_Statement"/>       
+                        </xsl:if>
+                    </xsl:for-each>
+                    <xsl:value-of select="$tab"/>
+                                        
+                    <!-- Rights note - an explanatory note refining rights URI -->
+                    <xsl:text>[rights_note]</xsl:text>
+                    <xsl:value-of select="$tab"/>
+                    
+                    
 
                 </xsl:for-each>
             </xsl:for-each>
