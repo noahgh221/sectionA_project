@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Samuel Chase papers, 1787-1816 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/chasesamuelpapers-002683919/">chasesamuelpapers-002683919</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Samuel Chase papers, 1787-1816</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002683919</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">43738538</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30469</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Chase, Samuel, 1741-1811</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Samuel Chase papers</unittitle>
+         <unitdate normal="1787/1816"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1787-1816</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>16 items</extent>
+         </physdesc>
+         <abstract>Collection contains letters, bills, and legal papers relating mainly to Samuel Chase Sr. and Jr. The elder Chase's documents include a legal opinion (Mar. 1787) and four bonds (1792-1806). Also included is a 1789 statement regarding the insolvency of a partnership between Thomas and John Dorsey, Luke Wheeler, and Samuel Chase. Chase had mortgaged his bed and books to help meet the partnership indebtedness of 42,000 pounds. Three other items deal with estate settlements of Chase and Phillip Barton Key. There is also legal document from Sept. 1790 pertaining to Charles Carroll of Carrollton. Finally, there is a letter by William Murdoch of London to Samuel Chase on the value of some British bank stock claimed by the state of Maryland; its value had been affected by the war between England and France.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Samuel Chase Papers, 1787-1816, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Samuel Chase, Sr., was a signer of the Declaration of Independence and an Associate Justice of the U.S. Supreme Court.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains letters, bills, and legal papers relating mainly to Samuel Chase Sr. and Jr. The elder Chase's documents include a legal opinion (Mar. 1787) and four bonds (1792-1806). Also included is a 1789 statement regarding the insolvency of a partnership between Thomas and John Dorsey, Luke Wheeler, and Samuel Chase. Chase had mortgaged his bed and books to help meet the partnership indebtedness of 42,000 pounds. Three other items deal with estate settlements of Chase and Phillip Barton Key. There is also legal document from Sept. 1790 pertaining to Charles Carroll of Carrollton. Finally, there is a letter by William Murdoch of London to Samuel Chase on the value of some British bank stock claimed by the state of Maryland; its value had been affected by the war between England and France.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide, 1962 and 1967.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Banks and banking -- Maryland -- 18th century</subject>
+         <subject source="lcsh" encodinganalog="650">Judges -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Business records -- Maryland -- 18th century</subject>
+         <subject source="lcsh" encodinganalog="650">Partnership -- Maryland -- 18th century</subject>
+         <persname source="lcnaf" encodinganalog="600">Carroll, Charles</persname>
+         <persname source="lcnaf" encodinganalog="700">Chase, Samuel, Jr., 1775-1841,correspondent.</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Supreme Court -- History</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Supreme Court -- Officials and employees</corpname>
+         <genreform source="aat" encodinganalog="655">Legal documents</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-e2c646ed-c99a-49c0-817b-27f4e2bac953" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Samuel Chase papers</unittitle>
+               <unitdate>1787-1816</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Lunsford Cherry papers, 1836-1865 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/cherrylunsfordrpapers-000890440/">cherrylunsfordrpapers-000890440</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Lunsford Cherry papers, 1836-1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000890440</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20649352</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30478</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Cherry, Lunsford R.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Lunsford Cherry papers</unittitle>
+         <unitdate normal="1836/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1836-1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>25 items</extent>
+         </physdesc>
+         <abstract>Cherry family correspondence (dating between 1839 and 1845) between Joseph J. George (in Texas) to his sister and brother-in-law Mary and Lunsford R. Cherry in North Carolina. George writes about living in the Texas territory and discusses a variety of topics including: N.C. slave prices; relations between Texas, Mexico, and Great Britain; the Methodist Church; Texas economic conditions; the reaction of Texans to annexation by the U.S.; and his opinions of Andrew Jackson. The collection also contains letters from James and George W. Cherry to their family. George W. Cherry, Lunsford Cherry's son, enlisted in the Confederate Army in 1861 and served with the 15th Regiment, North Carolina State Troops. His letters discuss conditions in North Carolina and Virginia and the battles of Fredericksburg, Gettysburg, and Fort Sumter. James Cherry's letters indicate his unwillingness to fight in the Civil War and his efforts to get his father to use his influence in Raleigh to get a discharge for him. A post-war letter from the Freedmen's Bureau to Lunsford Cherry, then serving as justice of the peace for Edgecombe County, N.C. to issue a warrant for the arrest and trial of a freedman accused of assault.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Lunsford Cherry Papers, 1836-1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Edgecombe County, N.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Cherry family correspondence (dating between 1839 and 1845) between Joseph J. George (in Texas) to his sister and brother-in-law Mary and Lunsford R. Cherry in North Carolina. George writes about living in the Texas territory and discusses a variety of topics including: N.C. slave prices; relations between Texas, Mexico, and Great Britain; the Methodist Church; Texas economic conditions; the reaction of Texans to annexation by the U.S.; and his opinions of Andrew Jackson. The collection also contains letters from James and George W. Cherry to their family. George W. Cherry, Lunsford Cherry's son, enlisted in the Confederate Army in 1861 and served with the 15th Regiment, North Carolina State Troops. His letters discuss conditions in North Carolina and Virginia and the battles of Fredericksburg, Gettysburg, and Fort Sumter. James Cherry's letters indicate his unwillingness to fight in the Civil War and his efforts to get his father to use his influence in Raleigh to get a discharge for him. A post-war letter from the Freedmen's Bureau to Lunsford Cherry, then serving as justice of the peace for Edgecombe County, N.C. to issue a warrant for the arrest and trial of a freedman accused of assault.</p>
+      </scopecontent>
+      <odd>
+         <p>Originally cataloged as the George W. Cherry and the Lunsford R. Cherry Papers. These collections were combined in 1965.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Slave trade -- North Carolina -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Fredericksburg, Battle of, Fredericksburg, Va., 1862</subject>
+         <subject source="lcsh" encodinganalog="650">Gettysburg, Battle of, Gettysburg, Pa., 1863</subject>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- Confederate States of America -- Correspondence</subject>
+         <persname source="lcnaf" encodinganalog="700">Cherry, George W.,correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">George, Joseph J.,correspondent.</persname>
+         <famname source="lcnaf" encodinganalog="700">Cherry family correspondents.</famname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Military life</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army. North Carolina Infantry Regiment, 15th.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Bureau of Refugees, Freedmen, and Abandoned Lands</corpname>
+         <geogname source="lcsh" encodinganalog="651">Edgecombe County (N.C.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">Fort Sumter (Charleston, S.C.) -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">North Carolina -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">North Carolina -- Social life and customs</geogname>
+         <geogname source="lcsh" encodinganalog="651">Texas -- Annexation to the United States</geogname>
+         <geogname source="lcsh" encodinganalog="651">Texas -- Social life and customs</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Campaigns</geogname>
+         <geogname source="lcsh" encodinganalog="651">Virginia -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-1d4399dc-c23a-4126-afaf-0c94baca901f" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Lunsford Cherry papers</unittitle>
+               <unitdate>1836-1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

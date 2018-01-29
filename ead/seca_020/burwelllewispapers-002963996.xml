@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Burwell family papers, 1802-1891 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/burwelllewispapers-002963996/">burwelllewispapers-002963996</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Burwell family papers, 1802-1891</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002963996</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">46719299</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30374</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Burwell, Lewis</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Burwell family papers</unittitle>
+         <unitdate normal="1802/1891"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1802-1891</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>8 items</extent>
+         </physdesc>
+         <abstract>Various family letters and statements of accounts, including an estate account (1802) that lists sales of land and slaves, as well as an order placed for household goods (7 November 1879). Topics of interest in the letters include tobacco trade and prices, Presbyterian camp meetings, and the health of family members. Also, there is a letter from Luke L. Burwell to his brother Lewis (11 September 1849), in which Luke counters charges of plantation mismanagement made by his overseer.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Burwell family Papers, 1802-1891, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Dayton (Marengo Co.), Ala.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Various family letters and statements of accounts, including an estate account (1802) that lists sales of land and slaves, as well as an order placed for household goods (7 November 1879). Topics of interest in the letters include tobacco trade and prices, Presbyterian camp meetings, and the health of family members. Also, there is a letter from Luke L. Burwell to his brother Lewis (11 September 1849), in which Luke counters charges of plantation mismanagement made by his overseer.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from items.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Distribution of decedents' estates -- Southern States</subject>
+         <subject source="lcsh" encodinganalog="650">Presbyterian Church -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Tobacco industry -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Families -- Health and hygiene</subject>
+         <subject source="lcsh" encodinganalog="650">Sick -- Family relationships</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">Farm management -- Southern States -- History</subject>
+         <subject source="lcsh" encodinganalog="650">Plantation life -- Alabama -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Plantation owners -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">Plantations -- Alabama</subject>
+         <persname source="lcnaf" encodinganalog="600">Burwell, Lewis</persname>
+         <persname source="lcnaf" encodinganalog="600">Burwell, Luke L.</persname>
+         <persname source="lcnaf" encodinganalog="700">Burwell, Luke L.,correspondent.</persname>
+         <famname source="lcnaf" encodinganalog="600">Burwell family</famname>
+         <genreform source="aat" encodinganalog="655">Estate inventory</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-81bc469e-8944-4e58-a7f9-b60ed3ac397a" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Burwell family papers</unittitle>
+               <unitdate>1802-1891</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

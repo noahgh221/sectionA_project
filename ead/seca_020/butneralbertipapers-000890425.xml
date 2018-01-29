@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Albert I. Butner papers, 1820-1907 ; //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/butneralbertipapers-000890425/">butneralbertipapers-000890425</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Albert I. Butner papers, 1820-1907 ;</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000890425</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20649308</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30377</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Butner, Albert I.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Albert I. Butner papers</unittitle>
+         <unitdate normal="1820/1907"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1820-1907 ;</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>66 items</extent>
+         </physdesc>
+         <abstract>Personal and business papers of Butner, consisting of personal letters, including one of 1855 describing a balloon ascension at Salem, N.C.; correspondence relating to education in North Carolina and school affairs in Forsyth County; rough minutes of the Forsyth County Board of Education, 1890-1895; and a temporary school register for Bethania Public School, 1904-1905. Correspondents include John Franklin Heitman and J.W. Giles.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Albert I. Butner Papers, 1820-1907 ;, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Superintendent of schools for Forsyth County, N.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Personal and business papers of Butner, consisting of personal letters, including one of 1855 describing a balloon ascension at Salem, N.C.; correspondence relating to education in North Carolina and school affairs in Forsyth County; rough minutes of the Forsyth County Board of Education, 1890-1895; and a temporary school register for Bethania Public School, 1904-1905. Correspondents include John Franklin Heitman and J.W. Giles.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Balloons -- North Carolina -- Winston-Salem -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Education -- North Carolina -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Schools -- North Carolina -- Forsyth County</subject>
+         <persname source="lcnaf" encodinganalog="700">Giles, J. W.,correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Heitman, John F.,correspondent.</persname>
+         <corpname source="lcnaf" encodinganalog="610">Forsyth County (N.C.). Board of Education</corpname>
+         <geogname source="lcsh" encodinganalog="651">Forsyth County (N.C.) -- History</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-be201274-8379-4fff-950f-8093723cb0bc" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Albert I. Butner papers</unittitle>
+               <unitdate>1820-1907 ;</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

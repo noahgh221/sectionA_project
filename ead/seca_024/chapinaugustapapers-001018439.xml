@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Augusta Chapin papers, 1862 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/chapinaugustapapers-001018439/">chapinaugustapapers-001018439</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Augusta Chapin papers, 1862</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001018439</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">24349299</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30494</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Chapin, Augusta</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Augusta Chapin papers</unittitle>
+         <unitdate normal="1862/1862"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1862</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 items</extent>
+         </physdesc>
+         <abstract>Diary (114 p.) of a single woman and a printed leaflet. The volume includes generally brief entries for the entire year concerning Chapin's daily activities as a schoolteacher, including comments about salary, travel, church, and domestic activities, and her frequent fatigue and illness. Scattered comments mention Civil War battles and officers, including Gen. H.W. Halleck. The leaflet, entitled "Grand Chapin Gathering at Springfield, Mass., September 17, 1862," contains a short family history and a list of the Committee of Arrangements, including E.H. Chapin.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Augusta Chapin Papers, 1862, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1980</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Schoolteacher in Monticello, Illinois.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Diary (114 p.) of a single woman and a printed leaflet. The volume includes generally brief entries for the entire year concerning Chapin's daily activities as a schoolteacher, including comments about salary, travel, church, and domestic activities, and her frequent fatigue and illness. Scattered comments mention Civil War battles and officers, including Gen. H.W. Halleck. The leaflet, entitled "Grand Chapin Gathering at Springfield, Mass., September 17, 1862," contains a short family history and a list of the Committee of Arrangements, including E.H. Chapin.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Women -- Diaries</subject>
+         <subject source="lcsh" encodinganalog="650">Single women -- Illinois</subject>
+         <subject source="lcsh" encodinganalog="650">Women teachers -- Illinois</subject>
+         <persname source="lcnaf" encodinganalog="600">Chapin, E. H. (Edwin Hubbell), 1814-1880</persname>
+         <persname source="lcnaf" encodinganalog="600">Halleck, H. W. (Henry Wager), 1815-1872</persname>
+         <famname source="lcnaf" encodinganalog="600">Chapin family</famname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-d09a1715-fea6-4ad0-9376-f6b294f0d7cc" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Augusta Chapin papers</unittitle>
+               <unitdate>1862</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

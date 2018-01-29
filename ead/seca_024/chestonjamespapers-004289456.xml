@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::James Cheston papers, 1771-1784 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/chestonjamespapers-004289456/">chestonjamespapers-004289456</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the James Cheston papers, 1771-1784</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">004289456</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">698765451</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30467</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Cheston, James, 1747-1798</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">James Cheston papers</unittitle>
+         <unitdate normal="1771/1784"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1771-1784</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1.0 linear feet</extent>
+         </physdesc>
+         <abstract>Collection comprises a letter book, account book, license, legal document, and letter related to Cheston's work. The letter book (23 April 1771-29 April 1773) recorded Cheston's regular letters to the Stevenson, Randolph &amp; Cheston firm in England, which averaged three to five days apart. The main topics were shipments to and from Baltimore, Md., as well as current prices for incoming and outgoing cargo, including convict servants and products arriving from England; slaves from the West Indies and Africa; and tobacco, corn, wheat requisitioned locally to be sold in England. Upon their arrival, Cheston noted the state of each ship and its passengers. He commented in several letters that recent changes in shipbuilding decreased ventilation below deck; he believed this resulted in more rapid spread of illness or disease aboard, as well as more deaths, and urged a return to former building practices. Several letters go on to document ships that were quarantined as a result of disease and deaths aboard. He also made regular notes of debits and credits to various accounts for the firm, and defended his purchases and business decisions to his partners.The account book (29 March 1784-27 May 1784) documented Cheston's warehouse accounts, including those with the Galloway &amp; Cheston firm he set up with his father-in-law, Samuel Galloway. Entries tracked a wide range of items sold, including rum, corn, butter, and sugar. The license (27 June 1772) was probably drafted on the order of Maryland's governor, and permitted Captain Simon Breffitt (of the ship Elizabeth) to unload cargo and passengers that had been quarantined because typhus aboard had killed 18 servants and the boatswain. In his letter book, Cheston followed the situation, and noted his lobbying for the license. The legal document (14 March 1785) was drafted by George Buck in Devon, Eng., and appointed Cheston his representative in Maryland to handle the debt of Emory Sudder, Joseph Earle, and Thomas Smith. It made clear that the Revolutionary War and interfered with the settlement of the debt. The letter (21 June [1780?]) was written by Cheston to "Jack" in reference to local distillery accounts.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>James Cheston Papers, 1771-1784, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 2010, 2010-0148, 10 lin ft</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Merchant in Baltimore, Md.; resident of Chestertown (Kent Co.), Md. Cheston was partner in the firm Stevenson, Randolph &amp; Cheston with his step-brother William Stevenson and William Randolph, who were based in Bristol, England.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection comprises a letter book, account book, license, legal document, and letter related to Cheston's work. The letter book (23 April 1771-29 April 1773) recorded Cheston's regular letters to the Stevenson, Randolph &amp; Cheston firm in England, which averaged three to five days apart. The main topics were shipments to and from Baltimore, Md., as well as current prices for incoming and outgoing cargo, including convict servants and products arriving from England; slaves from the West Indies and Africa; and tobacco, corn, wheat requisitioned locally to be sold in England. Upon their arrival, Cheston noted the state of each ship and its passengers. He commented in several letters that recent changes in shipbuilding decreased ventilation below deck; he believed this resulted in more rapid spread of illness or disease aboard, as well as more deaths, and urged a return to former building practices. Several letters go on to document ships that were quarantined as a result of disease and deaths aboard. He also made regular notes of debits and credits to various accounts for the firm, and defended his purchases and business decisions to his partners.</p>
+         <p>The account book (29 March 1784-27 May 1784) documented Cheston's warehouse accounts, including those with the Galloway &amp; Cheston firm he set up with his father-in-law, Samuel Galloway. Entries tracked a wide range of items sold, including rum, corn, butter, and sugar. The license (27 June 1772) was probably drafted on the order of Maryland's governor, and permitted Captain Simon Breffitt (of the ship Elizabeth) to unload cargo and passengers that had been quarantined because typhus aboard had killed 18 servants and the boatswain. In his letter book, Cheston followed the situation, and noted his lobbying for the license. The legal document (14 March 1785) was drafted by George Buck in Devon, Eng., and appointed Cheston his representative in Maryland to handle the debt of Emory Sudder, Joseph Earle, and Thomas Smith. It made clear that the Revolutionary War and interfered with the settlement of the debt. The letter (21 June [1780?]) was written by Cheston to "Jack" in reference to local distillery accounts.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from items.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Business records -- Maryland -- Baltimore</subject>
+         <subject source="lcsh" encodinganalog="650">Indentured servants -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Convict labor -- History -- 18th century</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery -- United States -- History -- 18th century</subject>
+         <subject source="lcsh" encodinganalog="650">Merchants -- Maryland -- Baltimore -- History</subject>
+         <subject source="lcsh" encodinganalog="650">Merchants -- Maryland -- Baltimore -- Correspondence</subject>
+         <subject source="lcsh" encodinganalog="650">Shipping -- Atlantic Ocean -- History</subject>
+         <subject source="lcsh" encodinganalog="650">Ships -- Cargo</subject>
+         <subject source="lcsh" encodinganalog="650">Trading companies -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Typhus fever</subject>
+         <subject source="lcsh" encodinganalog="650">Epidemics -- History</subject>
+         <subject source="lcsh" encodinganalog="650">Distilleries -- Maryland</subject>
+         <persname source="lcnaf" encodinganalog="600">Cheston, James, 1747-1798</persname>
+         <corpname source="lcnaf" encodinganalog="610">Elizabeth (Ship)</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Galloway &amp; Cheston (Firm)</corpname>
+         <corpname source="lcnaf" encodinganalog="710">George Washington Flowers Collection of Southern Americana</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Stevenson, Randolph &amp; Cheston (Firm)</corpname>
+         <geogname source="lcsh" encodinganalog="651">Baltimore (Md.) -- Commerce -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">Baltimore (Md.) -- Economic conditions</geogname>
+         <geogname source="lcsh" encodinganalog="651">Great Britain -- Colonies -- Commerce</geogname>
+         <geogname source="lcsh" encodinganalog="651">Maryland -- History -- Colonial period, ca. 1600-1775</geogname>
+         <geogname source="lcsh" encodinganalog="651">Maryland -- History -- Revolution, 1775-1783</geogname>
+         <genreform source="aat" encodinganalog="655">Letter books</genreform>
+         <genreform source="aat" encodinganalog="655">Account books</genreform>
+         <genreform source="aat" encodinganalog="655">Licenses</genreform>
+         <genreform source="aat" encodinganalog="655">Legal instruments</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-a71d3e6a-f94c-4df5-bcd0-301244dcf6de" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>James Cheston papers</unittitle>
+               <unitdate>1771-1784</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

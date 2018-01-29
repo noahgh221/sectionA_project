@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Byrnes diary, 1863 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/byrneswilliam-000846354/">byrneswilliam-000846354</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Byrnes diary, 1863</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000846354</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19276386</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30409</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Byrnes, William</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Byrnes diary</unittitle>
+         <unitdate normal="1863/1863"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1863</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 volume</extent>
+         </physdesc>
+         <abstract>Describes campaigns at Chancellorsville, Gettysburg, and Rappahannock Station, as well as various picket actions and skirmishes. Discusses camp life, casualties, deserters, discipline, foraging, and prisoners, and mentions U.S. generals Joseph J. Bartlett, George G. Meade, John Sedgwick, and Horatio G. Wright.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Byrnes diary, 1863, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Officer, 95th Pennsylvania Volunteers.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Describes campaigns at Chancellorsville, Gettysburg, and Rappahannock Station, as well as various picket actions and skirmishes. Discusses camp life, casualties, deserters, discipline, foraging, and prisoners, and mentions U.S. generals Joseph J. Bartlett, George G. Meade, John Sedgwick, and Horatio G. Wright.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Chancellorsville, Battle of, Chancellorsville, Va., 1863</subject>
+         <subject source="lcsh" encodinganalog="650">Gettysburg Campaign, 1863</subject>
+         <subject source="lcsh" encodinganalog="650">Kelly's Ford, Battle of, Va., 1863</subject>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- Conduct of life</subject>
+         <persname source="lcnaf" encodinganalog="600">Bartlett, Joseph Jackson, 1834-1893</persname>
+         <persname source="lcnaf" encodinganalog="600">Meade, George Gordon, 1815-1872</persname>
+         <persname source="lcnaf" encodinganalog="600">Sedgwick, John, 1813-1864</persname>
+         <persname source="lcnaf" encodinganalog="600">Wright, Horatio Gouverneur, 1820-1899</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Pennsylvania Infantry Regiment, 95th (1861-1865)</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Personal narratives</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-f44f632a-d620-46b9-bcc4-2904ae8bf2a6" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Byrnes diary</unittitle>
+               <unitdate>1863</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

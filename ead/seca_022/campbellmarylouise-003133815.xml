@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Mary Louise Campbell diary, 1934-1937 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/campbellmarylouise-003133815/">campbellmarylouise-003133815</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Mary Louise Campbell diary, 1934-1937</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003133815</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">51301465</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30434</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Campbell, Mary Louise</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Mary Louise Campbell diary</unittitle>
+         <unitdate normal="1934/1937"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1934-1937</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Diary maintained daily as a school assignment from 26 March to 30 May 1936, when Campbell was about 15 years old. Initial entries include grades and occasional teacher comments urging Campbell to include more detail. After completing the assignment, Campbell stopped the diary, picking it up again on her own initiative on 1 Jan. 1937 and continuing entries for a year. Topics include schoolwork, recreational activities (walks, bicycle rides, movies, trips to buy ice cream, reading), and family life. Campbell also included maps of her neighborhood, newspaper clippings, and other ephemera. Two legal-sized pages have been removed from the front of the volume; they hold diary entries Campbell maintained separately for 10-28 July 1934.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Mary Louise Campbell diary, 1934-1937, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 2002, 2002-0099</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Newark (New Castle Co.), Del.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Diary maintained daily as a school assignment from 26 March to 30 May 1936, when Campbell was about 15 years old. Initial entries include grades and occasional teacher comments urging Campbell to include more detail. After completing the assignment, Campbell stopped the diary, picking it up again on her own initiative on 1 Jan. 1937 and continuing entries for a year. Topics include schoolwork, recreational activities (walks, bicycle rides, movies, trips to buy ice cream, reading), and family life. Campbell also included maps of her neighborhood, newspaper clippings, and other ephemera. Two legal-sized pages have been removed from the front of the volume; they hold diary entries Campbell maintained separately for 10-28 July 1934.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from item.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Girls</subject>
+         <subject source="lcsh" encodinganalog="650">Girls -- Diaries -- 20th century</subject>
+         <subject source="lcsh" encodinganalog="650">Girls -- Delaware</subject>
+         <persname source="lcnaf" encodinganalog="600">Campbell, Mary Louise</persname>
+         <geogname source="lcsh" encodinganalog="651">Delaware -- Social life and customs -- 20th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">New Castle County (Del.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">Newark (Del.) -- History</geogname>
+         <genreform source="aat" encodinganalog="655">Diary</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-d9b2e507-a727-4abc-94f3-24cf423aef39" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Mary Louise Campbell diary</unittitle>
+               <unitdate>1934-1937</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

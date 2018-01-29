@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Mrs. Caudle letters, 1833 //EN"
+             url="http://library.duke.edu/rubenstein/findingaids/caudleletters-001098617/">caudleletters-001098617</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Mrs. Caudle Letters, 1833</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001098617</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">28081360</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>January 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30445</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Caudle, Mrs.,</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Mrs. Caudle letters</unittitle>
+         <unitdate normal="1833/1833"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1833</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 items</extent>
+         </physdesc>
+         <abstract>Two letters to "Old Man," from a Mrs. Caudle, detailing her trip to a courthouse auction at Lawrenceburg, Tenn., to bid for a white child who is apparently the illegitimate offspring of the family. There is discussion of what to do with the child as well as various family members' reactions.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Mrs. Caudle letters, 1833, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1986</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, January 2018.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Two letters to "Old Man," from a Mrs. Caudle, detailing her trip to a courthouse auction at Lawrenceburg, Tenn., to bid for a white child who is apparently the illegitimate offspring of the family. There is discussion of what to do with the child as well as various family members' reactions.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Illegitimacy -- Tennessee</subject>
+         <subject source="lcsh" encodinganalog="650">Children -- Legal status, laws, etc -- Tennessee</subject>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-44d5a0da-676d-4ef2-adb9-dec0b5878f7a" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Mrs. Caudle letters</unittitle>
+               <unitdate>1833</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
