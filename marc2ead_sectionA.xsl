@@ -230,7 +230,7 @@
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
 
 <eadheader findaidstatus="SecA_record" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511">
-  <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::{$CollectionTitle} {$CollectionDate} //EN" url="http://library.duke.edu/rubenstein/findingaids/{$EADID_unique}/"><xsl:value-of select="$EADID_unique"/></eadid>
+  <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::{$CollectionTitle} {$CollectionDate} //EN" url="https://library.duke.edu/rubenstein/findingaids/{$EADID_unique}/"><xsl:value-of select="$EADID_unique"/></eadid>
 
 <filedesc>
 <titlestmt>

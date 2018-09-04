@@ -10,6 +10,36 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>marcxml/montemar.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>marc2ead_sectionA</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>marcxml/terrasson_marc.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>marc2ead_sectionA</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>file:/F:/SpeColl/TECHNICAL%20SERVICES/Technical%20Services%20Department/xml/toolkit/balthropejamesmletters-001616527.xml</String>
                                 </field>
                                 <field name="scenarioIds">
