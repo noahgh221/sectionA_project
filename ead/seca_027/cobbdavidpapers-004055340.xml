@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::David Cobb papers, 1806 June 29 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/cobbdavidpapers-004055340/">cobbdavidpapers-004055340</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the David Cobb papers, 1806 June 29</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">004055340</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">268675308</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30546</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Cobb, David, 1748-1830</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">David Cobb papers</unittitle>
+         <unitdate normal="1806/1806"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1806 June 29</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Collection comprises a letter to Charles W. Hare, in Philadelphia, regarding Cobb's land development activities in Maine.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>David Cobb Papers, 1806 June 29, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Revolutionary War soldier and aide-de-camp to General George Washington, speaker of the Massachusetts House of Representatives and president of the Senate, physician, judge, member of Congress, lieutenant governor of Massachusetts, and a founder of the Society of the Cincinnati and the American Academy of Arts and Sciences. At the time of this letter, Cobb was a resident of Gouldsboro, Maine.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection comprises a letter to Charles W. Hare, in Philadelphia, regarding Cobb's land development activities in Maine.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from item.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Land use -- United States -- History -- 18th century</subject>
+         <subject source="lcsh" encodinganalog="650">Land use -- Maine</subject>
+         <subject source="lcsh" encodinganalog="650">Land settlement -- Maine -- History</subject>
+         <persname source="lcnaf" encodinganalog="600">Cobb, David, 1748-1830</persname>
+         <persname source="lcnaf" encodinganalog="600">Hare, Charles W.</persname>
+         <geogname source="lcsh" encodinganalog="651">Maine -- History -- 1775-1865</geogname>
+      </controlaccess>
+      <relatedmaterial encodinganalog="544">
+         <head>Related Material</head>
+         <p>David Cobb papers, Ms. N-1000; Massachusetts Historical Society;</p>
+      </relatedmaterial>
+      <dsc>
+         <c01 id="seca-10e0d003-e833-462e-b16c-9796a32a8d88" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>David Cobb papers</unittitle>
+               <unitdate>1806 June 29</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

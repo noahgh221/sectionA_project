@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Zachary Taylor Durham papers, 1869-1876 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/durhamzacharytaylorpapers-000893827/">durhamzacharytaylorpapers-000893827</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Zachary Taylor Durham papers, 1869-1876</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000893827</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20737080</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30799</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Durham, Zachary Taylor</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Zachary Taylor Durham papers</unittitle>
+         <unitdate normal="1869/1876"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1869-1876</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>11 items</extent>
+         </physdesc>
+         <abstract>Personal correspondence of Z.T. Durham, with Brantley A. Denmark and Arthur Howell of Savannah, Ga., reflecting the difficulties of Reconstruction, and including a letter describing Southern feelings about the Fourth of July. A letter, 1872, by Durham, describes Texas, and a letter, 1874, from John Snyder in San Francisco, describes that city and other parts of the West.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Zachary Taylor Durham Papers, 1869-1876, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Savannah, Ga.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Personal correspondence of Z.T. Durham, with Brantley A. Denmark and Arthur Howell of Savannah, Ga., reflecting the difficulties of Reconstruction, and including a letter describing Southern feelings about the Fourth of July. A letter, 1872, by Durham, describes Texas, and a letter, 1874, from John Snyder in San Francisco, describes that city and other parts of the West.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Fourth of July</subject>
+         <subject source="lcsh" encodinganalog="650">Reconstruction -- Georgia</subject>
+         <persname source="lcnaf" encodinganalog="600">Denmark, Brantley A.</persname>
+         <persname source="lcnaf" encodinganalog="600">Howell, Arthur</persname>
+         <persname source="lcnaf" encodinganalog="600">Snyder, John</persname>
+         <geogname source="lcsh" encodinganalog="651">San Francisco (Calif.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Southern States -- Social conditions</geogname>
+         <geogname source="lcsh" encodinganalog="651">Texas -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">West (U.S.) -- Description and travel</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-c421ae31-3fd6-48bb-b623-1a804ef232b0" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Zachary Taylor Durham papers</unittitle>
+               <unitdate>1869-1876</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

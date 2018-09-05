@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::James Crewes papers, 1857-1891 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/crewesjamespapers-002367339/">crewesjamespapers-002367339</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the James Crewes papers, 1857-1891</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002367339</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">38000752</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30643</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Crewes, James</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">James Crewes papers</unittitle>
+         <unitdate normal="1857/1891"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1857-1891</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>70 items</extent>
+         </physdesc>
+         <abstract>Collection contains miscellaneous business papers, legal papers, and personal correspondence.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>James Crewes Papers, 1857-1891, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Oxford (Granville Co.), N.C. resident.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains miscellaneous business papers, legal papers, and personal correspondence.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Business records -- North Carolina -- Granville County</subject>
+         <subject source="lcsh" encodinganalog="650">Legal documents -- North Carolina</subject>
+         <geogname source="lcsh" encodinganalog="651">Oxford (N.C.) -- History</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-a0522085-c675-4b02-b325-756e247286b5" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>James Crewes papers</unittitle>
+               <unitdate>1857-1891</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

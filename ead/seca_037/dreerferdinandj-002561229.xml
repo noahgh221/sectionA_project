@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::John C. Hamilton letter to Ferdinand J. Dreer, 1867 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/dreerferdinandj-002561229/">dreerferdinandj-002561229</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the John C. Hamilton Letter to Ferdinand J. Dreer, 1867</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002561229</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41038363</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30763</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Dreer, Ferdinand J. (Ferdinand Julius), 1812-1902</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">John C. Hamilton letter to Ferdinand J. Dreer</unittitle>
+         <unitdate normal="1867/1867"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1867</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Letter to Dreer from John C. Hamilton asking to see his collection of papers of prominent Americans.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>John C. Hamilton letter to Ferdinand J. Dreer, 1867, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letter to Dreer from John C. Hamilton asking to see his collection of papers of prominent Americans.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Dreer, Ferdinand J. (Ferdinand Julius), 1812-1902</persname>
+         <persname source="lcnaf" encodinganalog="700">Hamilton, John C., correspondent.</persname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-290b0459-3db2-4eb3-91fd-0a531147c44e" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>John C. Hamilton letter to Ferdinand J. Dreer</unittitle>
+               <unitdate>1867</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

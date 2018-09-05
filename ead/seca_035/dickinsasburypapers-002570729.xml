@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Asbury Dickins papers, 1832-1855 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/dickinsasburypapers-002570729/">dickinsasburypapers-002570729</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Asbury Dickins papers, 1832-1855</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002570729</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41247462</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30726</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Dickins, Asbury, 1780-1861</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Asbury Dickins papers</unittitle>
+         <unitdate normal="1832/1855"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1832-1855</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Letters of Asbury Dickens (1780-1861) to Matthew Carey regarding census figures and a circular concerned with the distribution of the works of John Adams. Included also is a personal letter from Archibald Dixon.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Asbury Dickins Papers, 1832-1855, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Asbury Dickins (1780-1861) was a publisher, bookseller, chief clerk in the State Department and Treasure Department, and secretary of the United States Senate. Dickins was a resident of Halifax County, North Carolina, Philadelphia, Great Britain, and Washington, D.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters of Asbury Dickens (1780-1861) to Matthew Carey regarding census figures and a circular concerned with the distribution of the works of John Adams. Included also is a personal letter from Archibald Dixon.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="700">Carey, Matthew</persname>
+         <persname source="lcnaf" encodinganalog="600">Dickins, Asbury, 1780-1861</persname>
+         <persname source="lcnaf" encodinganalog="600">Dixon, A. (Archibald), 1802-1876</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Congress. Senate</corpname>
+         <geogname source="lcsh" encodinganalog="651">Halifax County (N.C.)</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Census data</geogname>
+         <geogname source="lcsh" encodinganalog="651">Washington (D.C.)</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-603e1504-5eba-4623-bd3e-e8f0ee17dab9" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Asbury Dickins papers</unittitle>
+               <unitdate>1832-1855</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

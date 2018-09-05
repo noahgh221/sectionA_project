@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Communist Party of Los Angeles papers, 1947 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/communistpartyoflosangelesbenfranklinclubpapers-003462480/">communistpartyoflosangelesbenfranklinclubpapers-003462480</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Communist Party of Los Angeles papers, 1947</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003462480</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">61681442</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30609</unitid>
+         <origination label="Creator">
+            <corpname encodinganalog="110" source="lcnaf">Communist Party of Los Angeles Ben Franklin Club,</corpname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Communist Party of Los Angeles papers</unittitle>
+         <unitdate normal="1947/1947"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1947</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Collection comprises a mimeographed flyer protesting the arrest of seven Mexican-American boys following a fistfight in a secondary school playground. The youths were held without bail for five days, when a judge set their bail at $1,000 each, in order to provide them with protective custody. The writer condemned the judge's prejudice against this ethnic group and others. The information is provided in English on one side of the paper, in Spanish on the other.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Communist Party of Los Angeles Papers, 1947, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection comprises a mimeographed flyer protesting the arrest of seven Mexican-American boys following a fistfight in a secondary school playground. The youths were held without bail for five days, when a judge set their bail at $1,000 each, in order to provide them with protective custody. The writer condemned the judge's prejudice against this ethnic group and others. The information is provided in English on one side of the paper, in Spanish on the other.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from item.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Mexican Americans -- Social conditions</subject>
+         <subject source="lcsh" encodinganalog="650">School violence -- United States -- 20th century</subject>
+         <subject source="lcsh" encodinganalog="650">Justice</subject>
+         <subject source="lcsh" encodinganalog="650">Boys -- California</subject>
+         <subject source="lcsh" encodinganalog="650">Minorities -- California -- Los Angeles -- Social conditions</subject>
+         <subject source="lcsh" encodinganalog="650">Immigrants -- California -- Los Angeles -- Social conditions</subject>
+         <subject source="lcsh" encodinganalog="650">Communism -- United States</subject>
+         <corpname source="lcnaf" encodinganalog="610">Communist Party of Los Angeles. Ben Franklin Club.</corpname>
+         <geogname source="lcsh" encodinganalog="651">Los Angeles (Calif.) -- Ethnic relations</geogname>
+         <geogname source="lcsh" encodinganalog="651">Los Angeles (Calif.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Race relations</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-0e3d0c8e-2465-47d3-8e0e-cb82328119d0" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Communist Party of Los Angeles papers</unittitle>
+               <unitdate>1947</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

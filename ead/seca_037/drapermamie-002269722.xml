@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Mamie Draper midwife journal, 1894-1912 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/drapermamie-002269722/">drapermamie-002269722</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Mamie Draper midwife journal, 1894-1912</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002269722</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">36752584</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30764</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Draper, Mamie</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Mamie Draper midwife journal</unittitle>
+         <unitdate normal="1894/1912"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1894-1912</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Collection consists of a midwife's journal of deliveries. Included is each infant's name, date of birth (and sometimes death), birth weight, parent's name, name of delivering doctor and in most cases a lock of the baby's hair.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Mamie Draper midwife journal, 1894-1912, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Gift 1996</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Obstetric nurse or midwife.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection consists of a midwife's journal of deliveries. Included is each infant's name, date of birth (and sometimes death), birth weight, parent's name, name of delivering doctor and in most cases a lock of the baby's hair.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from accession records.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Registers of births, etc</subject>
+         <subject source="lcsh" encodinganalog="650">Infants</subject>
+         <subject source="lcsh" encodinganalog="650">Midwifery</subject>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-44249677-847a-4717-9d64-b3d6a363ffe2" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Mamie Draper midwife journal</unittitle>
+               <unitdate>1894-1912</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Southern women's colleges commencement addresses, approximately 1857-1879 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/southernwomenscollegescommencementaddresses-002982726/">southernwomenscollegescommencementaddresses-002982726</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Southern women's colleges commencement addresses, approximately 1857-1879</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002982726</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">46888503</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30594</unitid>
+         <unittitle label="Title" encodinganalog="245">Southern women's colleges commencement addresses</unittitle>
+         <unitdate normal="1857/1879"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">approximately 1857-1879</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>The collection contains two commencement addresses delivered at southern women's colleges on two different dates. Based on references made in the texts, the first (27-page) address was probably written between 1856 and 1860, the second (15 pages) between 1865 and 1879. It is possible that the works were composed by the same author and delivered at the same institution. Both speeches point out that the graduates' formal education was intended to train their minds to be more "masculine." However, the writer notes that as women, especially as Southern women, the graduates must assert their future mental endeavors in support of their work within the private sphere of the home (as caregivers and as the guardians of moral order), rather than use their accomplishments as the basis for public work--since the public sphere is rightfully dominated by men. The writer affirms these sex-roles differences as natural, divinely inspired, and culturally supported, although he outlines the work that nineteenth-century feminists are doing to challenge this acceptance. The writer discusses the following topics in support of his argument: Madame de Stael̈; Florence Nightingale; Joan of Arc; Lady Jane Grey; the 1855 epidemic of yellow fever in Norfolk, Virginia; and scientific advances in astronomy and geology.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Southern women's colleges commencement addresses, approximately 1857-1879, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The collection contains two commencement addresses delivered at southern women's colleges on two different dates. Based on references made in the texts, the first (27-page) address was probably written between 1856 and 1860, the second (15 pages) between 1865 and 1879. It is possible that the works were composed by the same author and delivered at the same institution. Both speeches point out that the graduates' formal education was intended to train their minds to be more "masculine." However, the writer notes that as women, especially as Southern women, the graduates must assert their future mental endeavors in support of their work within the private sphere of the home (as caregivers and as the guardians of moral order), rather than use their accomplishments as the basis for public work--since the public sphere is rightfully dominated by men. The writer affirms these sex-roles differences as natural, divinely inspired, and culturally supported, although he outlines the work that nineteenth-century feminists are doing to challenge this acceptance. The writer discusses the following topics in support of his argument: Madame de Stael̈; Florence Nightingale; Joan of Arc; Lady Jane Grey; the 1855 epidemic of yellow fever in Norfolk, Virginia; and scientific advances in astronomy and geology.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from items.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Sex discrimination -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Sexism -- History</subject>
+         <subject source="lcsh" encodinganalog="650">Education, Higher -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- Education -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- Southern States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- Education -- Southern States</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- Conduct of life -- Early works to 1900</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- Education (Higher) -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Women's colleges -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Women's rights -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Sex differences in education -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Sex role -- Southern States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Sex role -- United States -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Yellow fever -- Virginia -- Norfolk</subject>
+         <subject source="lcsh" encodinganalog="650">Baccalaureate addresses</subject>
+         <persname source="lcnaf" encodinganalog="600">Grey, Jane, Lady, 1537-1554</persname>
+         <persname source="lcnaf" encodinganalog="600">Nightingale, Florence, 1820-1910</persname>
+         <persname source="lcnaf" encodinganalog="600">Staël, (Anne-Louise-Germaine), Madame de 1766-1817</persname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-d3e2da60-8bcb-46b4-8e55-e175cd0b865e" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Southern women's colleges commencement addresses</unittitle>
+               <unitdate>approximately 1857-1879</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

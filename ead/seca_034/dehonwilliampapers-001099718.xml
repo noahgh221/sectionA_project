@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Dehon family papers, 1817-1877 and undated. //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/dehonwilliampapers-001099718/">dehonwilliampapers-001099718</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Dehon family papers, 1817-1877 and undated.</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001099718</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">28106287</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30697</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Dehon, William, 1817-1862</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Dehon family papers</unittitle>
+         <unitdate normal="1817/1877"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1817-1877 and undated.</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>62 items</extent>
+         </physdesc>
+         <abstract>Letters to and from William Dehon, an Episcopal clergyman of Pineville, S.C., and his family and friends. Topics mentioned in letters from family members in Charleston, S.C. include vaccination for smallpox and vericella; and the religious life and instruction of slaves. Letters from family members provide accounts of travels in France, England, Ireland, and New York. A few letters contain information regarding women's fashions and hairstyles.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Dehon family Papers, 1817-1877 and undated., David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1974</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Episcopal clergyman.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters to and from William Dehon, an Episcopal clergyman of Pineville, S.C., and his family and friends. Topics mentioned in letters from family members in Charleston, S.C. include vaccination for smallpox and vericella; and the religious life and instruction of slaves. Letters from family members provide accounts of travels in France, England, Ireland, and New York. A few letters contain information regarding women's fashions and hairstyles.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Slaves -- Religious life -- South Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Vaccination -- South Carolina -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Smallpox -- South Carolina -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Clergy -- South Carolina -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Hairstyles -- History -- 19th century</subject>
+         <famname source="lcnaf" encodinganalog="600">Dehon family</famname>
+         <geogname source="lcsh" encodinganalog="651">England -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">France -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Ireland -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">New York (State) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">South Carolina -- Religion -- 19th century</geogname>
+         <geogname source="lcsh" encodinganalog="651">South Carolina -- Social life and customs</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-011f53d6-a0c4-4487-8b38-3276872de518" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Dehon family papers</unittitle>
+               <unitdate>1817-1877 and undated.</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

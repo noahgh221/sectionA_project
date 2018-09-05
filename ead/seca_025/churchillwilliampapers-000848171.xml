@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Churchill papers, 1811-1851 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/churchillwilliampapers-000848171/">churchillwilliampapers-000848171</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Churchill papers, 1811-1851</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000848171</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19347288</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30502</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Churchill, William</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Churchill papers</unittitle>
+         <unitdate normal="1811/1851"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1811-1851</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>4 items</extent>
+         </physdesc>
+         <abstract>Two letters to William Churchill from a brother in the Mississippi Territory, commenting on farming conditions, the purchase of cattle, and the Creek War of 1813-1814 in Alabama; and two letters from a son who was a soldier in the Mexican War and later moved to Boston, Mass.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Churchill Papers, 1811-1851, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Greene Co., N.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Two letters to William Churchill from a brother in the Mississippi Territory, commenting on farming conditions, the purchase of cattle, and the Creek War of 1813-1814 in Alabama; and two letters from a son who was a soldier in the Mexican War and later moved to Boston, Mass.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Creek War, 1813-1814</subject>
+         <subject source="lcsh" encodinganalog="650">Indians of North America -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">Mexican War, 1846-1848</subject>
+         <subject source="lcsh" encodinganalog="650">Migration, Internal -- United States</subject>
+         <geogname source="lcsh" encodinganalog="651">Mississippi -- Description and travel</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-62f94130-cd63-4809-8347-4cf7d1626935" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Churchill papers</unittitle>
+               <unitdate>1811-1851</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::James Freeman Clarke papers, 1833-1905 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/clarkejamesfreemanpapers-000848181/">clarkejamesfreemanpapers-000848181</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the James Freeman Clarke papers, 1833-1905</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000848181</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19347367</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30522</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Clarke, James Freeman, 1810-1888</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">James Freeman Clarke papers</unittitle>
+         <unitdate normal="1833/1905"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1833-1905</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Items include a Harvard Divinity School certificate for completion of a theological course; letters from Mrs. Zina Fay Peirce discussing a Congress of Orientalists in London; a Statesmen's Conference; Republican and Democratic parties and the upcoming election; and letters discussing Clarke's nephew General H.S. Huidekoper and his command during the Railroad Strike 1877.Some letters are addressed to Anna (Huidekoper) Clarke by Lady Edith Jane (Smith) Durning-Lawrence (1844- ) about Lord Balfour; W. E. Gladstone; C.S. Parnell; Queen Victoria; British-Irish relations; the Liberal and Conservative parties; and Robert Browning. In 1905, daughter Miss Lilian Freeman Clarke, writes several letters about a Unitarian Conference on the Isles of Shoals off the coast from Portsmouth, N.H.There is an undated pamphlet by Clarke on Church-Going. He also reviews NELLEY BROOKE by Mrs. Florence (Marryat) Church Lean (also known as Mrs. Francis Lean and Mrs. Ross Church); WRECKED IN PORT by Edmund Hodgson Yates; and BALLET DANCER'S HUSBAND.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>James Freeman Clarke Papers, 1833-1905, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>James Freeman Clarke (1810-1888) was a Unitarian minister from Boston, Ma. In 1841 Clarke founded the Church of the Disciples.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Items include a Harvard Divinity School certificate for completion of a theological course; letters from Mrs. Zina Fay Peirce discussing a Congress of Orientalists in London; a Statesmen's Conference; Republican and Democratic parties and the upcoming election; and letters discussing Clarke's nephew General H.S. Huidekoper and his command during the Railroad Strike 1877.</p>
+         <p>Some letters are addressed to Anna (Huidekoper) Clarke by Lady Edith Jane (Smith) Durning-Lawrence (1844- ) about Lord Balfour; W. E. Gladstone; C.S. Parnell; Queen Victoria; British-Irish relations; the Liberal and Conservative parties; and Robert Browning. In 1905, daughter Miss Lilian Freeman Clarke, writes several letters about a Unitarian Conference on the Isles of Shoals off the coast from Portsmouth, N.H.</p>
+         <p>There is an undated pamphlet by Clarke on Church-Going. He also reviews NELLEY BROOKE by Mrs. Florence (Marryat) Church Lean (also known as Mrs. Francis Lean and Mrs. Ross Church); WRECKED IN PORT by Edmund Hodgson Yates; and BALLET DANCER'S HUSBAND.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Railroad Strike, U.S., 1877</subject>
+         <subject source="lcsh" encodinganalog="650">Unitarian Universalist churches -- Clergy</subject>
+         <persname source="lcnaf" encodinganalog="600">Clarke, Anna Huidekoper</persname>
+         <persname source="lcnaf" encodinganalog="600">Clarke, Lilian Freeman</persname>
+         <persname source="lcnaf" encodinganalog="600">Durning-Lawrence, Edith Jane Smith, Lady, 1844</persname>
+         <persname source="lcnaf" encodinganalog="600">Marryat, Florence, 1833-1899</persname>
+         <persname source="lcnaf" encodinganalog="600">Yates, Edmund, 1831-1894</persname>
+         <corpname source="lcnaf" encodinganalog="610">Church of the Disciples (Boston, Mass.)</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Harvard Divinity School</corpname>
+         <geogname source="lcsh" encodinganalog="651">Boston (Mass.) -- Religious life and customs</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-39a76a31-5902-45e7-8b70-a406208dba77" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>James Freeman Clarke papers</unittitle>
+               <unitdate>1833-1905</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

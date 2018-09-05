@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::James Jackson Davis papers, 1854-1948 and undated. //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/davisjamesjacksonpapers-002448939/">davisjamesjacksonpapers-002448939</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the James Jackson Davis papers, 1854-1948 and undated.</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002448939</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">39100471</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30685</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Davis, James Jackson</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">James Jackson Davis papers</unittitle>
+         <unitdate normal="1854/1948"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1854-1948 and undated.</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>32 items</extent>
+         </physdesc>
+         <abstract>Collection contains a variety of items including a number of Civil War period letters between J.J. Davis and his wife E.J., whom he addresses as Betty. Neither knew the English language well, but their letters are quite informative about her home life and his service. They were both very religious and appear to have had deep respect and affection for one another. His first letter gives Gainesville, Ala. as the post office and another was written after a retreat near Baldwin, Miss. Ms. Davis' family owned slaves and there is some mention of the hiring and selling of slaves.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>James Jackson Davis Papers, 1854-1948 and undated., David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase, 1978</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Member of the 43rd Regiment of the Mississippi Volunteers.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains a variety of items including a number of Civil War period letters between J.J. Davis and his wife E.J., whom he addresses as Betty. Neither knew the English language well, but their letters are quite informative about her home life and his service. They were both very religious and appear to have had deep respect and affection for one another. His first letter gives Gainesville, Ala. as the post office and another was written after a retreat near Baldwin, Miss. Ms. Davis' family owned slaves and there is some mention of the hiring and selling of slaves.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Slavery -- Mississippi -- 19th century</subject>
+         <persname source="lcnaf" encodinganalog="600">Davis, James Jackson</persname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army. Mississippi Infantry Regiment, 43rd.</corpname>
+         <geogname source="lcsh" encodinganalog="651">Mississippi -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-e13ec785-d00d-4bf4-8f58-41985b60293b" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>James Jackson Davis papers</unittitle>
+               <unitdate>1854-1948 and undated.</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

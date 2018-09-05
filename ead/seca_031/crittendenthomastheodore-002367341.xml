@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Thomas Theodore Crittenden letter, 1819 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/crittendenthomastheodore-002367341/">crittendenthomastheodore-002367341</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Thomas Theodore Crittenden Letter, 1819</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002367341</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">38000945</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30632</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Crittenden, Thomas Theodore</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Thomas Theodore Crittenden letter</unittitle>
+         <unitdate normal="1819/1819"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1819</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Collection consists of a letter concerning the purchase of independent bank notes in Baltimore and Washington for trade in recently established state of Kentucky.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Thomas Theodore Crittenden letter, 1819, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Lexington (Fayette Co.), Ky. resident.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection consists of a letter concerning the purchase of independent bank notes in Baltimore and Washington for trade in recently established state of Kentucky.</p>
+      </scopecontent>
+      <odd>
+         <p>Description from card files, 1967.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Money -- Kentucky</subject>
+         <subject source="lcsh" encodinganalog="650">Bank notes -- United States</subject>
+         <geogname source="lcsh" encodinganalog="651">Lexington (Ky.) -- History</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-065b1de2-d61d-4701-8a68-c7982ee47ddd" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Thomas Theodore Crittenden letter</unittitle>
+               <unitdate>1819</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

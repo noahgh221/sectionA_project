@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Lemuel Ellis papers, 1852-1889 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/ellislemuelpapers-000893850/">ellislemuelpapers-000893850</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Lemuel Ellis papers, 1852-1889</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000893850</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20737324</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30832</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Ellis, Lemuel</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Lemuel Ellis papers</unittitle>
+         <unitdate normal="1852/1889"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1852-1889</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Letters and business papers containing correspondence with Ellis' brothers in Fayetteville, N.C., and Darlington, S.C., in the 1850s; ledgers of a general store, 1857-1863; court records, warrants, orders, and case accounts in the 1870s and 1880s.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Lemuel Ellis Papers, 1852-1889, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Lemuel Ellis was a general merchant and justice of the peace, of Chatham County, N.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters and business papers containing correspondence with Ellis' brothers in Fayetteville, N.C., and Darlington, S.C., in the 1850s; ledgers of a general store, 1857-1863; court records, warrants, orders, and case accounts in the 1870s and 1880s.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">General stores -- North Carolina -- Chatham County</subject>
+         <subject source="lcsh" encodinganalog="650">Justices of the peace -- North Carolina -- Chatham County</subject>
+         <geogname source="lcsh" encodinganalog="651">Chatham County (N.C.) -- History</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-6b5426cf-5db2-4b79-bfb9-5e8159c3ca53" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Lemuel Ellis papers</unittitle>
+               <unitdate>1852-1889</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Henry Kyd Douglas papers, 1861-1949 ; //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/douglashenrykydpapers-000893749/">douglashenrykydpapers-000893749</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Henry Kyd Douglas papers, 1861-1949 ;</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000893749</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20736856</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30744</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Douglas, Henry Kyd, 1838-1903</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Henry Kyd Douglas papers</unittitle>
+         <unitdate normal="1861/1949"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861-1949 ;</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>32 items</extent>
+         </physdesc>
+         <abstract>Civil War letters from Henry Kyd Douglas to Helen Macomb Boteler describing in detail military movements and camp life, including the battles of Cross Keys, 1862; Port Republic, 1862; and Fredericksburg, 1862, all in Virginia. Several of the letters were written from the Union military prison on Johnson's Island, near Sandusky, Ohio.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Henry Kyd Douglas Papers, 1861-1949 ;, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Confederate soldier.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Civil War letters from Henry Kyd Douglas to Helen Macomb Boteler describing in detail military movements and camp life, including the battles of Cross Keys, 1862; Port Republic, 1862; and Fredericksburg, 1862, all in Virginia. Several of the letters were written from the Union military prison on Johnson's Island, near Sandusky, Ohio.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Fredericksburg, Battle of, Fredericksburg, Va., 1862</subject>
+         <subject source="lcsh" encodinganalog="650">Shenandoah Valley Campaign, 1862</subject>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- Confederate States of America -- Correspondence</subject>
+         <persname source="lcnaf" encodinganalog="600">Boteler, Helen Macomb</persname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Military life</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Johnson Island Prison</corpname>
+         <geogname source="lcsh" encodinganalog="651">Cross Keys (Va.) -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">Port Republic (Va.) -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Campaigns</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Prisoners and prisons</geogname>
+         <geogname source="lcsh" encodinganalog="651">Virginia -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-42395f62-dc13-4ef2-a662-a6cafa4e260a" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Henry Kyd Douglas papers</unittitle>
+               <unitdate>1861-1949 ;</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

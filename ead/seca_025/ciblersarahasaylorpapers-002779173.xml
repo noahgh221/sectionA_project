@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Sarah Cibler papers, 1861-1865 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/ciblersarahasaylorpapers-002779173/">ciblersarahasaylorpapers-002779173</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Sarah Cibler papers, 1861-1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002779173</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">45279803</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30511</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Cibler, Sarah A. (Saylor)</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Sarah Cibler papers</unittitle>
+         <unitdate normal="1861/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861-1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>39 items</extent>
+         </physdesc>
+         <abstract>This collection is comprised of letters addressed by Jacob, Edward J., and Solomon Saylor to their sister, Sarah, while they served in the Union Army. Also included is a biographical sketch of Jacob completed by his granddaughter, Annabelle Saylor. Edward and Solomon Saylor enlisted in the 36th regiment of the Ohio Volunteer Militia in 1861. Jacob attempted to enlist with his brothers, but an Uncle retreived him from the regiment--he was only fifteen years old. Despite his age, later that year Jacob successfully enlisted in the 53rd Ohio Infantry. All the brothers' letters contain descriptions of camp life, military engagements, reported losses in both armies for battles, hardships, and their desire for furloughs. Jacob's correspondence suggests that he did much more hard marching and fighting than his brothers; however, Edward's letters mention that Solomon was wounded and probably taken prisoner twice. Jacob also writes about the formation of the Tennessee Colored Zouave Regiment, which African Americans were eager to volunteer to join. Jacob eventually served in Sherman's Army, and fought in Tennessee, Mississippi, Alabama, and Georgia; Edward and Solomon fought mainly in Virginia and Tennessee.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Sarah Cibler Papers, 1861-1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Barlow (Washington Co.), Ohio.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>This collection is comprised of letters addressed by Jacob, Edward J., and Solomon Saylor to their sister, Sarah, while they served in the Union Army. Also included is a biographical sketch of Jacob completed by his granddaughter, Annabelle Saylor. Edward and Solomon Saylor enlisted in the 36th regiment of the Ohio Volunteer Militia in 1861. Jacob attempted to enlist with his brothers, but an Uncle retreived him from the regiment--he was only fifteen years old. Despite his age, later that year Jacob successfully enlisted in the 53rd Ohio Infantry. All the brothers' letters contain descriptions of camp life, military engagements, reported losses in both armies for battles, hardships, and their desire for furloughs. Jacob's correspondence suggests that he did much more hard marching and fighting than his brothers; however, Edward's letters mention that Solomon was wounded and probably taken prisoner twice. Jacob also writes about the formation of the Tennessee Colored Zouave Regiment, which African Americans were eager to volunteer to join. Jacob eventually served in Sherman's Army, and fought in Tennessee, Mississippi, Alabama, and Georgia; Edward and Solomon fought mainly in Virginia and Tennessee.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from accession records, 1982.</p>
+      </odd>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Cibler, Sarah A. (Saylor)</persname>
+         <persname source="lcnaf" encodinganalog="600">Saylor, Edward J.</persname>
+         <persname source="lcnaf" encodinganalog="700">Saylor, Edward J., correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Saylor, Jacob, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="600">Saylor, Jacob</persname>
+         <persname source="lcnaf" encodinganalog="700">Saylor, Solomon, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="600">Saylor, Solomon</persname>
+         <famname source="lcnaf" encodinganalog="600">Saylor family</famname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Colored Troops</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Ohio Infantry Regiment, 36th (1861-1865)</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Ohio Infantry Regiment, 53rd (1861-1865)</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Personal narratives</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Prisoners and prisons</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-f13820ba-9bdb-4b6f-9a2f-17d425aa053c" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Sarah Cibler papers</unittitle>
+               <unitdate>1861-1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

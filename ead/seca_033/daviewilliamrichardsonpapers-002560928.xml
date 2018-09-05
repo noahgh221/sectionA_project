@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Richardson Davie papers, 1782-1799 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/daviewilliamrichardsonpapers-002560928/">daviewilliamrichardsonpapers-002560928</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Richardson Davie papers, 1782-1799</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002560928</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41024946</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30670</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Davie, William Richardson, 1756-1820</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Richardson Davie papers</unittitle>
+         <unitdate normal="1782/1799"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1782-1799</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>4 items</extent>
+         </physdesc>
+         <abstract>Papers of William Richardson Davie (1756-1820), lawyer, Revolutionary soldier, and governor of North Carolina, include a letter from DeBretigney concerning Davie's marriage; a land grant; a letter from William Polk concerning the Blount Conspiracy to invade Florida and Louisiana; and a letter from James Holderness of Rockingham County, North Carolina, concerning a legal matter invovling W. Ricks.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Richardson Davie Papers, 1782-1799, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Lawyer, Revolutionary soldier, and governor of North Carolina.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Papers of William Richardson Davie (1756-1820), lawyer, Revolutionary soldier, and governor of North Carolina, include a letter from DeBretigney concerning Davie's marriage; a land grant; a letter from William Polk concerning the Blount Conspiracy to invade Florida and Louisiana; and a letter from James Holderness of Rockingham County, North Carolina, concerning a legal matter invovling W. Ricks.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Blount Conspiracy, 1795-1797</subject>
+         <persname source="lcnaf" encodinganalog="600">Davie, William Richardson, 1756-1820</persname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-9ba26cb4-59e4-4ef0-8b74-a8a424f9a545" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Richardson Davie papers</unittitle>
+               <unitdate>1782-1799</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

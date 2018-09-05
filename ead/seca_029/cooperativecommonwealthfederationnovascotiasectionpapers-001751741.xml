@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Co-operative Commonwealth Federation papers, 1933-1977 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/cooperativecommonwealthfederationnovascotiasectionpapers-001751741/">cooperativecommonwealthfederationnovascotiasectionpapers-001751741</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Co-operative Commonwealth Federation papers, 1933-1977</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001751741</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">32452436</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30607</unitid>
+         <origination label="Creator">
+            <corpname encodinganalog="110" source="lcnaf">Co-operative Commonwealth Federation. Nova Scotia section,</corpname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Co-operative Commonwealth Federation papers</unittitle>
+         <unitdate normal="1933/1977"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1933-1977</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Primarily Xerox copies of letters, platforms, reports, and campaign material relating to the CCF.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Co-operative Commonwealth Federation Papers, 1933-1977, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Gift, 1977</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Primarily Xerox copies of letters, platforms, reports, and campaign material relating to the CCF.</p>
+      </scopecontent>
+      <odd>
+         <p>Unprocessed collection. Cataloged from accession record.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Socialism -- Canada</subject>
+         <subject source="lcsh" encodinganalog="650">Socialism -- Nova Scotia</subject>
+         <subject source="lcsh" encodinganalog="650">Political campaigns -- Canada</subject>
+         <corpname source="lcnaf" encodinganalog="610">Co-operative Commonwealth Federation. Nova Scotia section</corpname>
+         <geogname source="lcsh" encodinganalog="651">Canada -- Socialism</geogname>
+         <geogname source="lcsh" encodinganalog="651">Canada -- Politics and government</geogname>
+         <geogname source="lcsh" encodinganalog="651">Nova Scotia -- Socialism</geogname>
+         <geogname source="lcsh" encodinganalog="651">Nova Scotia -- Politics and government</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-114cc54a-84f9-41bc-9f40-5bac41b15762" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Co-operative Commonwealth Federation papers</unittitle>
+               <unitdate>1933-1977</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

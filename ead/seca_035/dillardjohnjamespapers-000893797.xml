@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::John James Dillard papers, 1822-1870 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/dillardjohnjamespapers-000893797/">dillardjohnjamespapers-000893797</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the John James Dillard papers, 1822-1870</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000893797</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20736975</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30725</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Dillard, John James</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">John James Dillard papers</unittitle>
+         <unitdate normal="1822/1870"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1822-1870</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Letters and papers of the Dillard family consisting of a few items of political correspondence including a letter on the presidential election of 1840; letters from the Civil War describing campaigns in Virginia; family correspondence discussing the law, anesthetics, the Democratic Party, black servants, and a description of Philadelphia, Pa.; and financial papers relating to the purchase and shipping of gunpowder from Connecticut by Alfred Woodroof.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>John James Dillard Papers, 1822-1870, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>John James Dillard was a resident of Elk Furnace (Nelson Co.), Va.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters and papers of the Dillard family consisting of a few items of political correspondence including a letter on the presidential election of 1840; letters from the Civil War describing campaigns in Virginia; family correspondence discussing the law, anesthetics, the Democratic Party, black servants, and a description of Philadelphia, Pa.; and financial papers relating to the purchase and shipping of gunpowder from Connecticut by Alfred Woodroof.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Gunpowder</subject>
+         <subject source="lcsh" encodinganalog="650">Presidents -- United States -- Election -- 1840</subject>
+         <persname source="lcnaf" encodinganalog="600">Woodroof, Alfred</persname>
+         <famname source="lcnaf" encodinganalog="600">Dillard family</famname>
+         <corpname source="lcnaf" encodinganalog="610">Democratic Party (U.S.)</corpname>
+         <geogname source="lcsh" encodinganalog="651">Philadelphia (Pa.) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Virginia -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-b204ef31-14dc-4ef0-a199-b3c2cd313ee3" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>John James Dillard papers</unittitle>
+               <unitdate>1822-1870</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

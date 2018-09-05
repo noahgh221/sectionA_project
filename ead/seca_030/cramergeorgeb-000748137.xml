@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::George B. Cramer diary, 1884-1897 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/cramergeorgeb-000748137/">cramergeorgeb-000748137</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the George B. Cramer diary, 1884-1897</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000748137</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">15673541</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30628</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Cramer, George B.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">George B. Cramer diary</unittitle>
+         <unitdate normal="1884/1897"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1884-1897</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 items</extent>
+         </physdesc>
+         <abstract>Diary of George B. Cramer for 1884, which primarily describes the daily life and routine of a city resident of the time. Of particular interest are the entries which mention political topics, especially the local and presidential elections. At the end of the volume are additional miscellaneous entries, along with a note copied from an 1885 newspaper. Also included is a clipping, 1897, of Cramer's brother's obituary.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>George B. Cramer diary, 1884-1897, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1985</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Employee, probably a clerk, of the Pennsylvania Railroad Company and a resident of Philadelphia.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Diary of George B. Cramer for 1884, which primarily describes the daily life and routine of a city resident of the time. Of particular interest are the entries which mention political topics, especially the local and presidential elections. At the end of the volume are additional miscellaneous entries, along with a note copied from an 1885 newspaper. Also included is a clipping, 1897, of Cramer's brother's obituary.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Presidents -- United States -- Election -- 1884</subject>
+         <subject source="lcsh" encodinganalog="650">Elections -- Pennsylvania -- Philadelphia</subject>
+         <subject source="lcsh" encodinganalog="650">City and town life -- Pennsylvania -- Philadelphia</subject>
+         <geogname source="lcsh" encodinganalog="651">Pennsylvania -- Politics and government</geogname>
+         <genreform source="aat" encodinganalog="655">Diaries</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-f2a041a8-8afc-4845-8225-ded7e7187dc3" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>George B. Cramer diary</unittitle>
+               <unitdate>1884-1897</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

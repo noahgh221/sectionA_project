@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Robert Lewis Dabney papers, 1838-1847 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/dabneyrobertlewispapers-002565782/">dabneyrobertlewispapers-002565782</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Robert Lewis Dabney papers, 1838-1847</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002565782</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41150049</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30658</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Dabney, Robert Lewis, 1820-1898</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Robert Lewis Dabney papers</unittitle>
+         <unitdate normal="1838/1847"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1838-1847</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>The collection includes a letter from Moses Drury Hoge, Presbyterian minister to Dabney concerning Hoge's education, Randolph-Macon College, President John Tyler, and social customs in North Carolina; and a letter from William Henry Ruffner, also a Presbyterian minister, discussing courses and lectures at Princeton Theological Seminary, the biblical scholarship of Jacob J. Janeway, and the temperance leaders John B. Gough and Lucian Minor.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Robert Lewis Dabney Papers, 1838-1847, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Presbyterian minister, Confederate chaplain, biographer of "Stonewall" Jackson.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The collection includes a letter from Moses Drury Hoge, Presbyterian minister to Dabney concerning Hoge's education, Randolph-Macon College, President John Tyler, and social customs in North Carolina; and a letter from William Henry Ruffner, also a Presbyterian minister, discussing courses and lectures at Princeton Theological Seminary, the biblical scholarship of Jacob J. Janeway, and the temperance leaders John B. Gough and Lucian Minor.</p>
+      </scopecontent>
+      <odd>
+         <p>Unprocessed collection. Cataloged from guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Louisa County (Va.)</subject>
+         <subject source="lcsh" encodinganalog="650">Biblical scholarship in North America, -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Presbyterian Church -- Clergy -- Correspondence</subject>
+         <subject source="lcsh" encodinganalog="650">Temperance and religion</subject>
+         <persname source="lcnaf" encodinganalog="600">Dabney, Robert Lewis, 1820-1898</persname>
+         <persname source="lcnaf" encodinganalog="600">Gough, John B. (John Bartholomew), 1817-1886</persname>
+         <persname source="lcnaf" encodinganalog="600">Hoge, Moses Drury, 1818-1899</persname>
+         <persname source="lcnaf" encodinganalog="600">Janeway, J. J. (Jacob Jones), 1774-1858</persname>
+         <persname source="lcnaf" encodinganalog="600">Minor, Lucian, 1802-1858</persname>
+         <persname source="lcnaf" encodinganalog="600">Ruffner, William Henry, 1824-1908</persname>
+         <persname source="lcnaf" encodinganalog="600">Tyler, John, 1790-1862</persname>
+         <corpname source="lcnaf" encodinganalog="610">Princeton Theological Seminary</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Randolph-Macon College</corpname>
+         <geogname source="lcsh" encodinganalog="651">North Carolina -- Social life and customs</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-b2a4a0db-4355-41a8-9634-1328fe9b269e" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Robert Lewis Dabney papers</unittitle>
+               <unitdate>1838-1847</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

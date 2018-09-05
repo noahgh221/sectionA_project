@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Jeremiah Clemens papers, 1853 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/clemensjeremiahpapers-002564979/">clemensjeremiahpapers-002564979</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Jeremiah Clemens papers, 1853</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002564979</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41109646</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30530</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Clemens, Jeremiah, 1814-1865</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Jeremiah Clemens papers</unittitle>
+         <unitdate normal="1853/1853"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1853</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Letter of Jeremiah Clemens concerning the application of Henry Myers for a pursership in the Navy.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Jeremiah Clemens Papers, 1853, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Jeremiah Clemens (1814-1865) was a soldier, novelist, and served as a Democratic member of the U.S. Senate from Nov. 30, 1849, to Mar. 3, 1853.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letter of Jeremiah Clemens concerning the application of Henry Myers for a pursership in the Navy.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Legislators -- Correspondence</subject>
+         <persname source="lcnaf" encodinganalog="600">Clemens, Jeremiah, 1814-1865</persname>
+         <persname source="lcnaf" encodinganalog="600">Myers, Henry</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Navy.</corpname>
+         <geogname source="lcsh" encodinganalog="651">Huntsville (Ala.)</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-0fda68f2-7035-44db-a89d-8d0c550f8857" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Jeremiah Clemens papers</unittitle>
+               <unitdate>1853</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

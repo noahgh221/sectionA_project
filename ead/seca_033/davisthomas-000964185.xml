@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Thomas Davis diary and commonplace book, ca. 1820s-1838 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/davisthomas-000964185/">davisthomas-000964185</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Thomas Davis diary and commonplace book, ca. 1820s-1838</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000964185</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">22540500</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30676</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Davis, Thomas, 1806-1862</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Thomas Davis diary and commonplace book</unittitle>
+         <unitdate normal="1820/1838"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">ca. 1820s-1838</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Chiefly Davis' diary (1835, June 6-Oct. 6) relating to plantation business, medical visits, enslaved persons, Methodist preachers and churches, a slave patrol, and the Alston, Massenburg, Slade, Thorne, and Williams families. Also poetry and memoranda mostly from Davis' wife Mary Ann Slade.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Thomas Davis diary and commonplace book, ca. 1820s-1838, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Gift 1990</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Planter and physician of Franklin Co., N.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Chiefly Davis' diary (1835, June 6-Oct. 6) relating to plantation business, medical visits, enslaved persons, Methodist preachers and churches, a slave patrol, and the Alston, Massenburg, Slade, Thorne, and Williams families. Also poetry and memoranda mostly from Davis' wife Mary Ann Slade.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Plantations -- North Carolina -- Franklin County</subject>
+         <subject source="lcsh" encodinganalog="650">Physicians -- North Carolina -- Franklin County</subject>
+         <subject source="lcsh" encodinganalog="650">Slaves -- North Carolina -- Franklin County</subject>
+         <famname source="lcnaf" encodinganalog="600">Alston family</famname>
+         <famname source="lcnaf" encodinganalog="600">Massenburg family</famname>
+         <famname source="lcnaf" encodinganalog="600">Slade family</famname>
+         <famname source="lcnaf" encodinganalog="600">Thorne family</famname>
+         <famname source="lcnaf" encodinganalog="600">Williams family</famname>
+         <corpname source="lcnaf" encodinganalog="610">Methodist Episcopal Church, South -- North Carolina -- Franklin County</corpname>
+         <genreform source="aat" encodinganalog="655">Diaries</genreform>
+         <genreform source="aat" encodinganalog="655">Commonplace-books</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-5c9583c3-c3a0-43d7-b256-d0a0792f097b" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Thomas Davis diary and commonplace book</unittitle>
+               <unitdate>ca. 1820s-1838</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

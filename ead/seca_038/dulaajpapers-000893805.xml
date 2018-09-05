@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::A. J. Dula papers, 1908 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/dulaajpapers-000893805/">dulaajpapers-000893805</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the A. J. Dula papers, 1908</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000893805</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20736993</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30783</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Dula, A. J.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">A. J. Dula papers</unittitle>
+         <unitdate normal="1908/1908"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1908</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent> linear feet</extent>
+         </physdesc>
+         <abstract>Reminiscences of the history of Company A, 22nd Regiment, North Carolina Volunteers, narrated by Private A.J. Dula. He describes various battles, including the Peninsular Campaign, the Seven Days battle, and the capture of Harper's Ferry, the battles of Fredericksburg, Chancellorsville, and Gettysburg, and the defense of Richmond; camp life and the unhealthful conditions; casualties; his injury and recuperation; his capture and parole; and the speech of Governor Vance at Orange Court House, Va. Included is a list, compiled in 1865, of the men in Company A, noting injuries received, discharges, desertions, etc.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>A. J. Dula Papers, 1908, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>A.J. Dula was a Confederate soldier, from Caldwell County, N.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Reminiscences of the history of Company A, 22nd Regiment, North Carolina Volunteers, narrated by Private A.J. Dula. He describes various battles, including the Peninsular Campaign, the Seven Days battle, and the capture of Harper's Ferry, the battles of Fredericksburg, Chancellorsville, and Gettysburg, and the defense of Richmond; camp life and the unhealthful conditions; casualties; his injury and recuperation; his capture and parole; and the speech of Governor Vance at Orange Court House, Va. Included is a list, compiled in 1865, of the men in Company A, noting injuries received, discharges, desertions, etc.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Chancellorsville, Battle of, Chancellorsville, Va., 1863</subject>
+         <subject source="lcsh" encodinganalog="650">Desertion, Military -- Confederate States of America</subject>
+         <subject source="lcsh" encodinganalog="650">Fredericksburg, Battle of, Fredericksburg, Va., 1862</subject>
+         <subject source="lcsh" encodinganalog="650">Gettysburg, Battle of, Gettysburg, Pa., 1863</subject>
+         <subject source="lcsh" encodinganalog="650">Hospitals -- Confederate States of America</subject>
+         <subject source="lcsh" encodinganalog="650">Peninsular Campaign, 1862</subject>
+         <persname source="lcnaf" encodinganalog="600">Vance, Zebulon Baird, 1830-1894</persname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Military life</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army. North Carolina Infantry Regiment, 22nd. Company A.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Sanitary affairs</corpname>
+         <geogname source="lcsh" encodinganalog="651">Caldwell County (N.C.)</geogname>
+         <geogname source="lcsh" encodinganalog="651">Harpers Ferry (W. Va.) -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">Richmond (Va.) -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Campaigns</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Medical care</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Personal narratives, Confederate</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Prisoners and prisons</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Regimental histories</geogname>
+         <geogname source="lcsh" encodinganalog="651">Virginia -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-7097cfb9-ca60-45ca-a47d-90acb8486ddb" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>A. J. Dula papers</unittitle>
+               <unitdate>1908</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::John Cronmiller papers, 1846-1853 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/cronmillerjohnpapers-002372604/">cronmillerjohnpapers-002372604</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the John Cronmiller papers, 1846-1853</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002372604</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">38065787</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>September 2018</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30637</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Cronmiller, John</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">John Cronmiller papers</unittitle>
+         <unitdate normal="1846/1853"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1846-1853</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>5 items</extent>
+         </physdesc>
+         <abstract>Collection contains personal letters.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>John Cronmiller Papers, 1846-1853, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, September 2018.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Savage (Howard Co.), Md. resident.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains personal letters.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <geogname source="lcsh" encodinganalog="651">Savage (Md.)</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-d911df0b-3fd7-45bb-95f1-5543c4329b4c" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>John Cronmiller papers</unittitle>
+               <unitdate>1846-1853</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
