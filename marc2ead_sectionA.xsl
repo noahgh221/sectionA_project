@@ -20,7 +20,7 @@
 <!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. 
     Find the last used RL number in ASpace and put below, will use next number 
     Has to be a better way to do this...-->
-<xsl:variable name="RLID" select="30838" saxon:assignable="yes"/>
+<xsl:variable name="RLID" select="30818" saxon:assignable="yes"/>
  
 <!-- Variables for outputing digitization guide as TSV file.     Currently using a separate XSLT for creating the digguide-->
 
@@ -402,62 +402,130 @@
 <!-- Use 'Extent: ' prefix to prevent creating unnecessary extent types? -->
 
   <xsl:variable name="extent_string">
-    <xsl:value-of select="marc:datafield[@tag='300'][1]//text()"/>
+         <xsl:value-of select="marc:datafield[@tag='300'][1]//text()"/>
   </xsl:variable>
+ 
+<xsl:variable name="extent_string">
+  <xsl:value-of select="replace(normalize-space($extent_string),'\.$','')"/>
+</xsl:variable>
+  
 
-<!-- OLD VERSION 
+
+<!-- OLD OLD VERSION 
 <xsl:variable name="extent_string">
   <xsl:value-of select="concat(marc:datafield[@tag='300'][1]/marc:subfield[@code='a'][1], marc:datafield[@tag='300'][1]/marc:subfield[@code='c'][1], marc:datafield[@tag='300'][1]/marc:subfield[@code='f'][1])"/>
 </xsl:variable>
 -->
 
+
+
+
 <xsl:choose>
 
-  <xsl:when test="contains($extent_string, 'lin') and contains($extent_string, ')')">
+  <!-- Removed this condition for Section A, to preference item counts)
+    
+    <xsl:when test="contains($extent_string, 'lin') and contains($extent_string, ')')">
   <physdesc>
     <extent><xsl:value-of select="replace(normalize-space(substring-before(substring-after($extent_string, '('), 'lin')),'^\.','0.')"/><xsl:text> linear feet</xsl:text></extent>
   </physdesc>
   </xsl:when>
   
-  <xsl:when test="contains($extent_string, 'lin') and not(contains($extent_string, ')'))">
-    <physdesc>
-      <extent><xsl:value-of select="replace(normalize-space(substring-before($extent_string, 'lin')),'^\.','0.')"/><xsl:text> linear feet</xsl:text></extent>
-    </physdesc>
+  -->
+  
+  <xsl:when test="matches($extent_string, 'lin') and not(matches($extent_string,'\)'))">
+    <xsl:analyze-string select="$extent_string" regex="(\d+)(lin\w+)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:text>linear feet</xsl:text></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
+    <xsl:analyze-string select="$extent_string" regex="(\d+)\s(lin\w+)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:text>linear feet</xsl:text></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
   </xsl:when>
   
-<xsl:when test="contains($extent_string, 'items') and not(contains($extent_string, 'lin'))">
-  <physdesc>
-    <extent><xsl:value-of select="normalize-space(translate(substring-before($extent_string,'items'), ',',''))"/><xsl:text> items</xsl:text></extent>
-  </physdesc>
-</xsl:when>
-  
-  <xsl:when test="contains($extent_string, 'item') and not(contains($extent_string, 'lin')) and not(contains($extent_string, 'items'))">
-    <physdesc>
-      <extent><xsl:value-of select="normalize-space(translate(substring-before($extent_string,'item'), ',',''))"/><xsl:text> item</xsl:text></extent>
-    </physdesc>
+  <!--
+  <xsl:when test="matches($extent_string, 'lin') and matches($extent_string, '\)') and not(matches($extent_string,'item')) and not(matches($extent_string,'v'))">
+    <xsl:analyze-string select="$extent_string" regex="(\d+)(lin\w+)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:text>linear feet</xsl:text></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
+    <xsl:analyze-string select="$extent_string" regex="(\d+)\s(lin\w+)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:text>linear feet</xsl:text></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
+    <xsl:analyze-string select="$extent_string" regex="(\d)(lin\w+)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:text>linear feet</xsl:text></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
+    <xsl:analyze-string select="$extent_string" regex="(\d)\s(lin\w+)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:text>linear feet</xsl:text></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
   </xsl:when>
+  -->
+  
+  
+  <xsl:when test="matches($extent_string, 'item') and not(matches($extent_string,'items'))">
+    <xsl:analyze-string select="$extent_string" regex="(\d*)\s(item)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:value-of select="regex-group(2)"/></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
+  </xsl:when>
+        
+  <xsl:when test="matches($extent_string, 'items')">
+    <xsl:analyze-string select="$extent_string" regex="(\d*)\s(items)">
+      <xsl:matching-substring>
+        <physdesc>
+          <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:value-of select="regex-group(2)"/></extent>
+        </physdesc>
+      </xsl:matching-substring>
+    </xsl:analyze-string>
+ </xsl:when>
 
-  <xsl:when test="contains($extent_string, 'v.') and not(contains($extent_string, 'lin')) and not(contains($extent_string, 'items'))">
-    <physdesc>
-      <extent><xsl:value-of select="normalize-space(translate(substring-before($extent_string,'v.'), ',',''))"/><xsl:text> volumes</xsl:text></extent>
-    </physdesc>
-  </xsl:when>
-  
-  <xsl:when test="contains($extent_string, 'vol.') and not(contains($extent_string, 'lin')) and not(contains($extent_string, 'items'))">
-    <physdesc>
-      <extent><xsl:value-of select="normalize-space(translate(substring-before($extent_string,'vol.'), ',',''))"/><xsl:text> volumes</xsl:text></extent>
-    </physdesc>
-  </xsl:when>
-  
-  <xsl:when test="contains($extent_string, 'vols.') and not(contains($extent_string, 'lin')) and not(contains($extent_string, 'items'))">
-    <physdesc>
-      <extent><xsl:value-of select="normalize-space(translate(substring-before($extent_string,'vols.'), ',',''))"/><xsl:text> volumes</xsl:text></extent>
-    </physdesc>
-  </xsl:when>
-  
-  <!-- Supply some garbage extent data for MARC records with no 300 field 
-  Will need to clean these up later-->
-  <xsl:when test="not(marc:datafield[@tag='300'])">
+   
+
+ <xsl:when test="matches($extent_string,'v\w+')">
+
+   <xsl:analyze-string select="$extent_string" regex="(\d+)\s(v\w+)">
+     <xsl:matching-substring>
+       <physdesc>
+         <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:value-of select="regex-group(2)"/></extent>
+       </physdesc>
+     </xsl:matching-substring>
+   </xsl:analyze-string>
+   <xsl:analyze-string select="$extent_string" regex="(\d+)(v\w+)">
+     <xsl:matching-substring>
+       <physdesc>
+         <extent><xsl:value-of select="regex-group(1)"/><xsl:text> </xsl:text><xsl:value-of select="regex-group(2)"/></extent>
+       </physdesc>
+     </xsl:matching-substring>
+   </xsl:analyze-string>
+   
+
+ </xsl:when>
+
+    <xsl:when test="not(marc:datafield[@tag='300'])">
     <physdesc>
       <extent>9999 fake_extent_units</extent>
     </physdesc>
@@ -471,16 +539,44 @@
 
 </xsl:choose> 
   
-<!-- Old extent code
-              <xsl:for-each select="marc:datafield[@tag='300']">
-              <physdesc>
-                <extent encodinganalog="300"><xsl:text>Extent: </xsl:text><xsl:value-of select="marc:subfield[@code='a']"/>
-              <xsl:text> </xsl:text>
-              <xsl:value-of select="replace(marc:subfield [@code='f'],'\.$','')"/> 
-                </extent>
-              </physdesc>
-              </xsl:for-each>
- --> 
+
+  
+
+  
+  
+<!-- NEW ATTEMPT AT EXTENT CODE - WILL JUST EXTRACT ITEMS OR LINEAR FEET COUNTS, NOT BOTH, WILL PREFERENCE ITEM COUNTS
+ <xsl:choose>
+   <xsl:when test="contains($extent_string,'item') and not(contains($extent_string,'lin'))">
+     <xsl:analyze-string select="$extent_string" regex="(\d+)(.*)(item.*)">
+       <xsl:matching-substring>
+         <physdesc>
+           <extent><xsl:value-of select="regex-group(1)"/><xsl:text> items</xsl:text></extent>
+         </physdesc>
+       </xsl:matching-substring>   
+     </xsl:analyze-string>
+   </xsl:when>
+   
+   <xsl:when test="contains($extent_string,'item') and not(contains($extent_string,'lin'))">
+     <xsl:analyze-string select="$extent_string" regex="(\d+)(.*)(item.*)">
+       <xsl:matching-substring>
+         <physdesc>
+           <extent><xsl:value-of select="regex-group(1)"/><xsl:text> items</xsl:text></extent>
+         </physdesc>
+       </xsl:matching-substring>   
+     </xsl:analyze-string>
+   </xsl:when>
+   
+   <xsl:otherwise>
+     <physdesc>
+       <extent>COULD NOT PARSE EXTENT</extent>
+     </physdesc>
+   </xsl:otherwise>
+ </xsl:choose>
+  
+  
+ -->
+  
+  
   
   
 <!-- ABSTRACT -->

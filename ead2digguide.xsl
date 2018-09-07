@@ -150,7 +150,7 @@
                     
                     <!-- Extent - controlled extent statement, typically # of items or pages -->
                     <xsl:value-of
-                        select="normalize-space(ead:archdesc/ead:did/ead:physdesc/ead:extent)"/>
+                        select="replace(normalize-space(ead:archdesc/ead:did/ead:physdesc/ead:extent),'^1 items','1 item')"/>
                     <xsl:value-of select="$tab"/>
 
                     <!-- Physdesc - any other kind of physical description if present
