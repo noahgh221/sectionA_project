@@ -75,26 +75,30 @@
             <xsl:text>type</xsl:text>
             <xsl:value-of select="$tab"/>
             
-            <xsl:text>ead_id</xsl:text>
+            <xsl:text>collection_slug</xsl:text>
             <xsl:value-of select="$tab"/>
 
             <xsl:text>aleph_id</xsl:text>
             <xsl:value-of select="$tab"/>
 
-            <xsl:text>aspace_id</xsl:text>
-            <xsl:value-of select="$tab"/>
+            <!-- REMOVED ASPACE_ID, FINDING_AID_URL, AND IDENTIFIER FIELDS -
+                NO LONGER NEEDED IF NOT CREATING FINDING AIDS OR ASPACE RECORDS AS OF 1/9/2018 -->
             
-            <!-- Not needed for DDR, but used for batch updating MARC with 856 links -->
+            <!-- <xsl:text>aspace_id</xsl:text>
+            <xsl:value-of select="$tab"/> -->
+            
+            <!-- Not needed for DDR, but used for batch updating MARC with 856 links
             <xsl:text>finding_aid_url</xsl:text>
-            <xsl:value-of select="$tab"/>  
+            <xsl:value-of select="$tab"/>   -->
             
             <!-- Not needed for DDR, but used for batch updating MARC with 856 links -->
             <xsl:text>oclc_num</xsl:text>
             <xsl:value-of select="$tab"/>
             
-            <!-- RL  Number mapped to identifier in DDR -->
+            <!-- RL  Number mapped to identifier in DDR
             <xsl:text>identifier</xsl:text>
             <xsl:value-of select="$tab"/>
+            -->
 
             <!-- Empty column, to be supplied by DPC -->
             <xsl:text>local_id</xsl:text>
@@ -199,21 +203,25 @@
                     <xsl:value-of select="//ead:num[@type='aleph']"/>
                     <xsl:value-of select="$tab"/>
                     
-                    <!-- ASpace refID for Archival Object record -->
+                    
+                    <!-- ASpace refID for Archival Object record
                     <xsl:value-of select="//ead:c01[1]/@id"/>
-                    <xsl:value-of select="$tab"/>
+                    <xsl:value-of select="$tab"/> -->
                                     
-                    <!-- Finding Aid URL -->
+                    <!-- Finding Aid URL
                     <xsl:value-of select="ead:eadheader/ead:eadid/@url"/>
                     <xsl:value-of select="$tab"/>
+                    -->
+                    
                     
                     <!-- OCLC Number -->
                     <xsl:value-of select="//ead:num[@type='oclc']"/>
                     <xsl:value-of select="$tab"/>
                     
-                    <!-- RL Number (collection number) -->
+                    <!-- RL Number (collection number)
                     <xsl:value-of select="ead:archdesc/ead:did/ead:unitid"/>
                     <xsl:value-of select="$tab"/>
+                    -->
                     
                     <!-- DPC_ID: Empty column -->
                     <xsl:text>[local_id]</xsl:text>
