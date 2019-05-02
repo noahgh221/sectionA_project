@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::James J. Findley papers, 1864-1865 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/findleyjamesjpapers-000895195/">findleyjamesjpapers-000895195</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the James J. Findley papers, 1864-1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000895195</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20769746</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30900</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Findley, James J.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">James J. Findley papers</unittitle>
+         <unitdate normal="1864/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1864-1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>9 items</extent>
+         </physdesc>
+         <abstract>Principally orders and sub-vouchers of Colonel James J. Findley, in command of the 1st Regiment, Georgia State Cavalry, C.S.A.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>James J. Findley Papers, 1864-1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>James J. Findley was a Confederate Cavalry officer, from Milledgeville (Baldwin Co.), Ga.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Principally orders and sub-vouchers of Colonel James J. Findley, in command of the 1st Regiment, Georgia State Cavalry, C.S.A.</p>
+      </scopecontent>
+      <controlaccess>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army. Georgia Cavalry Regiment, 1st.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Officers</corpname>
+         <geogname source="lcsh" encodinganalog="651">Georgia -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">Milledgeville (Ga.)</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-b33fe0f5-dfa8-466b-a2a4-a0c8d40e4fc9" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>James J. Findley papers</unittitle>
+               <unitdate>1864-1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Isaac T. Farnsworth papers, 1827-1841 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/farnsworthisaactpapers-000895248/">farnsworthisaactpapers-000895248</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Isaac T. Farnsworth papers, 1827-1841</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000895248</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20770181</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30874</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Farnsworth, Isaac T.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Isaac T. Farnsworth papers</unittitle>
+         <unitdate normal="1827/1841"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1827-1841</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>19 items</extent>
+         </physdesc>
+         <abstract>Collection principally includes family letters concerning family matters, with references to slavery, trade, Natchez, commodity prices, mosquitoes, yellow fever, Andrew Jackson, the Mississippi flood of 1828, Jackson's war on the Bank of the United States, the fire of 1836 in Natchez, and the panic of 1837.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Isaac T. Farnsworth Papers, 1827-1841, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Isaac T. Farnsworth was a business and plantation agent, of Natchez (Adams Co.), Miss.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection principally includes family letters concerning family matters, with references to slavery, trade, Natchez, commodity prices, mosquitoes, yellow fever, Andrew Jackson, the Mississippi flood of 1828, Jackson's war on the Bank of the United States, the fire of 1836 in Natchez, and the panic of 1837.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Depressions -- 1837</subject>
+         <subject source="lcsh" encodinganalog="650">Floods -- Mississippi -- 1828</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery -- Mississippi</subject>
+         <subject source="lcsh" encodinganalog="650">Yellow fever -- Mississippi</subject>
+         <subject source="lcsh" encodinganalog="650">Slave insurrections -- Mississippi -- Adams County</subject>
+         <persname source="lcnaf" encodinganalog="600">Jackson, Andrew, 1767-1845</persname>
+         <corpname source="lcnaf" encodinganalog="610">Bank of the United States (1816-1836)</corpname>
+         <geogname source="lcsh" encodinganalog="651">Mississippi -- Economic conditions</geogname>
+         <geogname source="lcsh" encodinganalog="651">Natchez (Miss.) -- Fire, 1836</geogname>
+         <geogname source="lcsh" encodinganalog="651">Natchez (Miss.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Politics and government -- 1829-1837</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-9306c408-b915-4a22-a4ab-bdad0dab3246" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Isaac T. Farnsworth papers</unittitle>
+               <unitdate>1827-1841</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

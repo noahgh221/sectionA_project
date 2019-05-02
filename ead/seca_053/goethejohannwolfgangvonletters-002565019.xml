@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Johann Wolfgang von Goethe letters and ink-wash drawing, circa 1805, 1814 and undated. //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/goethejohannwolfgangvonletters-002565019/">goethejohannwolfgangvonletters-002565019</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Johann Wolfgang von Goethe Letters and ink-wash drawing, circa 1805, 1814 and undated.</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002565019</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41109600</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31018</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Goethe, Johann Wolfgang von, 1749-1832</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Johann Wolfgang von Goethe letters and ink-wash drawing</unittitle>
+         <unitdate normal="1805/1814"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">circa 1805, 1814 and undated.</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>8 items</extent>
+         </physdesc>
+         <abstract>Collection comprises 3 letters and an ink-wash drawing. Letters include a routine letter from Goethe, written as prime minister of the Duchy of Sachsen-Weimar in 1805, to Christian Gottlab von Voight, one of his cabinet. There is also an 1814 letter of greetings to an unknown recipient, along with an undated letter from Goethe regarding setting up a meeting for his circle of friends in order to mark an unidentified occasion. The undated ink wash drawing features brown ink on blue paper and represents a wooded stream with two branches flowing by a prominent bank and trees. Includes four reproductions of the drawing.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Johann Wolfgang von Goethe letters and ink-wash drawing, circa 1805, 1814 and undated., David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Gift 2012, 2012-0158</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection comprises 3 letters and an ink-wash drawing. Letters include a routine letter from Goethe, written as prime minister of the Duchy of Sachsen-Weimar in 1805, to Christian Gottlab von Voight, one of his cabinet. There is also an 1814 letter of greetings to an unknown recipient, along with an undated letter from Goethe regarding setting up a meeting for his circle of friends in order to mark an unidentified occasion. The undated ink wash drawing features brown ink on blue paper and represents a wooded stream with two branches flowing by a prominent bank and trees. Includes four reproductions of the drawing.</p>
+      </scopecontent>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Goethe, Johann Wolfgang von, 1749-1832</persname>
+         <genreform source="aat" encodinganalog="655">Pen-and-wash drawings</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-c9bb3388-a1ad-4343-b28b-77a2bcb3d50f" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Johann Wolfgang von Goethe letters and ink-wash drawing</unittitle>
+               <unitdate>circa 1805, 1814 and undated.</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

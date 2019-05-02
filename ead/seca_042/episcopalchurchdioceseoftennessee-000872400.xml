@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Episcopal Church Dioceseof Tennessee records, 1868-1923 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/episcopalchurchdioceseoftennessee-000872400/">episcopalchurchdioceseoftennessee-000872400</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Episcopal Church Dioceseof Tennessee records, 1868-1923</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000872400</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20071703</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30849</unitid>
+         <origination label="Creator">
+            <corpname encodinganalog="110" source="lcnaf">Episcopal Church. Diocese of Tennessee,</corpname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Episcopal Church Dioceseof Tennessee records</unittitle>
+         <unitdate normal="1868/1923"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1868-1923</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>16 items</extent>
+         </physdesc>
+         <abstract>Miscellaneous personal and official letters pertaining to the Protestant Episcopal Church in Tennessee and to the University of the South, at Sewanee, Tenn. Correspondents include T.D. Bratton, Braxton Bragg, Thomas Frank Gailor, William Alexander Guerry, Chester Harding, Henry Cabot Lodge, Charles Todd Quintard, Frederick Focke Reese, and Allen Tower Treadway.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Episcopal Church Dioceseof Tennessee records, 1868-1923, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Miscellaneous personal and official letters pertaining to the Protestant Episcopal Church in Tennessee and to the University of the South, at Sewanee, Tenn. Correspondents include T.D. Bratton, Braxton Bragg, Thomas Frank Gailor, William Alexander Guerry, Chester Harding, Henry Cabot Lodge, Charles Todd Quintard, Frederick Focke Reese, and Allen Tower Treadway.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Universities and colleges -- Tennessee</subject>
+         <persname source="lcnaf" encodinganalog="600">Bragg, Braxton, 1817-1876</persname>
+         <persname source="lcnaf" encodinganalog="600">Bratton, Theodore DuBose, Bp., 1862-1944</persname>
+         <persname source="lcnaf" encodinganalog="600">Gailor, Thomas Frank, 1856-1935</persname>
+         <persname source="lcnaf" encodinganalog="600">Guerry, William Alexander, 1861-1928</persname>
+         <persname source="lcnaf" encodinganalog="600">Harding, Chester, 1792-1866</persname>
+         <persname source="lcnaf" encodinganalog="600">Lodge, Henry Cabot, 1850-1924</persname>
+         <persname source="lcnaf" encodinganalog="600">Quintard, C. T. (Charles Todd), 1824-1898</persname>
+         <persname source="lcnaf" encodinganalog="600">Reese, Frederick Focke</persname>
+         <persname source="lcnaf" encodinganalog="600">Treadway, Allen Towner, b. 1867</persname>
+         <corpname source="lcnaf" encodinganalog="610">Episcopal Church -- Tennessee</corpname>
+         <corpname source="lcnaf" encodinganalog="610">University of the South</corpname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-7259d4ec-b1e8-4717-8b92-8d442c521c66" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Episcopal Church Dioceseof Tennessee records</unittitle>
+               <unitdate>1868-1923</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

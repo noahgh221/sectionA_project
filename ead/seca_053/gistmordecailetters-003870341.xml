@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Mordecai Gist letters, 1782, 1791 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/gistmordecailetters-003870341/">gistmordecailetters-003870341</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Mordecai Gist Letters, 1782, 1791</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003870341</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">1097681542</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31016</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Gist, Mordecai, 1743-1792</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Mordecai Gist letters</unittitle>
+         <unitdate normal="1782/1791"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1782, 1791</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 items</extent>
+         </physdesc>
+         <abstract>Letter (1782) to Gist from Captain James Smith of the Maryland artillery concerning his promotion and a letter (1791) from Gist to Richard Hampton relating to the purchase of indents.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Mordecai Gist letters, 1782, 1791, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Mordecai Gist, of Maryland, was a general in the Continental Army during the American Revolutionary War.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letter (1782) to Gist from Captain James Smith of the Maryland artillery concerning his promotion and a letter (1791) from Gist to Richard Hampton relating to the purchase of indents.</p>
+      </scopecontent>
+      <controlaccess>
+         <corpname source="lcnaf" encodinganalog="610">United States. Continental Army.</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Revolution, 1775-1783</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-c39ea843-9d30-4972-b902-d78e28f26f3b" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Mordecai Gist letters</unittitle>
+               <unitdate>1782, 1791</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

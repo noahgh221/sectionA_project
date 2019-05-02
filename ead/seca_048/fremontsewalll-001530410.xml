@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Sewall L Fremont letter to Samuel Swasey, 1843 January 14 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/fremontsewalll-001530410/">fremontsewalll-001530410</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Sewall L Fremont Letter to Samuel Swasey, 1843 January 14</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001530410</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">30789255</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30943</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Fremont, Sewall L., -1886</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Sewall L Fremont letter to Samuel Swasey</unittitle>
+         <unitdate normal="1843/1843"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1843 January 14</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Letter from Fremont (who had changed his name from Sewall L. Fish) to Hon. Samuel Swasey of New Hampshire. Writing from Fort Johnston, N.C., Fremont commented on the North and the South. He praised the physical beauty of New Hampshire and the democratic sagacity of its people, and referred to the intent in N.H. to nullify the law of the Whig congress with regard to the district system. He mentioned N.C.'s agriculture; tar, pitch, and turpentine industry; and lumber industry. Fremont accused the people of North Carolina of indolence due to their dependence on slave labor.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Sewall L Fremont letter to Samuel Swasey, 1843 January 14, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1981</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Lieutenant, 3rd U.S. Artillery Regiment.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letter from Fremont (who had changed his name from Sewall L. Fish) to Hon. Samuel Swasey of New Hampshire. Writing from Fort Johnston, N.C., Fremont commented on the North and the South. He praised the physical beauty of New Hampshire and the democratic sagacity of its people, and referred to the intent in N.H. to nullify the law of the Whig congress with regard to the district system. He mentioned N.C.'s agriculture; tar, pitch, and turpentine industry; and lumber industry. Fremont accused the people of North Carolina of indolence due to their dependence on slave labor.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Agriculture -- North Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Turpentine industry and trade -- North Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Lumber trade -- North Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery -- North Carolina -- Public opinion</subject>
+         <subject source="lcsh" encodinganalog="650">Nullification (States' rights)</subject>
+         <persname source="lcnaf" encodinganalog="600">Fish, Sewall L., -1886</persname>
+         <persname source="lcnaf" encodinganalog="700">Swasey, Samuel, 1804-1887, correspondent.</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Artillery Regiment, 3rd.</corpname>
+         <geogname source="lcsh" encodinganalog="651">Fort Johnston (Southport, N.C.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">New Hampshire -- Politics and government -- 1775-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">New Hampshire -- History -- 1775-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">North Carolina -- Agriculture</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-c1196281-d8d0-492c-a034-b09026f6d0a5" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Sewall L Fremont letter to Samuel Swasey</unittitle>
+               <unitdate>1843 January 14</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

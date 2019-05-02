@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Allen Gordon papers, 1830-1847 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/gordonwilliamallenpapers-002586387/">gordonwilliamallenpapers-002586387</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Allen Gordon papers, 1830-1847</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002586387</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41571317</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31031</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Gordon, William Allen</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Allen Gordon papers</unittitle>
+         <unitdate normal="1830/1847"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1830-1847</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>3 items</extent>
+         </physdesc>
+         <abstract>The first item is Scrip No. 1462, issued by the Galveston Bay and Texas Company for 4428 acres of land to Charles De Forest in New York, Oct. 16, 1830. The document carries a map showing the location of the land, which extended from the Gulf of Mexico north to about 32.5 degrees, and westward from Louisiana to the Navasota and San Jacinto Rivers. The other two items are letters to Dr. William Allen Gordon. The first was written by Capt. George Hampton Crosman on Apr. 23, 1846, at a camp near Matamoros, Mexico. He tells of the murders of Colonel Cross of his regiment, and Lt. Porter of the 4th U.S. Infantry, both of whom are believed to have been killed by Mexican bandits. He also tells of the frequent raids by Mexicans against the U.S. troops and their supplies, and complains of the apathy at headquarters about their operations and situation on the frontier, where he says they are "fairly at war." The second letter (Feb. 23, 1847) is from Capt. Abner Riviere Hetzel in Brazos Santiago, Tex. In it, he discusses preparations for Winfield Scott's Vera Cruz Expedition. He also mention the sending of the ALABAMA to Tampico, and thirty vessels leaving shortly to reinforce the batteries of General Taylor.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Allen Gordon Papers, 1830-1847, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Resident of Washington, D.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The first item is Scrip No. 1462, issued by the Galveston Bay and Texas Company for 4428 acres of land to Charles De Forest in New York, Oct. 16, 1830. The document carries a map showing the location of the land, which extended from the Gulf of Mexico north to about 32.5 degrees, and westward from Louisiana to the Navasota and San Jacinto Rivers. The other two items are letters to Dr. William Allen Gordon. The first was written by Capt. George Hampton Crosman on Apr. 23, 1846, at a camp near Matamoros, Mexico. He tells of the murders of Colonel Cross of his regiment, and Lt. Porter of the 4th U.S. Infantry, both of whom are believed to have been killed by Mexican bandits. He also tells of the frequent raids by Mexicans against the U.S. troops and their supplies, and complains of the apathy at headquarters about their operations and situation on the frontier, where he says they are "fairly at war." The second letter (Feb. 23, 1847) is from Capt. Abner Riviere Hetzel in Brazos Santiago, Tex. In it, he discusses preparations for Winfield Scott's Vera Cruz Expedition. He also mention the sending of the ALABAMA to Tampico, and thirty vessels leaving shortly to reinforce the batteries of General Taylor.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from manual record.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Brigands and robbers -- Mexico -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Outlaws -- Mexico -- History -- 19th century</subject>
+         <persname source="lcnaf" encodinganalog="600">Crosman, George Hampton</persname>
+         <persname source="lcnaf" encodinganalog="600">Cross, Trueman, -1846</persname>
+         <persname source="lcnaf" encodinganalog="600">De Forest, Charles</persname>
+         <persname source="lcnaf" encodinganalog="600">Gordon, William Allen</persname>
+         <persname source="lcnaf" encodinganalog="600">Hetzel, A. R. (Abner Riviere), 1805-1847</persname>
+         <persname source="lcnaf" encodinganalog="600">Scott, Winfield, 1786-1866</persname>
+         <persname source="lcnaf" encodinganalog="600">Taylor, Zachary, 1784-1850</persname>
+         <corpname source="lcnaf" encodinganalog="610">Alabama (Ship)</corpname>
+         <corpname source="lcnaf" encodinganalog="710">Galveston Bay and Texas Land Company</corpname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-94dad44b-88b0-463c-9d5d-3ca0798fde4d" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Allen Gordon papers</unittitle>
+               <unitdate>1830-1847</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

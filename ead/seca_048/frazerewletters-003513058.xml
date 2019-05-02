@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::E.W. Frazer letters, 1860-1879 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/frazerewletters-003513058/">frazerewletters-003513058</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the E.W. Frazer Letters, 1860-1879</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003513058</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">63915546</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30948</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Frazer, E. W.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">E.W. Frazer letters</unittitle>
+         <unitdate normal="1860/1879"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1860-1879</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>8 items</extent>
+         </physdesc>
+         <abstract>Collection includes the following items: Letter (Dec. 14, 1860) from William and Hannah Cook in Charlottesville, Indiana to a cousin in N.C. expressing concern about the trouble between Northern and Southern states; letter (Jan. 25, 1862) from Private Jesse Loyd of Co. E, 2nd N.C. State Troops (the "Guilford Guards") to his brother; letter (Feb. 8, 1965) from E.W. Frazer of Bush Hill (originally a Quaker settlement and now the Archdale suburb of High Point, N.C.) to his brother Solomon, who was apparently serving in the Army against his will; letter (March 21, 1865) from E.W. Frazer to Solomon about the nearness of Sherman and the impressment of houses in High Point for use as hospitals; letter (March 27, 1865 from Hannah Frazer to her husband Solomon; love letter (June 25, 1865) from Wyett Spencer in Fairfount, Indiana to Emily R. Newlin of New Market in Randolph County, N.C.; letter (April 18, 1875) from Ephraim M. and Betttie Heath of Charleston, Illinois to family members regarding family matters and agricultural prices; and letter (Feb. 19, 1879) from J.L. Michaux of Greensboro, N.C., editor of the Central Protestant, to Reverend H. Lewallen of Asheboro, NC, regarding the finances of the newspaper. Michaux and Lewallen were members of the Methodist Protestant Church.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>E.W. Frazer letters, 1860-1879, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>The relationship between the writers and recipients of these letters is not clear. Method of recording dates and the use of "thee" in the 6 earliest letters indicate that the correspondents were probably Quakers. Some were residents of either Guilford and Randolph counties in North Carolina. Others lived in Indiana or Illinois and had connections in North Carolina.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection includes the following items: Letter (Dec. 14, 1860) from William and Hannah Cook in Charlottesville, Indiana to a cousin in N.C. expressing concern about the trouble between Northern and Southern states; letter (Jan. 25, 1862) from Private Jesse Loyd of Co. E, 2nd N.C. State Troops (the "Guilford Guards") to his brother; letter (Feb. 8, 1965) from E.W. Frazer of Bush Hill (originally a Quaker settlement and now the Archdale suburb of High Point, N.C.) to his brother Solomon, who was apparently serving in the Army against his will; letter (March 21, 1865) from E.W. Frazer to Solomon about the nearness of Sherman and the impressment of houses in High Point for use as hospitals; letter (March 27, 1865 from Hannah Frazer to her husband Solomon; love letter (June 25, 1865) from Wyett Spencer in Fairfount, Indiana to Emily R. Newlin of New Market in Randolph County, N.C.; letter (April 18, 1875) from Ephraim M. and Betttie Heath of Charleston, Illinois to family members regarding family matters and agricultural prices; and letter (Feb. 19, 1879) from J.L. Michaux of Greensboro, N.C., editor of the Central Protestant, to Reverend H. Lewallen of Asheboro, NC, regarding the finances of the newspaper. Michaux and Lewallen were members of the Methodist Protestant Church.</p>
+      </scopecontent>
+      <odd>
+         <p>This collection was formerly titled the E.W. Frazier papers.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Quakers -- North Carolina -- History -- 19th century</subject>
+         <subject source="lcsh" encodinganalog="650">Society of Friends -- North Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Love-letters -- History -- 19th century</subject>
+         <persname source="lcnaf" encodinganalog="700">Cook, Hannah, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Cook, William, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Frazer, E. W., correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Frazer, Hannah, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Heath, Bettie, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Heath, Ephraim M., correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Lewallen, H., correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Loyd, Jesse, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Michaux, J. L., correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="700">Spencer, Wyett, correspondent.</persname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army. North Carolina Regiment, 2nd. Company E.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Methodist Protestant Church (U.S. : 1830-1939)</corpname>
+         <geogname source="lcsh" encodinganalog="651">Guilford County (N.C.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">High Point (N.C.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">New Market (N.C.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">North Carolina -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">Randolph County (N.C.) -- History</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Conscientious objectors</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-e436ca8c-b817-44f1-9d22-b7c671ee46f0" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>E.W. Frazer letters</unittitle>
+               <unitdate>1860-1879</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

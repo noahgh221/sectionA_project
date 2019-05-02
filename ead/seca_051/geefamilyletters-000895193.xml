@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Gee family letters, 1816-1850 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/geefamilyletters-000895193/">geefamilyletters-000895193</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Gee family Letters, 1816-1850</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000895193</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20769727</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30987</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Gee family</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Gee family letters</unittitle>
+         <unitdate normal="1816/1850"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1816-1850</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>38 items</extent>
+         </physdesc>
+         <abstract>Collection comprises business and legal correspondence of Sterling, Nevill, Charles, and Joseph Gee, although Nevill Gee has greatest prominence. Joseph Gee was extensively engaged in cotton planting. Nevill also owned one or more plantations in Alabama, which Joseph supervised. In November 1824, Joseph Gee died suddenly, leaving a large estate (including 47 slaves) intestate. Nevill's son, Sterling, immediately went to Alabama to supervise his father's plantations and administer his uncle's estate. The early letters refer to the business devolving from these circumstances. Sterling apparently remained in Alabama for an indefinite period, looking after his family's interests, and engaging in his own land speculation. Sterling's brother Charles also resided in Alabama, where at one time he worked as a school teacher. The latter letters deal almost entirely with business matters and law suits. Other topics include early settlement in Alabama; prices for slaves, land, cotton, crops; and the local economic structure.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Gee family letters, 1816-1850, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>The Gee family resided in Halifax County, North Carolina. Joseph Gee resided in Wilcox Co.. Alabama, beginning around 1816.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection comprises business and legal correspondence of Sterling, Nevill, Charles, and Joseph Gee, although Nevill Gee has greatest prominence. Joseph Gee was extensively engaged in cotton planting. Nevill also owned one or more plantations in Alabama, which Joseph supervised. In November 1824, Joseph Gee died suddenly, leaving a large estate (including 47 slaves) intestate. Nevill's son, Sterling, immediately went to Alabama to supervise his father's plantations and administer his uncle's estate. The early letters refer to the business devolving from these circumstances. Sterling apparently remained in Alabama for an indefinite period, looking after his family's interests, and engaging in his own land speculation. Sterling's brother Charles also resided in Alabama, where at one time he worked as a school teacher. The latter letters deal almost entirely with business matters and law suits. Other topics include early settlement in Alabama; prices for slaves, land, cotton, crops; and the local economic structure.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Executors and administrators</subject>
+         <subject source="lcsh" encodinganalog="650">Plantation life -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">Speculation</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery -- Alabama</subject>
+         <famname source="lcnaf" encodinganalog="600">Gee family</famname>
+         <geogname source="lcsh" encodinganalog="651">Alabama -- Social life and customs</geogname>
+         <geogname source="lcsh" encodinganalog="651">Alabama -- Economic conditions</geogname>
+         <geogname source="lcsh" encodinganalog="651">Wilcox County (Ala.) -- History</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-23fb3c67-3553-4ab3-abda-4ac10ae1176c" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Gee family letters</unittitle>
+               <unitdate>1816-1850</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

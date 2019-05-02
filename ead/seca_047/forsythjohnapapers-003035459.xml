@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::John A. Forsyth papers, 1818-1864 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/forsythjohnapapers-003035459/">forsythjohnapapers-003035459</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the John A. Forsyth papers, 1818-1864</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003035459</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">48633462</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30921</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Forsyth, John A.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">John A. Forsyth papers</unittitle>
+         <unitdate normal="1818/1864"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1818-1864</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>44 items</extent>
+         </physdesc>
+         <abstract>Collection includes letters and accounts of merchants John A. and Henderson Forsyth. There are accounts of Charleston wholesalers; a letter (1837) from Thomas Reid, who describes Aberdeen, Scotland, and comments on the Reform Bill of 1832; letters of R.S. Gracy on slave trading; and letters of R.H. Carson on medical practice in Demopolis, Alabama. Many letters relate to the buying and selling of slaves.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>John A. Forsyth Papers, 1818-1864, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>John A. Forsyth was a merchant in Statesville (Iredell Co.), N.C.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection includes letters and accounts of merchants John A. and Henderson Forsyth. There are accounts of Charleston wholesalers; a letter (1837) from Thomas Reid, who describes Aberdeen, Scotland, and comments on the Reform Bill of 1832; letters of R.S. Gracy on slave trading; and letters of R.H. Carson on medical practice in Demopolis, Alabama. Many letters relate to the buying and selling of slaves.</p>
+      </scopecontent>
+      <odd>
+         <p>Unprocessed collection. Cataloged from guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Business records -- North Carolina -- Iredell County</subject>
+         <subject source="lcsh" encodinganalog="650">Business records -- South Carolina -- Charleston County</subject>
+         <subject source="lcsh" encodinganalog="650">Merchants -- North Carolina -- Iredell County</subject>
+         <subject source="lcsh" encodinganalog="650">Merchants -- South Carolina -- Charleston</subject>
+         <subject source="lcsh" encodinganalog="650">Slave trade -- Southern States</subject>
+         <subject source="lcsh" encodinganalog="650">Slave trade -- North Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Medicine -- Practice -- Alabama</subject>
+         <subject source="lcsh" encodinganalog="650">Physicians -- Alabama -- Selma</subject>
+         <persname source="lcnaf" encodinganalog="600">Carson, R. H.</persname>
+         <persname source="lcnaf" encodinganalog="700">Carson, R. H.</persname>
+         <persname source="lcnaf" encodinganalog="600">Forsyth, Henderson</persname>
+         <persname source="lcnaf" encodinganalog="600">Forsyth, John A.</persname>
+         <persname source="lcnaf" encodinganalog="600">Gracy, R. S.</persname>
+         <persname source="lcnaf" encodinganalog="700">Gracy, R. S.</persname>
+         <persname source="lcnaf" encodinganalog="600">Reid, Thomas</persname>
+         <persname source="lcnaf" encodinganalog="700">Reid, Thomas</persname>
+         <corpname source="lcnaf" encodinganalog="610">Great Britain. Parliament -- Reform</corpname>
+         <geogname source="lcsh" encodinganalog="651">Aberdeen (Scotland) -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Charleston (S.C.)</geogname>
+         <geogname source="lcsh" encodinganalog="651">Demopolis (Ala.)</geogname>
+         <geogname source="lcsh" encodinganalog="651">Great Britain -- Politics and government -- 1830-1837</geogname>
+         <geogname source="lcsh" encodinganalog="651">Statesville (N.C.)</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-7e1aa0e7-7baf-42bd-bb6a-c3a5b16251b2" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>John A. Forsyth papers</unittitle>
+               <unitdate>1818-1864</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

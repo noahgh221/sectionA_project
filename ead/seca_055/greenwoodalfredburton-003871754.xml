@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Alfred Burton Greenwod letter, 1861 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/greenwoodalfredburton-003871754/">greenwoodalfredburton-003871754</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Alfred Burton Greenwod Letter, 1861</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003871754</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">1099570355</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31066</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Greenwood, Alfred Burton, 1811-1889</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Alfred Burton Greenwod letter</unittitle>
+         <unitdate normal="1861/1861"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>9999 fake_extent_units</extent>
+         </physdesc>
+         <abstract>Collection consists of a letter from Greenwood, a Unionist, to John T. Cochran expressing concern over secession and the mortgage and insurance on property he owns in Washington, D.C. He asks Cochran to handle some matters related to the property and notes that he has advised the Indians on the border of Arkansas to remain neutral, at least for the present.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Alfred Burton Greenwod letter, 1861, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Alfred Burton Greenwood of Arkansas was a lawyer, congressman, and U.S. Commissioner of Indian Affairs.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection consists of a letter from Greenwood, a Unionist, to John T. Cochran expressing concern over secession and the mortgage and insurance on property he owns in Washington, D.C. He asks Cochran to handle some matters related to the property and notes that he has advised the Indians on the border of Arkansas to remain neutral, at least for the present.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from card file.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Secession -- Southern States</subject>
+         <subject source="lcsh" encodinganalog="650">Indians of North America -- Arkansas -- History -- Civil War, 1861-1865</subject>
+         <persname source="lcnaf" encodinganalog="600">Greenwood, Alfred Burton, 1811-1889</persname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-12a6bf1f-0d9a-4903-bc78-80f15a4b443c" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Alfred Burton Greenwod letter</unittitle>
+               <unitdate>1861</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

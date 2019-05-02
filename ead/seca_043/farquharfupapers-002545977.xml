@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Francis Ulric Farquhar papers, 1857-1883 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/farquharfupapers-002545977/">farquharfupapers-002545977</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Francis Ulric Farquhar papers, 1857-1883</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002545977</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">40761601</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30864</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Farquhar, F. U. (Francis Ulric),</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Francis Ulric Farquhar papers</unittitle>
+         <unitdate normal="1857/1883"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1857-1883</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>9 items</extent>
+         </physdesc>
+         <abstract>Includes an unbound scrapbook (24 p.) containing a memoir of Farquhar by General O.M. Poe (1883) with covering letter to Farquhar's widow, resolution of the Board of Trade of Minneapolis similarly addressed, certificate of Farquhar's appointment as a cadet (1857), General Order of the U.S. Army Corps of Engineers on Farquhar's career and mourning his death, copies of two letters of W.T. Sherman to Farquhar's widow and the Commissioner of Pensions (1883), a letter from Farquhar (1864), and two undated poems.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Francis Ulric Farquhar Papers, 1857-1883, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1975</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Francis Ulric Farquhar was a member of the U.S. Army Corps of Engineers.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Includes an unbound scrapbook (24 p.) containing a memoir of Farquhar by General O.M. Poe (1883) with covering letter to Farquhar's widow, resolution of the Board of Trade of Minneapolis similarly addressed, certificate of Farquhar's appointment as a cadet (1857), General Order of the U.S. Army Corps of Engineers on Farquhar's career and mourning his death, copies of two letters of W.T. Sherman to Farquhar's widow and the Commissioner of Pensions (1883), a letter from Farquhar (1864), and two undated poems.</p>
+      </scopecontent>
+      <odd>
+         <p>Unprocessed collection. Cataloged from accession record.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Engineers -- United States</subject>
+         <persname source="lcnaf" encodinganalog="600">Farquhar, F. U. (Francis Ulric)</persname>
+         <persname source="lcnaf" encodinganalog="600">Poe, O. M. (Orlando Metcalfe), 1832-1895</persname>
+         <persname source="lcnaf" encodinganalog="600">Sherman, William T. (William Tecumseh), 1820-1891 -- Correspondence.</persname>
+         <corpname source="lcnaf" encodinganalog="610">Minneapolis Board of Trade</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States Military Academy</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Corps of Engineers</corpname>
+         <geogname source="lcsh" encodinganalog="651">Pottsville (Pa.)</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-ee1c5030-1ba0-408e-9ac9-bded2b6334b1" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Francis Ulric Farquhar papers</unittitle>
+               <unitdate>1857-1883</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

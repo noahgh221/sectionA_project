@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Daniel C. Gilman papers, 1887-1907 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/gilmandanielcpapers-000857069/">gilmandanielcpapers-000857069</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Daniel C. Gilman papers, 1887-1907</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000857069</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19647021</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31013</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Gilman, Daniel C. (Daniel Coit), 1831-1908</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Daniel C. Gilman papers</unittitle>
+         <unitdate normal="1887/1907"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1887-1907</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>4 items</extent>
+         </physdesc>
+         <abstract>Letters referring to literary and personal matters.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Daniel C. Gilman Papers, 1887-1907, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Daniel C. Gilman was President of the University of California at Berkeley, 1872-1875, and of Johns Hopkins University, Baltimore, Md., 1875-1902.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters referring to literary and personal matters.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">College presidents -- Correspondence</subject>
+         <subject source="lcsh" encodinganalog="650">College presidents -- United States</subject>
+         <corpname source="lcnaf" encodinganalog="610">Johns Hopkins University -- Presidents</corpname>
+         <corpname source="lcnaf" encodinganalog="610">University of California, Berkeley -- Presidents</corpname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-1f3847ea-7dde-4b02-9089-2dc9ea4b0a0b" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Daniel C. Gilman papers</unittitle>
+               <unitdate>1887-1907</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::H. W. Halleck papers, 1861-1865 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/halleckhwpapers-000857307/">halleckhwpapers-000857307</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the H. W. Halleck papers, 1861-1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000857307</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19657414</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31119</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Halleck, H. W. (Henry Wager), 1815-1872</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">H. W. Halleck papers</unittitle>
+         <unitdate normal="1861/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861-1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>3 items</extent>
+         </physdesc>
+         <abstract>Collection consists of correspondence concerning the break between friends on opposite sides in 1861; rumors of the mental derangement of General William T. Sherman; and a letter, 1863, from General George G. Meade giving his reasons for not attacking the Confederate Army on the Rapidan in September 1863.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>H. W. Halleck Papers, 1861-1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Henry Halleck (1815-1872) was born in Utica, New York, and attended West Point. He remained in the army until 1854, when he resigned to be a lawyer; he re-entered the army in 1861 as major-general. He became General-in-Chief of the Union Armies in 1862, and following the war was transferred to the Division of the Pacific and later to the Division of the South in Louisville, Kentucky.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection consists of correspondence concerning the break between friends on opposite sides in 1861; rumors of the mental derangement of General William T. Sherman; and a letter, 1863, from General George G. Meade giving his reasons for not attacking the Confederate Army on the Rapidan in September 1863.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- United States -- Correspondence</subject>
+         <persname source="lcnaf" encodinganalog="600">Meade, George Gordon, 1815-1872</persname>
+         <persname source="lcnaf" encodinganalog="700">Meade, George Gordon, 1815-1872, correspondent.</persname>
+         <persname source="lcnaf" encodinganalog="600">Sherman, William T. (William Tecumseh), 1820-1891</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army -- Officers -- Correspondence</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Campaigns</geogname>
+         <geogname source="lcsh" encodinganalog="651">Virginia -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-2c640f74-3b75-40bd-ac3c-b0ecf79192e6" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>H. W. Halleck papers</unittitle>
+               <unitdate>1861-1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

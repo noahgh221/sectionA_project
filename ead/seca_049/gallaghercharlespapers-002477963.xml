@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Charles Gallagher papers, 1885-1888 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/gallaghercharlespapers-002477963/">gallaghercharlespapers-002477963</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Charles Gallagher papers, 1885-1888</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002477963</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">39390471</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30973</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Gallagher, Charles</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Charles Gallagher papers</unittitle>
+         <unitdate normal="1885/1888"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1885-1888</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>11 items</extent>
+         </physdesc>
+         <abstract>Collection contains Gallagher's papers, including a letter of application for appointment as special agent in the Internal Revenue Service, 1885, discussing his Civil War service with Butler and Baker; also contains statements, Congressional bills, and other papers relating to Gallagher's claims for relief for the loss of his schooner NIMROD, destroyed by Confederates on Dec. 5, 1864.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Charles Gallagher Papers, 1885-1888, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>During the Civil War, Charles Gallagher served as purveyor to General Benjamin F. Butler and advisor to L.C. Baker in tracing the assassin of Abraham Lincoln.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains Gallagher's papers, including a letter of application for appointment as special agent in the Internal Revenue Service, 1885, discussing his Civil War service with Butler and Baker; also contains statements, Congressional bills, and other papers relating to Gallagher's claims for relief for the loss of his schooner NIMROD, destroyed by Confederates on Dec. 5, 1864.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Gallagher, Charles</persname>
+         <corpname source="lcnaf" encodinganalog="610">Nimrod (Schooner)</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Internal Revenue Service -- Employees -- 19th century</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army -- History -- Civil War, 1861-1865</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Politics and government -- 19th century</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-87e745a7-2571-4e08-9e91-91a38af1181c" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Charles Gallagher papers</unittitle>
+               <unitdate>1885-1888</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

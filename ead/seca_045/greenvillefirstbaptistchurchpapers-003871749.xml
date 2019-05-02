@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Greenville First Baptist Church papers, 1909-1911 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/greenvillefirstbaptistchurchpapers-003871749/">greenvillefirstbaptistchurchpapers-003871749</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Greenville First Baptist Church papers, 1909-1911</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003871749</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">1085365540</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>May 2019</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.30901</unitid>
+         <origination label="Creator">
+            <corpname encodinganalog="110" source="lcnaf">Greenville First Baptist Church</corpname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Greenville First Baptist Church papers</unittitle>
+         <unitdate normal="1909/1911"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1909-1911</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>3 items</extent>
+         </physdesc>
+         <abstract>Greenville First Baptist Church was located in Greenville, S.C.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Greenville First Baptist Church Papers, 1909-1911, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, May 2019.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>The collection includes the church's Sixth Annual Report (Jan. 9, 1910, for 1909), Seventh Annual Report (Jan. 8, 1911), and an undated chart of financial statistics.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Greenville First Baptist Church was located in Greenville, S.C.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Church history</subject>
+         <geogname source="lcsh" encodinganalog="651">Greenville (S.C.)</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-1cb565fe-107e-407c-bcc4-21339d2d4e77" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Greenville First Baptist Church papers</unittitle>
+               <unitdate>1909-1911</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
