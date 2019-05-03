@@ -22,7 +22,7 @@
         <xsl:text>&#xa;</xsl:text>
     </xsl:variable>
 
-    <!-- Get current file directory name for ourput file -->
+    <!-- Get current file directory name for output file -->
     <xsl:variable name="box_number">
         <xsl:value-of select="tokenize(base-uri(), '/')[last() - 1]"/>
     </xsl:variable>
@@ -245,7 +245,6 @@
                                         
                     <!-- Rights note - an explanatory note refining rights URI -->
                     <xsl:text>[rights_note]</xsl:text>
-                    <xsl:value-of select="$tab"/>
                     
                 </xsl:for-each>
             </xsl:for-each>
