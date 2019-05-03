@@ -9,8 +9,9 @@
         This is the XML export of the SecA "working" Google sheet
         The XML is used to access rights statements based on Aleph numbers -->
     
+    <!-- UPDATE THIS AFTER EXPORTING NEW XML FROM GOOGLE SHEET (USE GOOGLE SHEET ADD ON AND ACCEPT DEFAULTS -->
     <xsl:variable name="seca-googlesheet"
-        select="document('seca-from-googlesheet.xml')"/>
+        select="document('seca-from-googlesheet20190503.xml')"/>
 
     <xsl:strip-space elements="*"/>
 
