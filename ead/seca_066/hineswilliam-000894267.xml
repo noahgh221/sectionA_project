@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Hines correspondence, 1781-1836 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hineswilliam-000894267/">hineswilliam-000894267</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Hines correspondence, 1781-1836</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000894267</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">20748584</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31268</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Hines, William</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Hines correspondence</unittitle>
+         <unitdate normal="1781/1836"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1781-1836</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>7 items</extent>
+         </physdesc>
+         <abstract>Letters to William and Samuel B. Hines of Virginia, pertaining to privateering, relations of the United States with England, the embargo, New England's opposition to the War of 1812, and the election of 1836. Among the correspondents are Richard Blow, Thomas Gholson, Edwin Gray, John Hamilton, and John Young Mason.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Hines correspondence, 1781-1836, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters to William and Samuel B. Hines of Virginia, pertaining to privateering, relations of the United States with England, the embargo, New England's opposition to the War of 1812, and the election of 1836. Among the correspondents are Richard Blow, Thomas Gholson, Edwin Gray, John Hamilton, and John Young Mason.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Embargo, 1807-1809</subject>
+         <subject source="lcsh" encodinganalog="650">Presidents -- United States -- Election -- 1836</subject>
+         <subject source="lcsh" encodinganalog="650">Privateering -- United States</subject>
+         <persname source="lcnaf" encodinganalog="600">Blow, Richard, 1746-1833</persname>
+         <persname source="lcnaf" encodinganalog="700">Blow, Richard, 1746-1833, creator.</persname>
+         <persname source="lcnaf" encodinganalog="600">Gholson, Thomas, -1816</persname>
+         <persname source="lcnaf" encodinganalog="700">Gholson, Thomas, -1816, creator.</persname>
+         <persname source="lcnaf" encodinganalog="600">Gray, Edwin, 1764-1810</persname>
+         <persname source="lcnaf" encodinganalog="700">Gray, Edwin, 1764-1810, creator.</persname>
+         <persname source="lcnaf" encodinganalog="700">Hamilton, John, creator.</persname>
+         <persname source="lcnaf" encodinganalog="600">Hamilton, John</persname>
+         <persname source="lcnaf" encodinganalog="700">Hines, Samuel B., addressee.</persname>
+         <persname source="lcnaf" encodinganalog="600">Hines, Samuel</persname>
+         <persname source="lcnaf" encodinganalog="600">Hines, William</persname>
+         <persname source="lcnaf" encodinganalog="600">Mason, John Y. (John Young), 1799-1859</persname>
+         <persname source="lcnaf" encodinganalog="700">Mason, John Y. (John Young), 1799-1859, creator.</persname>
+         <geogname source="lcsh" encodinganalog="651">Great Britain -- Foreign relations -- United States</geogname>
+         <geogname source="lcsh" encodinganalog="651">New England -- Politics and government -- 1812-1815</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Foreign relations -- Great Britain</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- War of 1812 -- Public opinion</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-297bdd02-0951-4277-bb53-6a89e541cc3e" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Hines correspondence</unittitle>
+               <unitdate>1781-1836</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Heath papers, 1725-1864 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/heathwilliampapers-000861235/">heathwilliampapers-000861235</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Heath papers, 1725-1864</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000861235</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19793852</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31208</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Heath, William, 1737-1814</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Heath papers</unittitle>
+         <unitdate normal="1725/1864"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1725-1864</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>18 items</extent>
+         </physdesc>
+         <abstract>Papers of General Heath, and of Joseph Curtis, a Roxbury landowner, who were related by marriage. Heath's papers include a record of water rights obtained by his father or grandfather, a copy of a letter to him by George Washington discussing U.S. relations with France, a copy of his will, and items relating to property owned by his daughter, Sarah Heath Gardner. Curtis' papers are concerned mainly with the disposition of his estate, including two land indentures and his will.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Heath Papers, 1725-1864, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>William Heath was a Continental army officer; of Roxbury (Suffolk County), Massachusetts.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Papers of General Heath, and of Joseph Curtis, a Roxbury landowner, who were related by marriage. Heath's papers include a record of water rights obtained by his father or grandfather, a copy of a letter to him by George Washington discussing U.S. relations with France, a copy of his will, and items relating to property owned by his daughter, Sarah Heath Gardner. Curtis' papers are concerned mainly with the disposition of his estate, including two land indentures and his will.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Executors and administrators -- Massachusetts</subject>
+         <subject source="lcsh" encodinganalog="650">Water rights -- Massachusetts</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- Legal status, laws, etc -- United States</subject>
+         <persname source="lcnaf" encodinganalog="600">Curtis, Joseph -- Estate.</persname>
+         <persname source="lcnaf" encodinganalog="700">Curtis, Joseph, creator.</persname>
+         <persname source="lcnaf" encodinganalog="600">Gardner, Sarah Heath</persname>
+         <persname source="lcnaf" encodinganalog="600">Heath, William, 1737-1814</persname>
+         <persname source="lcnaf" encodinganalog="600">Washington, George, 1732-1799</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Continental Army -- Officers</corpname>
+         <geogname source="lcsh" encodinganalog="651">France -- Foreign relations -- United States</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Foreign relations -- France</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-c68b3edd-a6c5-48fe-9d52-3d2775819bac" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Heath papers</unittitle>
+               <unitdate>1725-1864</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

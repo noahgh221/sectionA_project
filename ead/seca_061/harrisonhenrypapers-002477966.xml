@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Henry Harrison papers, 1842-1860 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/harrisonhenrypapers-002477966/">harrisonhenrypapers-002477966</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Henry Harrison papers, 1842-1860</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002477966</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">39390460</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31179</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Harrison, Henry</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Henry Harrison papers</unittitle>
+         <unitdate normal="1842/1860"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1842-1860</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>16 items</extent>
+         </physdesc>
+         <abstract>Collection contains letters chiefly concerning the settlement of Harrison's estate, including the sale of furniture and slaves; one African American was to be freed and sent to Liberia.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Henry Harrison Papers, 1842-1860, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Henry Harrison was a slave owner of Berkeley County, West Virginia.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains letters chiefly concerning the settlement of Harrison's estate, including the sale of furniture and slaves; one African American was to be freed and sent to Liberia.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Decedents' estates</subject>
+         <subject source="lcsh" encodinganalog="650">Freedmen -- Liberia</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery -- West Virginia</subject>
+         <subject source="lcsh" encodinganalog="650">African Americans -- Colonization -- Liberia</subject>
+         <persname source="lcnaf" encodinganalog="600">Harrison, Henry</persname>
+         <geogname source="lcsh" encodinganalog="651">Berkeley County (W. Va.) -- History</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-4f427193-cb13-49a1-8076-d86657b4c944" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Henry Harrison papers</unittitle>
+               <unitdate>1842-1860</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

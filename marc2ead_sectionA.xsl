@@ -20,7 +20,7 @@
 <!-- NEED TO ADJUST @SELECT FOR EVERY NEW BATCH. 
     Find the last used RL number in ASpace and put below, will use next number 
     Has to be a better way to do this...-->
-<xsl:variable name="RLID" select="31102" saxon:assignable="yes"/>
+<xsl:variable name="RLID" select="31348" saxon:assignable="yes"/>
  
 <!-- Variables for outputing digitization guide as TSV file.     Currently using a separate XSLT for creating the digguide-->
 
@@ -778,7 +778,7 @@
                         
                         <xsl:if test="marc:subfield[@code='d']">
                         <xsl:text> </xsl:text>
-                          <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'],'\.$',''))"/>
+                          <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'][1],'\.$',''))"/>
                         </xsl:if>
                         
                         <xsl:if test="marc:subfield[@code='e']">

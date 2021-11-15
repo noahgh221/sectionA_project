@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::W. O. Hoffman exercise books, about 1850-1879 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hoffmanwo-002586462/">hoffmanwo-002586462</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the W. O. Hoffman exercise books, about 1850-1879</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002586462</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41579876</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31275</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Hoffman, W. O.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">W. O. Hoffman exercise books</unittitle>
+         <unitdate normal="1850/1879"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">about 1850-1879</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>3 volumes</extent>
+         </physdesc>
+         <abstract>These three volumes are exercise books from Hoffman's studies in bookkeeping and accounting. They include a journal, daybook, and cashbook. These volumes date from about the 1870's, or perhaps somewhat later. The handwritten examples in the exercises are dated 1850's and 1870's, mostly the latter. The paper has watermarks of 1850. The covers of the volumes were printed by the Cumberland Daily News Co. According to the AMERICAN NEWSPAPER ANNUAL (1891), the CUMBERLAND DAILY NEWS was established in 1871. These facts indicate that the volumes date from the postbellum rather than the antebellum period, despite the use of paper from 1850.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>W. O. Hoffman exercise books, about 1850-1879, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>W. O. Hoffman was a student at Dickinson Commercial College's Cumberland, Maryland, branch.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>These three volumes are exercise books from Hoffman's studies in bookkeeping and accounting. They include a journal, daybook, and cashbook. These volumes date from about the 1870's, or perhaps somewhat later. The handwritten examples in the exercises are dated 1850's and 1870's, mostly the latter. The paper has watermarks of 1850. The covers of the volumes were printed by the Cumberland Daily News Co. According to the AMERICAN NEWSPAPER ANNUAL (1891), the CUMBERLAND DAILY NEWS was established in 1871. These facts indicate that the volumes date from the postbellum rather than the antebellum period, despite the use of paper from 1850.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from manual record.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Accounting -- Study and teaching</subject>
+         <persname source="lcnaf" encodinganalog="600">Hoffman, W. O.</persname>
+         <corpname source="lcnaf" encodinganalog="610">Dickinson Commercial College</corpname>
+         <genreform source="aat" encodinganalog="655">Daybooks</genreform>
+         <genreform source="aat" encodinganalog="655">Journals</genreform>
+         <genreform source="aat" encodinganalog="655">Cashbooks</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-4f65e699-09e2-4b37-9d32-1f7a36920134" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>W. O. Hoffman exercise books</unittitle>
+               <unitdate>about 1850-1879</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

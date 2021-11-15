@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::John W. Hodnett letters, 1861-1863 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hodnettjohnwletters-002448951/">hodnettjohnwletters-002448951</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the John W. Hodnett Letters, 1861-1863</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002448951</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">39100438</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31279</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Hodnett, John W.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">John W. Hodnett letters</unittitle>
+         <unitdate normal="1861/1863"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861-1863</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>6 items</extent>
+         </physdesc>
+         <abstract>Collection consists of letters from John W. Hodnett to his sister, with comments on the hardships of war and the various campaigns in which he was engaged. He discusses cooking in camp and the lack of food food in general, his lack of shoes, the absence of tents, the position of Union troops and taking prisoners, the defense of Richmond, his desire for the war to end. There is one letter from T. J. Hodnett, who writes to his father, discussing the battle at Gettysburg and his regret that Vicksburg has fallen, along with his religious attitudes regarding the war.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>John W. Hodnett letters, 1861-1863, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>John W. Hodnett was a Confederate soldier in the 13th Regiment of the Georgia Volunteers. He was a resident of Meriwether County, Georgia. There are several John Hodnetts from that county, so it is difficult to provide more information about him. T. J. Hodnett was born in 1845 in Henry, Georgia, and also served in the same regiment. The relationship between these two men is unclear.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection consists of letters from John W. Hodnett to his sister, with comments on the hardships of war and the various campaigns in which he was engaged. He discusses cooking in camp and the lack of food food in general, his lack of shoes, the absence of tents, the position of Union troops and taking prisoners, the defense of Richmond, his desire for the war to end. There is one letter from T. J. Hodnett, who writes to his father, discussing the battle at Gettysburg and his regret that Vicksburg has fallen, along with his religious attitudes regarding the war.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from items.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- Confederate States of America -- Correspondence</subject>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- Confederate States of America -- Attitudes</subject>
+         <subject source="lcsh" encodinganalog="650">Gettysburg, Battle of, Gettysburg, Pa., 1863</subject>
+         <persname source="lcnaf" encodinganalog="600">Hodnett, John W.</persname>
+         <persname source="lcnaf" encodinganalog="600">Hodnett, T. J., 1845-</persname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army. Georgia Infantry Regiment, 13th.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Military life</corpname>
+         <geogname source="lcsh" encodinganalog="651">Confederate States of America -- Campaigns</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Campaigns</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-05c16487-e3f5-47df-8630-82bddb9b9124" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>John W. Hodnett letters</unittitle>
+               <unitdate>1861-1863</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

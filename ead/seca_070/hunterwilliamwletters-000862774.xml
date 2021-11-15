@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::William Hunter letters, 1864-1865 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hunterwilliamwletters-000862774/">hunterwilliamwletters-000862774</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the William Hunter Letters, 1864-1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000862774</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19851312</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31364</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Hunter, William W.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">William Hunter letters</unittitle>
+         <unitdate normal="1864/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1864-1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>105 items</extent>
+         </physdesc>
+         <abstract>Letters to Hunter from Sidney Smith Lee, captain in charge of the Office of Orders and Detail, C.S.A. Navy Department, from John M. Brooke, commander in charge of the Office of Ordnance and Hydrography, C.S.A. Navy Dept., and from other naval officers regarding ships, supplies, watchwords, men absent without leave and deserters, courts-martial, the laying of torpedoes in the harbor of Savannah, and other naval matters, with numerous references to various Confederate ships.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>William Hunter letters, 1864-1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>William W. Hunter was a Confederate naval commander, stationed in Savannah, Georgia.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters to Hunter from Sidney Smith Lee, captain in charge of the Office of Orders and Detail, C.S.A. Navy Department, from John M. Brooke, commander in charge of the Office of Ordnance and Hydrography, C.S.A. Navy Dept., and from other naval officers regarding ships, supplies, watchwords, men absent without leave and deserters, courts-martial, the laying of torpedoes in the harbor of Savannah, and other naval matters, with numerous references to various Confederate ships.</p>
+      </scopecontent>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Brooke, John M. (John Mercer), 1826-1906</persname>
+         <persname source="lcnaf" encodinganalog="600">Hunter, William W.</persname>
+         <persname source="lcnaf" encodinganalog="600">Lee, Sidney Smith</persname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Navy -- Officers -- Correspondence</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Navy -- Supplies and stores</corpname>
+         <geogname source="lcsh" encodinganalog="651">Confederate States of America -- History, Naval</geogname>
+         <geogname source="lcsh" encodinganalog="651">Savannah (Ga.) -- History -- Civil War, 1861-1865</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-fc932963-a652-4a93-8e17-dd20cca171cf" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>William Hunter letters</unittitle>
+               <unitdate>1864-1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

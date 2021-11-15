@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Studies in early American history : about 1898 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/headfranklinh-002648556/">headfranklinh-002648556</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Studies in early American history : about 1898, A notable lawsuit :</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002648556</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">43297776</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31228</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Head, Franklin H. (Franklin Harvey), 1832-1914</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Studies in early American history : A notable lawsuit :</unittitle>
+         <unitdate normal="1898/1898"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">about 1898</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>1 item</extent>
+         </physdesc>
+         <abstract>Typed copy of Head's pamphlet containing a fictional story about a lawsuit over Captain Kidd's fortune between Frederick Law Olmstead and members of the Astor family.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Studies in early American history : about 1898, A notable lawsuit :, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Franklin H. Head was a resident of New York, New York.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Typed copy of Head's pamphlet containing a fictional story about a lawsuit over Captain Kidd's fortune between Frederick Law Olmstead and members of the Astor family.</p>
+      </scopecontent>
+      <odd>
+         <p>typescript</p>
+      </odd>
+      <odd>
+         <p>Cataloged from guide.</p>
+      </odd>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Head, Franklin H. (Franklin Harvey), 1832-1914</persname>
+         <persname source="lcnaf" encodinganalog="600">Kidd, William, -1701</persname>
+         <persname source="lcnaf" encodinganalog="600">Olmsted, Frederick Law, 1822-1903</persname>
+         <famname source="lcnaf" encodinganalog="600">Astor family</famname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-0a1c9a9e-e260-4a7f-8e26-459909c7a31a" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Studies in early American history : A notable lawsuit :</unittitle>
+               <unitdate>about 1898</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

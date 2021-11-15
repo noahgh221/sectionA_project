@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::James Davidson Hill papers, 1861-1864 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hilljamesdavidsonpapers-000861247/">hilljamesdavidsonpapers-000861247</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the James Davidson Hill papers, 1861-1864</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000861247</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19794034</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31257</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Hill, James Davidson</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">James Davidson Hill papers</unittitle>
+         <unitdate normal="1861/1864"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1861-1864</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>15 items</extent>
+         </physdesc>
+         <abstract>Miscellaneous letters and papers relating to Hill's service as an officer in the Confederate Army. The collection includes orders, reports on supplies and enemy troop movements, letters recommending Hill for promotion, and a letter, 1864, from a Louisiana planter to Admiral David Dixon Porter of the United States Navy seeking compensation for goods confiscated by Federal soldiers.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>James Davidson Hill Papers, 1861-1864, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>James Davidson Hill was a Confederate Army officer.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Miscellaneous letters and papers relating to Hill's service as an officer in the Confederate Army. The collection includes orders, reports on supplies and enemy troop movements, letters recommending Hill for promotion, and a letter, 1864, from a Louisiana planter to Admiral David Dixon Porter of the United States Navy seeking compensation for goods confiscated by Federal soldiers.</p>
+      </scopecontent>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Hill, James Davidson</persname>
+         <persname source="lcnaf" encodinganalog="600">Porter, David D. (David Dixon), 1813-1891</persname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Officers -- Correspondence</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Confederate States of America. Army -- Supplies and stores</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Navy -- Officers</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Claims</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Confiscations and contributions</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-5adfb665-c570-458d-9049-af0d329db579" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>James Davidson Hill papers</unittitle>
+               <unitdate>1861-1864</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

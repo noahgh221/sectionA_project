@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Edward Thomas Heriot letters, 1852-1854 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/heriotedwardthomasletters-002394226/">heriotedwardthomasletters-002394226</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Edward Thomas Heriot Letters, 1852-1854</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002394226</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">38293533</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31237</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Heriot, Edward Thomas, 1793-1854</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Edward Thomas Heriot letters</unittitle>
+         <unitdate normal="1852/1854"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1852-1854</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>3 items</extent>
+         </physdesc>
+         <abstract>Collection contains Heriot's letters describing his trip to Great Britain, his voyage across the Atlantic to New York, his railroad trip to South Carolina, personal affairs, and his various estates and slaves. Also included is a defense of slavery and a criticism of abolition, Harriet Beecher Stowe, and Fredrika Bremer.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Edward Thomas Heriot letters, 1852-1854, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Edward Thomas Heriot was a prominent planter and slaveowner of Georgetown (Georgetown County), South Carolina.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection contains Heriot's letters describing his trip to Great Britain, his voyage across the Atlantic to New York, his railroad trip to South Carolina, personal affairs, and his various estates and slaves. Also included is a defense of slavery and a criticism of abolition, Harriet Beecher Stowe, and Fredrika Bremer.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Plantation owners -- South Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Slave labor -- South Carolina</subject>
+         <subject source="lcsh" encodinganalog="650">Slavery -- United States -- Controversial literature</subject>
+         <persname source="lcnaf" encodinganalog="600">Bremer, Fredrika, 1801-1865</persname>
+         <persname source="lcnaf" encodinganalog="600">Heriot, Edward Thomas, 1793-1854</persname>
+         <persname source="lcnaf" encodinganalog="600">Stowe, Harriet Beecher, 1811-1896</persname>
+         <geogname source="lcsh" encodinganalog="651">Great Britain -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">South Carolina -- Description and travel</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-b7c870f8-b4a7-41a4-bc39-cd696d301c6f" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Edward Thomas Heriot letters</unittitle>
+               <unitdate>1852-1854</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

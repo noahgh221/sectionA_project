@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Lewis F. Henderson letters, 1862-1865 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hendersonlewisfletters-001099508/">hendersonlewisfletters-001099508</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Lewis F. Henderson Letters, 1862-1865</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001099508</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">28106041</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31220</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Henderson, Lewis F</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Lewis F. Henderson letters</unittitle>
+         <unitdate normal="1862/1865"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1862-1865</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>2 linear feet</extent>
+         </physdesc>
+         <abstract>Letters from Corporal Lewis F. Henderson to an unidentified friend in Philadelphia contain accounts of the Battle of Gettysburg; the Battle of Cedar Creek; and the Battle of Lynchburg. Other topics include Union hospitals; the burning of Virginia Military Institute and Governor John Letcher's home; Union and Confederate desertions; and "copperheads" in Philadelphia. Letters provide description of Shenandoah Valley Campaign of 1864 and the last days of the Civil War.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Lewis F. Henderson letters, 1862-1865, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>Purchase 1983</p>
+      </acqinfo>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Lewis F. Henderson was a corporal in the Pennsylvania Volunteers, 32nd Regiment (3rd reserve), Company D.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Letters from Corporal Lewis F. Henderson to an unidentified friend in Philadelphia contain accounts of the Battle of Gettysburg; the Battle of Cedar Creek; and the Battle of Lynchburg. Other topics include Union hospitals; the burning of Virginia Military Institute and Governor John Letcher's home; Union and Confederate desertions; and "copperheads" in Philadelphia. Letters provide description of Shenandoah Valley Campaign of 1864 and the last days of the Civil War.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Gettysburg, Battle of, Gettysburg, Pa., 1863</subject>
+         <subject source="lcsh" encodinganalog="650">Cedar Creek, Battle of, Va., 1864</subject>
+         <subject source="lcsh" encodinganalog="650">Shenandoah Valley Campaign, 1864 (May-August)</subject>
+         <subject source="lcsh" encodinganalog="650">Copperhead movement</subject>
+         <subject source="lcsh" encodinganalog="650">Shenandoah Valley Campaign, 1864 (August-November)</subject>
+         <subject source="lcsh" encodinganalog="650">Lynchburg, Battle of, Lynchburg, Va., 1864</subject>
+         <persname source="lcnaf" encodinganalog="600">Henderson, Lewis F.</persname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Pennsylvania Infantry Regiment, 32nd (1861-1864). Company D.</corpname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Hospitals</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Desertions</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Destruction and pillage</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-ff689ee0-44fd-4f15-be41-04049d93fb47" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Lewis F. Henderson letters</unittitle>
+               <unitdate>1862-1865</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

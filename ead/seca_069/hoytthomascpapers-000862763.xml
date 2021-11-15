@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Thomas C. Hoyt papers, 1844-1905 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hoytthomascpapers-000862763/">hoytthomascpapers-000862763</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Thomas C. Hoyt papers, 1844-1905</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000862763</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">19851214</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31340</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Hoyt, Thomas C.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Thomas C. Hoyt papers</unittitle>
+         <unitdate normal="1844/1905"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1844-1905</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>90 items</extent>
+         </physdesc>
+         <abstract>Papers of Thomas C. and Isaiah F. Hoyt, including letters to T.C. Hoyt's family describing his voyages to Africa, 1847; papers dealing with the pepper trade off the coast of Sumatra, including routes, prices for raw pepper, letters of credit, and invoices of the cargo carried to Sumatra for trade. Also includes papers dealing with the New England Shoe and Leather Association, of which T.C.'s nephew, Charles Hoyt, was president. Isaiah Hoyt's papers are principally concerned with his efforts to obtain money owed him for his service in the Union Army, in the 32nd Massachusetts Volunteers. Scattered references concern his business affairs as secretary of the Union Flax Mills in Chicago and as a deputy collector of Internal Revenue in Illinois.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Thomas C. Hoyt Papers, 1844-1905, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Thomas C. Hoyt was Captain of the barque, "Arthur;" from Beverly (Essex County), Massachusetts.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Papers of Thomas C. and Isaiah F. Hoyt, including letters to T.C. Hoyt's family describing his voyages to Africa, 1847; papers dealing with the pepper trade off the coast of Sumatra, including routes, prices for raw pepper, letters of credit, and invoices of the cargo carried to Sumatra for trade. Also includes papers dealing with the New England Shoe and Leather Association, of which T.C.'s nephew, Charles Hoyt, was president. Isaiah Hoyt's papers are principally concerned with his efforts to obtain money owed him for his service in the Union Army, in the 32nd Massachusetts Volunteers. Scattered references concern his business affairs as secretary of the Union Flax Mills in Chicago and as a deputy collector of Internal Revenue in Illinois.</p>
+      </scopecontent>
+      <controlaccess>
+         <subject source="lcsh" encodinganalog="650">Flax industry -- Illinois</subject>
+         <subject source="lcsh" encodinganalog="650">Leather industry and trade -- New England</subject>
+         <subject source="lcsh" encodinganalog="650">Industries -- Massachusetts</subject>
+         <subject source="lcsh" encodinganalog="650">Tax collection -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Pepper (Spice) industry -- United States</subject>
+         <subject source="lcsh" encodinganalog="650">Ship captains -- Correspondence</subject>
+         <subject source="lcsh" encodinganalog="650">Ship captains -- Massachusetts</subject>
+         <subject source="lcsh" encodinganalog="650">Voyages and travels</subject>
+         <persname source="lcnaf" encodinganalog="600">Hoyt, Charles</persname>
+         <persname source="lcnaf" encodinganalog="600">Hoyt, Isaiah F.</persname>
+         <persname source="lcnaf" encodinganalog="700">Hoyt, Isaiah F., creator.</persname>
+         <persname source="lcnaf" encodinganalog="600">Hoyt, Thomas C.</persname>
+         <corpname source="lcnaf" encodinganalog="610">Arthur (Ship)</corpname>
+         <corpname source="lcnaf" encodinganalog="610">New England Shoe and Leather Association</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Union Flax Mills (Chicago, Ill.)</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Army. Massachusetts Infantry Regiment, 32nd (1861-1865)</corpname>
+         <geogname source="lcsh" encodinganalog="651">Africa -- Description and travel</geogname>
+         <geogname source="lcsh" encodinganalog="651">Chicago (Ill.) -- Commerce</geogname>
+         <geogname source="lcsh" encodinganalog="651">Sumatra (Indonesia) -- Commerce -- United States</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Commerce -- Indonesia -- Sumatra</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-3cc7524b-047d-407c-90b8-a57213da64d1" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Thomas C. Hoyt papers</unittitle>
+               <unitdate>1844-1905</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader findaidstatus="SecA_record"
+              countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              repositoryencoding="iso15511">
+      <eadid countrycode="US"
+             mainagencycode="US-NcD"
+             publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NcD::Ezekiah Harding papers, 1852-1868 //EN"
+             url="https://library.duke.edu/rubenstein/findingaids/hardingezekiahpapers-002567184/">hardingezekiahpapers-002567184</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Ezekiah Harding papers, 1852-1868</titleproper>
+            <author>Processed by: Rubenstein Staff; EAD finding aid derived from MARC record using marc2ead_sectionA.xsl</author>
+         </titlestmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002567184</num>
+               </p>
+               <p>OCLC Number: <num type="oclc">41167485</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid derived from MARC record via marc2ead_sectionA.xsl, <date>November 2021</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection">
+      <did>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <unitid>RL.31135</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Harding, Ezekiah</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Ezekiah Harding papers</unittitle>
+         <unitdate normal="1852/1868"
+                   type="inclusive"
+                   era="ce"
+                   calendar="gregorian">1852-1868</unitdate>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <langmaterial label="Language of Materials">Materials in English</langmaterial>
+         <physdesc>
+            <extent>41 items</extent>
+         </physdesc>
+         <abstract>Business letters of the mercantile firm of E. and J. Harding and of its branch firms at Danville, Pleasant Grove (Lunenburg County), and Moore's Ordinary, all in Virginia. Included are invoices for liquor, a few dealers' circulars, and one letter of a Confederate soldier, dated January 17, 1865, mentioning scarcity of food, low morale among the soldiers, and their hope for the immediate fall of Fort Fisher and the end of the war.</abstract>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>Collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>Ezekiah Harding Papers, 1852-1868, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <processinfo>
+         <p>Processed by: Rubenstein Staff</p>
+         <p>This finding aid was derived from a MARC record using a crosswalk defined in marc2ead_sectionA.xsl. The finding aid was generated as part of a larger project to digitize several thousand small collections housed in Section A, November 2021.</p>
+      </processinfo>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Ezekiah and John Harding were residents of Clover Depot, Virginia.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Business letters of the mercantile firm of E. and J. Harding and of its branch firms at Danville, Pleasant Grove (Lunenburg County), and Moore's Ordinary, all in Virginia. Included are invoices for liquor, a few dealers' circulars, and one letter of a Confederate soldier, dated January 17, 1865, mentioning scarcity of food, low morale among the soldiers, and their hope for the immediate fall of Fort Fisher and the end of the war.</p>
+      </scopecontent>
+      <odd>
+         <p>Cataloged from Guide.</p>
+      </odd>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Harding, Ezekiah</persname>
+         <persname source="lcnaf" encodinganalog="700">Harding, John, creator.</persname>
+         <persname source="lcnaf" encodinganalog="600">Harding, John</persname>
+      </controlaccess>
+      <dsc>
+         <c01 id="seca-2321aa43-8875-485f-9338-5f138ef03332" level="file">
+            <did>
+               <container type="folder">1</container>
+               <unittitle>Ezekiah Harding papers</unittitle>
+               <unitdate>1852-1868</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
